@@ -4,73 +4,59 @@
 
 ## 1. Introducción
 
-El presente proyecto colaborativo busca analizar la situación actual del sector de transporte público en automóviles de la ciudad de New York  para determinar la conveniencia de inversión en este sector con tecnologías más sostenibles como la implementación de flotas de vehículos eléctricos.<br>
+Se lleva a cabo un análisis del sector de transporte público en automóviles en la ciudad de Nueva York con el fin de evaluar la viabilidad de invertir en tecnologías más sostenibles, como la implementación de flotas de vehículos eléctricos.<br>
 
-Se analiza el movimiento de vehiculos desde el año 2009 hasta el 2023 en los 5 distritos en NY: Manhattan (New York County), Brooklyn (Kings County), Queens (Queens County), The Bronx (Bronx County) & Staten Island (Richmond County). Se observa los datos coorespondientes a los niveles de ruido presentes en la ciudad y la calidad del aire.<br>
-
-
-El proyecto tiene cuatro etapas:
+El proyecto se ejecuta bajo metodologia agil Scrum y se desarrolla en cuatro etapas. Se analizan los niveles de ruido presentes en la ciudad, la calidad del aire, el movimiento de vehiculos desde el año 2009 hasta el 2023 en los 5 distritos en NY: Manhattan (New York County), Brooklyn (Kings County), Queens (Queens County), The Bronx (Bronx County) & Staten Island (Richmond County) entre otros.
 
 **Etapa 1: Recopilación de los datos**<br>
-Se realizan procesos de recopilación y limpieza de la información del movimientos de los taxis en NYC, emisiones CO2, API´s de las condiciones climáticas de la ciudad, datos de transporte público y niveles de ruido. <br>
-
-Se desarrolla un EDA de los datos.<br>
+Se realizan procesos de recopilación y limpieza de la información. Se desarrolla un EDA.  <br>
 
 **Etapa 2: Creación de base de datos (DW)** <br>
 
-Se crea un DataWarehouse con una carga inicial automatizada de manera incremental en un servicio cloud.<br>
+Se crea un DataWarehouse con una carga inicial automatizada de manera incremental en el servicio cloud AWS.<br>
 
-**Etapa 3: Análisis Económicos KPIs** <br>
+**Etapa 3: Análisis Económico del sector & KPIs** <br>
 
-Se genera el perfil económico del sector de transporte de taxis en NYC <br>
+Se analiza el perfil económico del sector de transporte de pasajeros en vehiculos en NYC para generar 5 KPI's: <br>
 
-**Etapa 2: Creación de base de datos (DW)** 
+**Etapa 4: Modelo ML** 
+
+
+
+La gestión del proyecto se desarrolla en:<br>
+*Actividades [Task:](https://trello.com/b/BBq6OTiJ/proyecto-final) Cronograma [Gant:]()*
 
 <hr>
 
-## 2. Desarrollo
+## 2. Objetivos
 
-**2.1. ETL Limpieza de datos:**
+- Identificar patrones y tendencias en los movimientos de taxis en la ciudad de Nueva York a lo largo del tiempo (establecer tiempo). <br>
 
-**2.2. EDA** 
+- Explorar y analizar la calidad del aire y la contaminación sonora en la ciudad de Nueva York en relación con el movimiento de los taxis, utilizando técnicas de visualización de datos y análisis estadísticos.<br>
 
-**2.3. Dashboard**
+- Evaluar la relación entre el movimiento de los taxis y la calidad del aire y la contaminación sonora en la ciudad de Nueva York, para determinar si existe alguna correlación significativa. <br>
+
+- Análisis de las ganancias económicas del sector. <br>
+
+- Desarrollar un Modelo de ML de clasificación de usuarios de taxis en la ciudad de Nueva York  para  plantear  estrategias de marketing por microsegmentación. <br>
+
+- Identificar los desafíos y oportunidades relacionados con la implementación de vehículos eléctricos en la flota de la empresa de servicios de transporte de pasajeros, y evaluar los posibles beneficios ambientales y económicos.
 
 <hr>
 
 ## 3. Recursos implementados
 
-Python Version: 3.9<br>
-Packages:  Pandas, Matplotlib, Seaborn<br>
-Yahoo Finance API<br>
-Microsoft PowerBi <hr>
+Gestión de proyectos: Google meet, Trello.<br>
+Ingenieria de datos (EDA, ETL, DATAWAREHOUSE): Python, Pandas, Matplotlib,  Seaborn , SQLAlchemy , PostgreSQL.<br> 
+Análisis de datos (Business Intelligence & Machine Learning): Python, Pandas, SQLAlchemy , Plotly, PowerBI.<br> 
+Escalabilidad On Cloud: AWS, Databricks, Airflow. 
+<hr>
 
-### 2.1. ETL Limpieza de datos
+## 4. Recopilación de los datos
+El origen de los datos:
 
-El proceso de ETL se realiza con la ingesta de datos desde el origen: <br>
+Se ingestan y se normalizan los datos.<br>
 
-**Lista compañías S&P 500:** *(data extraída de website)*[ Wikipedia](https://en.wikipedia.org/wiki/List_of_S%26P_500_companies).<br>
-**Historial de precio de acciones compañías S&P 500:** *(data extraída )* [Yahoo Finance](https://finance.yahoo.com/) e [Investing.com](https://www.investing.com/) .<br>
-
-- Se cargan los datos para su normalización (Tratamiento de nulos, valores duplicados, formateo de variables, entre otros..).<br>
-
-- Se relaciona el conjunto de datos.<br>
-
-- Se crean dos datasets para realizar el EDA: ( [**df.csv** ](https://github.com/jospinoponce/AnalisisDeMercadoSP500/blob/main/datasets/df.csv) tiene los datos de todas las empresas del S&P 500 agrupado por año y precio final ajustado de la acción. ) & ([**df_day.csv** ](https://github.com/jospinoponce/AnalisisDeMercadoSP500/blob/main/datasets/df_day.csv): almacena también los datos de las compañías pero las agrupa por día.)<br>
-
-*Los procesos realizados para el ETL están en el notebook:* [**1.ETL**](https://github.com/jospinoponce/AnalisisDeMercadoSP500/blob/main/Notebooks/1.ETL_report.ipynb)<hr>
-
-### 2.2. Análisis Exploratorio de datos EDA
-
-
-
-*Los procesos realizados para el EDA están en el notebook:* [**2.EDA**](https://github.com/jospinoponce/AnalisisDeMercadoSP500/blob/main/Notebooks/2.EDA_report.ipynb)<hr>
-
-**2.3. Dashboard**
-
-
-
-*Los procesos realizados para el desarrollo del dashboard están en:* [**3.dashboard.pbix**](https://github.com/jospinoponce/AnalisisDeMercadoSP500/blob/main/Dashboard/3.dashboard.pbixb)
 <hr>
 
 *Developed by*
