@@ -6,20 +6,21 @@
 
 Se lleva a cabo un análisis del sector de transporte público en automóviles en la ciudad de Nueva York con el fin de evaluar la viabilidad de invertir en tecnologías más sostenibles, como la implementación de flotas de vehículos eléctricos.<br>
 
-El proyecto se ejecuta bajo metodologia agil Scrum y se desarrolla en cuatro etapas. Se analizan los niveles de ruido presentes en la ciudad, la calidad del aire, el movimiento de vehiculos desde el año 2009 hasta el 2023 en los 5 distritos en NY: Manhattan (New York County), Brooklyn (Kings County), Queens (Queens County), The Bronx (Bronx County) & Staten Island (Richmond County) entre otros.
+El proyecto se ejecuta bajo metodologia agil Scrum y se desarrolla en cuatro etapas. Se analizan tres categorias de transporte de pasajero por taxis presentes en NYC *Yellow Cabs: taxis de color amarillo, Green Cabs: taxis color verde introducidos a NYC desde el 2013, FHV cars: limosinas, carros por renta.* Se analizan los niveles de ruido presentes en la ciudad y la calidad del aire desde el año 2008 al 2020, el movimiento de vehiculos desde el año 2010 hasta el 2022 en los 5 distritos en NY: Manhattan (New York County), Brooklyn (Kings County), Queens (Queens County), The Bronx (Bronx County) & Staten Island (Richmond County). Se implementa un modelo ML para estimar tarifas según horario y zonas de la ciudad. Se realiza un Dashboard para la visualizacón de los datos con el mes de mayor actividad en el sector (Diciembre 2022) <br>
 
 **Etapa 1: Recopilación de los datos**<br>
 Se realizan procesos de recopilación y limpieza de la información. Se desarrolla un EDA.  <br>
 
 **Etapa 2: Creación de base de datos (DW)** <br>
 
-Se crea un DataWarehouse con una carga inicial automatizada de manera incremental en el servicio cloud AWS.<br>
+Se crea un DataWarehouse con una carga inicial automatizada de manera incremental en el servicio cloud de Microsoft Azure.<br>
 
 **Etapa 3: Análisis Económico del sector & KPIs** <br>
 
-Se analiza el perfil económico del sector de transporte de pasajeros en vehiculos en NYC para generar 5 KPI's: <br>
+Se analiza el perfil económico del sector de transporte de pasajeros en vehiculos en NYC para generar metricas y 5 KPI's: <br>
 
 **Etapa 4: Modelo ML** 
+Se desarolla un modelo de Machine Learning de clasificación de clientes. <br>
 
 
 
@@ -66,9 +67,9 @@ La gestión del proyecto se desarrolla en:<br>
 
     Dias y horarios con mayor demanda
 
-- 2-Indice de calidad del aire
+- 2-Indice de calidad del aire (Variacion anual en MP 2,5 per m2) 
 
-- 3-Decibeles por metro cuadrado
+- 3-Contaminacón Acustica (Variacion anual en Decibeles per m2)
 
 - 4-Ingresos brutos/netos cliente/empresa por dia/mes 
 
@@ -96,13 +97,25 @@ La integración se realizara con Azure Data Factory, el almacenamiento con Azure
 ## 4. Recopilación de los datos
 El origen de los datos:
 
-Se ingestan y se normalizan los datos.<br>
+Movimiento de taxis, viajes.<br>
+
+https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page<br>
+
+Contaminacón del aire NYC.<br>
+
+https://data.cityofnewyork.us/Environment/Air-Quality/c3uy-2p5r<br>
+API "https://data.cityofnewyork.us/resource/c3uy-2p5r.json"
+
+Densidad de Trafico NYC.<br>
+
+https://data.cityofnewyork.us/Transportation/Automated-Traffic-Volume-Counts/7ym2-wayt <br>
+API "https://data.cityofnewyork.us/resource/7ym2-wayt.json"
 
 <hr>
 
 *Developed by*
 
-<a href="https://www.linkedin.com/in/julio-cesar-postigo-1a5707219/"><img alt="Franco" title="Connect with Franco" src="https://img.shields.io/badge/Franco Myburg-0077B5?style=flat&logo=Linkedin&logoColor=white"></a> **DATA ANALYST**
+<a href="https://www.linkedin.com/in/franco-jonas-myburg-6095b8255/"><img alt="Franco" title="Connect with Franco" src="https://img.shields.io/badge/Franco Myburg-0077B5?style=flat&logo=Linkedin&logoColor=white"></a> **DATA ANALYST**
 
 <a href="https://www.linkedin.com/in/ivannagvdc/"><img alt="Ivanna" title="Connect with Ivanna" src="https://img.shields.io/badge/Ivanna Villa-0077B5?style=flat&logo=Linkedin&logoColor=white"></a> **DATA ENGINEER**
 
@@ -110,7 +123,7 @@ Se ingestan y se normalizan los datos.<br>
 
 <a href="https://www.linkedin.com/in/takticflow/"><img alt="Luciano" title="Connect with Luciano" src="https://img.shields.io/badge/Luciano Larrea-0077B5?style=flat&logo=Linkedin&logoColor=white"></a> **PROJECT MANAGER & DATA SCIENTIST**
 
-<a href="https://www.linkedin.com/in/nicolas-angel-lazarte/"><img alt="Roy" title="Connect with Roy" src="https://img.shields.io/badge/Roy Quillca-0077B5?style=flat&logo=Linkedin&logoColor=white"></a> **DATA SCIENTIST**
+<a href="https://www.linkedin.com/in/royquillca/"><img alt="Roy" title="Connect with Roy" src="https://img.shields.io/badge/Roy Quillca-0077B5?style=flat&logo=Linkedin&logoColor=white"></a> **DATA SCIENTIST**
 
 
 
