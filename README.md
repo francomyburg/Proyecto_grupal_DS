@@ -6,7 +6,9 @@
 
 Se lleva a cabo un análisis del sector de transporte público en automóviles en la ciudad de Nueva York con el fin de evaluar la viabilidad de invertir en tecnologías más sostenibles, como la implementación de flotas de vehículos eléctricos.<br>
 
-El proyecto se ejecuta bajo metodología ágil Scrum y se desarrolla en cuatro etapas. Se analizan tres categorias de transporte de pasajero por taxis presentes en NYC *Yellow Cabs: taxis de color amarillo, Green Cabs: taxis color verde introducidos a NYC desde el 2013, FHV cars: limosinas, carros por renta.* Se analizan los niveles de ruido presentes en la ciudad y la calidad del aire desde el año 2008 al 2020, el movimiento de vehículos desde el año 2010 hasta el 2022 en los 5 distritos en NY: Manhattan (New York County), Brooklyn (Kings County), Queens (Queens County), The Bronx (Bronx County) & Staten Island (Richmond County). Se implementa un modelo ML para estimar tarifas según horario y zonas de la ciudad. Se realiza un Dashboard para la visualización de los datos con el mes de mayor actividad en el sector (Diciembre 2022). <br>
+Se analizan tres categorias de transporte de pasajero por taxis presentes en NYC *Yellow Cabs: taxis de color amarillo, Green Cabs: taxis color verde introducidos a NYC desde el 2013, FHV cars: limosinas, carros por renta.* Se analizan los niveles de ruido presentes en la ciudad y la calidad del aire desde el año 2008 al 2020, el movimiento de vehículos desde el año 2010 hasta el 2022 en los 5 distritos en NY: Manhattan (New York County), Brooklyn (Kings County), Queens (Queens County), The Bronx (Bronx County) & Staten Island (Richmond County). Se implementa un modelo ML para estimar tarifas según horario y zonas de la ciudad. Se realiza un Dashboard para la visualización de los datos con el mes de mayor actividad en el sector (Diciembre 2022). <br>
+
+El proyecto se ejecuta bajo metodología ágil Scrum y se desarrolla en cuatro etapas.<br>
 
 **Etapa 1: Recopilación de los datos**<br>
 Se realizan procesos de recopilación y limpieza de la información. Se desarrolla un EDA.  <br>
