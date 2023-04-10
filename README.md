@@ -1,4 +1,4 @@
-# <h1> Analisís de datos para observar viabilidad de vehículos Eléctricos en el Servicio de Transporte de Pasajeros con Automóviles en la ciudad de New York </h1> 
+# <h1> Análisis de datos para observar viabilidad de vehículos Eléctricos en el Servicio de Transporte de Pasajeros con Automóviles en la ciudad de New York </h1> 
 ## **HENRY BOOTCAMP | Proyecto Final**
 <hr>
 
@@ -49,7 +49,7 @@ La gestión del proyecto se desarrolla en:<br>
   -- Ingreso bruto promedio hora/día/mes <br>
   -- Proporcion de ingresos por tarifa cliente/empresa<br>
 
-- Desarrollar un Modelo de ML de clasificación de usuarios de taxis en la ciudad de Nueva York  para  plantear  estrategias de marketing por microsegmentación.
+- Desarrollar un Modelo de ML de clasificación de usuarios de taxis en la ciudad de Nueva York  para  plantear  estrategias de marketing por microsegmentación.<br>
   -- Modelo de estimación de tarifa según borough y horario <br>
 
 - Identificar los desafíos y oportunidades relacionados con la implementación de vehículos eléctricos en la flota de la empresa de servicios de transporte de pasajeros, y evaluar los posibles beneficios ambientales y económicos.
