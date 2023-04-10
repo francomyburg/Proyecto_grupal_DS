@@ -19,7 +19,7 @@ Se crea un DataWarehouse con una carga inicial automatizada de manera incrementa
 
 Se analiza el perfil económico del sector de transporte de pasajeros en vehiculos en NYC para generar metricas y 5 KPI's: <br>
 
-**Etapa 4: Modelo ML** 
+**Etapa 4: Modelo ML** <br>
 Se desarolla un modelo de Machine Learning de clasificación de clientes. <br>
 
 
@@ -31,7 +31,7 @@ La gestión del proyecto se desarrolla en:<br>
 
 ## 2. Objetivos
 
-- Identificar patrones y tendencias en los movimientos de taxis en la ciudad de Nueva York a lo largo del tiempo (establecer tiempo)
+- Identificar patrones y tendencias en los movimientos de taxis en la ciudad de Nueva York (2010-2022)
 
   -- Mayores promedios de distancias según origen/destino 
 
@@ -69,7 +69,7 @@ La gestión del proyecto se desarrolla en:<br>
 
 - 2-Indice de calidad del aire (Variacion anual en MP 2,5 per m2) 
 
-- 3-Contaminacón Acustica (Variacion anual en Decibeles per m2)
+- 3-Contaminación Acustica (Variacion anual en Decibeles per m2)
 
 - 4-Ingresos brutos/netos cliente/empresa por dia/mes 
 
