@@ -113,6 +113,13 @@ API "https://data.cityofnewyork.us/resource/7ym2-wayt.json"
 
 <hr>
 
+## 5. EDA
+
+[EDA](https://docs.google.com/presentation/d/1JpArF9OQ-drCRJC0h2I5K6-4FtqC2zgzeXRlCp0JW94/edit#slide=id.g1e1000ce16a_3_11)
+
+
+<hr>
+
 *Developed by*
 
 <a href="https://www.linkedin.com/in/franco-jonas-myburg-6095b8255/"><img alt="Franco" title="Connect with Franco" src="https://img.shields.io/badge/Franco Myburg-0077B5?style=flat&logo=Linkedin&logoColor=white"></a> **DATA ANALYST**
