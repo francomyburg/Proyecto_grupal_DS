@@ -6,7 +6,7 @@
 
 Se lleva a cabo un análisis del sector de transporte público en automóviles en la ciudad de Nueva York con el fin de evaluar la viabilidad de invertir en tecnologías más sostenibles, como la implementación de flotas de vehículos eléctricos.<br>
 
-Se analizan tres categorias de transporte de pasajero por taxis presentes en NYC *Yellow Cabs: taxis de color amarillo, Green Cabs: taxis color verde introducidos a NYC desde el 2013, FHV cars: limosinas, carros por renta.* Se analizan los niveles de ruido presentes en la ciudad y la calidad del aire desde el año 2008 al 2020, el movimiento de vehículos desde el año 2010 hasta el 2022 en los 5 distritos en NY: Manhattan (New York County), Brooklyn (Kings County), Queens (Queens County), The Bronx (Bronx County) & Staten Island (Richmond County). Se implementa un modelo ML para estimar tarifas según horario y zonas de la ciudad. Se realiza un Dashboard para la visualización de los datos con el mes de mayor actividad en el sector (Diciembre 2022). <br>
+Se analizan tres categorias de transporte de pasajero por taxis presentes en NYC *Yellow Cabs: taxis de color amarillo, Green Cabs: taxis color verde introducidos a NYC desde el 2013, FHV cars: limosinas, carros por renta.* Se analizan los niveles de ruido presentes en la ciudad del año 2016-2020 y la calidad del aire desde el año 2008 al 2020, el movimiento de vehículos desde el año 2010 hasta el 2023 en los 5 distritos en NY: Manhattan (New York County), Brooklyn (Kings County), Queens (Queens County), The Bronx (Bronx County) & Staten Island (Richmond County). Se implementa un modelo ML para estimar tarifas según horario y zonas de la ciudad. Se realiza un Dashboard para la visualización de los datos con el mes de mayor actividad en el sector (Diciembre 2022). <br>
 
 El proyecto se ejecuta bajo metodología ágil Scrum y se desarrolla en cuatro etapas.<br>
 
@@ -84,20 +84,20 @@ La gestión del proyecto se desarrolla en:<br>
 
 - Ingenieria de datos (EDA, ETL, DATAWAREHOUSE): Python, Pandas, Matplotlib,  Seaborn , SQLAlchemy , PostgreSQL.<br> 
 
-- Análisis de datos (Business Intelligence & Machine Learning): Python, Pandas, SQLAlchemy , Plotly, PowerBI.<br> 
+- Análisis de datos (Business Intelligence & Machine Learning): Python, Pandas, SQLAlchemy , Plotly, PowerBI, Scikit-learn, Streamlit.<br> 
 
-- Para el aprendizaje automático se utilizó Scikit-learn y se hizo el deployment mediante Streamlit.<br>
+- Escalabilidad On Cloud: Azure (Azure Data Factory, Azure Blob Storage, Azure Synapse Analytics) <br>
 
-- Escalabilidad On Cloud: Azure.<br>
-La integración se realizara con Azure Data Factory, el almacenamiento con Azure Blob Storage, el Data Lake con Azure Data Lake, el RDB con Azure Synapse Analytics.<br>
-
-<center><img src="franco/diagrama.png" width="500" height="400"/></center>
 <hr>
 
 ## 4. Recopilación de los datos
+
+
+<center><img src="jaime/_src/diagrama.png" width="500" height="300"/></center>
+
 El origen de los datos:
 
-Movimiento de taxis, viajes.<br>
+TLC Trip Record Data .<br>
 
 https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page<br>
 
@@ -110,6 +110,15 @@ Densidad de Trafico NYC.<br>
 
 https://data.cityofnewyork.us/Transportation/Automated-Traffic-Volume-Counts/7ym2-wayt <br>
 API "https://data.cityofnewyork.us/resource/7ym2-wayt.json"
+
+Contaminacón Acústica NYC.<br>
+
+Registro de tipos de sonidos en NYC.<br>
+https://zenodo.org/record/3966543/files/annotations.csv?download=1<br>
+
+Reporte de los registros al servicio 311 del gobierno NYC. <br>
+
+API "https://data.cityofnewyork.us/resource/erm2-nwe9.json"
 
 <hr>
 
