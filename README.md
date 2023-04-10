@@ -24,32 +24,73 @@ Se analiza el perfil económico del sector de transporte de pasajeros en vehicul
 
 
 La gestión del proyecto se desarrolla en:<br>
-*Actividades [Task:](https://trello.com/b/BBq6OTiJ/proyecto-final) Cronograma [Gant:]()*
+*Actividades [Task:](https://trello.com/b/BBq6OTiJ/proyecto-final) Cronograma [Gant:](https://docs.google.com/spreadsheets/d/10gupD91IRV9KfblHfoy6fAw1rV6vu_gw6LNHp0itnfo/edit#gid=1709744959)*
 
 <hr>
 
 ## 2. Objetivos
 
-- Identificar patrones y tendencias en los movimientos de taxis en la ciudad de Nueva York a lo largo del tiempo (establecer tiempo). <br>
+- Identificar patrones y tendencias en los movimientos de taxis en la ciudad de Nueva York a lo largo del tiempo (establecer tiempo)
+
+  -- Mayores promedios de distancias según origen/destino 
+
+  -- Cantidad de viajes según origen/destino 
+
+  -- Montos de viajes según origen/destino
+
+  -- Días y horarios con mayor demanda <br>
 
 - Explorar y analizar la calidad del aire y la contaminación sonora en la ciudad de Nueva York en relación con el movimiento de los taxis, utilizando técnicas de visualización de datos y análisis estadísticos.<br>
 
 - Evaluar la relación entre el movimiento de los taxis y la calidad del aire y la contaminación sonora en la ciudad de Nueva York, para determinar si existe alguna correlación significativa. <br>
 
 - Análisis de las ganancias económicas del sector. <br>
+  -- Ingreso bruto promedio hora/día/mes <br>
+  -- Proporcion de ingresos por tarifa cliente/empresa<br>
 
-- Desarrollar un Modelo de ML de clasificación de usuarios de taxis en la ciudad de Nueva York  para  plantear  estrategias de marketing por microsegmentación. <br>
+- Desarrollar un Modelo de ML de clasificación de usuarios de taxis en la ciudad de Nueva York  para  plantear  estrategias de marketing por microsegmentación.
+  -- Modelo de estimación de tarifa según borough y horario <br>
 
 - Identificar los desafíos y oportunidades relacionados con la implementación de vehículos eléctricos en la flota de la empresa de servicios de transporte de pasajeros, y evaluar los posibles beneficios ambientales y económicos.
 
+
+<br><h2 align="center">KPIs asociados a los objetivos(planteo)</h2><br>
+
+- 1-Distancia por vehiculo (ganancia por kilometro)
+
+    Mayores promedios de distancias según origen/destino 
+
+    Cantidad de viajes según origen/destino 
+
+    Montos de viajes según origen/destino
+
+    Dias y horarios con mayor demanda
+
+- 2-Indice de calidad del aire
+
+- 3-Decibeles por metro cuadrado
+
+- 4-Ingresos brutos/netos cliente/empresa por dia/mes 
+
+    Tarifa/distancia (correlacion)
+
+- 5-Cuota del mercado proyectado
 <hr>
 
 ## 3. Recursos implementados
 
-Gestión de proyectos: Google meet, Trello.<br>
-Ingenieria de datos (EDA, ETL, DATAWAREHOUSE): Python, Pandas, Matplotlib,  Seaborn , SQLAlchemy , PostgreSQL.<br> 
-Análisis de datos (Business Intelligence & Machine Learning): Python, Pandas, SQLAlchemy , Plotly, PowerBI.<br> 
-Escalabilidad On Cloud: AWS, Databricks, Airflow. 
+- Gestión de proyectos: Google meet, Trello.<br>
+
+- Ingenieria de datos (EDA, ETL, DATAWAREHOUSE): Python, Pandas, Matplotlib,  Seaborn , SQLAlchemy , PostgreSQL.<br> 
+
+- Análisis de datos (Business Intelligence & Machine Learning): Python, Pandas, SQLAlchemy , Plotly, PowerBI.<br> 
+
+- Para el aprendizaje automático se utilizó Scikit-learn y se hizo el deployment mediante Streamlit.<br>
+
+- Escalabilidad On Cloud: Azure.<br>
+La integración se realizara con Azure Data Factory, el almacenamiento con Azure Blob Storage, el Data Lake con Azure Data Lake, el RDB con Azure Synapse Analytics.<br>
+
+<center><img src="franco/diagrama.png" width="500" height="400"/></center>
 <hr>
 
 ## 4. Recopilación de los datos
