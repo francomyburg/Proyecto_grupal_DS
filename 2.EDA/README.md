@@ -1,10 +1,33 @@
 # <h1> Exploratory Data Analysis (EDA) </h1> 
 
+## Componentes Medioambientales
 
-Se analizan las cargas contaminantes presentes en en la ciudad de New York para cada Borough desde el 2008 hasta el 2020.<br>
+Promedio de las cargas contaminantes presentes en  la ciudad de New York para cada Borough desde el 2008 hasta el 2020.<br>
 **Material Particulado de 2.5 micras, Dioxido de Nitrogeno, Ozono** & **Dioxido de Azufre.**
 
-<img src= "source/air_quality1.png" width="500" height="300"/>
+<img src= "source/air_quality1.png" width="800" height="370"/>
+
+Se utilizan los datos de PM 2.5 para establecer el **indice de calidad de aire**. Clasificación generada por IQAIR basado en los NAAQS (National Ambient Air Quality Standards) de la EPA (Environmental Protection Agency) de EE. UU. <br>
+
+La EPA establece un índice de aire bueno cuando el PM 2.5 es inferior a 12 µg/cm3. <br>
+La OMS (Organización Mundial de la Salud) sugiere para un índice de aire bueno en los años (2005-2021) un PM 2.5 inferior a 10 µg/cm3.
+<br> 
+
+<img src= "source/air_quality2.png" width="800" height="370"/>
+
+con los registros obtenidos de los Automated Traffic Recorders en NYC se calcula **la densidad vehicular** presente en cada Borough. Esta variable representa la cantidad de vehículos que pasan por determinado punto en un lapso de 15 minutos .<br>
+
+<img src= "source/vehicular_density.png" width="650" height="250"/>
+
+Se Correlaciona la **densidad vehicular** con la generación de material particulado **PM2.5.**
+
+<img src= "source/correlation_air_density.png" width="200" height="200"/>
+
+
+
+
+<hr>
+# Conclusiones
 
 
 *Developed by*
