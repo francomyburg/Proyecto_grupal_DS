@@ -1,12 +1,20 @@
 # <h1> Análisis Exploratorio de datos (EDA)</h1> 
 
-## Datasets de Movimientos de taxis en New York
-
-- **Taxis New York en Diciembre 2022**
-  [EDA](EDA_Yellow_Cabs_DIC22.ipynb)
+Se analizan 7 datasets.<br>
+Se disponibiliza la información de los viajes realizados por taxis en la ciudad de New York.<br> 
 
 
-## Datasets de Componentes medioambientales
+## 1. Datasets de Movimientos de taxis en New York
+
+- **Viajes mensuales de Taxis New York en Diciembre 2022** [EDA](EDA_Yellow_Cabs_DIC22.ipynb)
+
+- **Viajes de Taxis Amarillos New York 2018**
+
+- **Viajes de Taxis verdes New York 2018**
+
+- **Viajes de Taxis FHV New York 2019**
+
+## 2. Datasets de Componentes medioambientales
 
 - **Contaminacón al aire**   [EDA](EDA_Air_Quality.ipynb)
 
@@ -14,12 +22,32 @@ Se filtra el dataset por 'CD' community districts. Se analizan los datos por las
 
 - **Densidad Vehicular**      [EDA](EDA_Air_Quality.ipynb)
 
-Se filtra el dataset desde el año 2008 al 2020
+Se filtra el dataset desde el año 2008 al 2020. Se calcula la **Densidad Vehicular** en los Boroughs. Se genera el KPI .
 
 - **Contaminación Acustica**  [EDA]()
 
-  
+| Diccionario                                                     | Table | EDA_file                        | Activities                                                                                                                                                                                                                                         |
+|-----------------------------------------------------------------|-------|---------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| tlc_amarillos                                                   | NA    | EDA_yellow_cabs                 | Se elimina **'VendorID', 'RatecodeID', 'store_and_fwd_flag'**                                                                                                                                                                                      |
+| tlc_verdes                                                      | NA    | EDA_green_cabs                  | Se eliminan columnas **'VendorID' 'store_and_fwd_flag', 'RatecodeID', 'ehail_fee'**                                                                                                                                                                |
+| tlc_verdes, tlc_amarillos                                       | NA    | EDA_green_cabs, EDA_yellow_cabs | Se Separa 'lpep_pickup_datetime' y 'lpep_dropoff_datetime'  en d�a (YYYY-MM-DD) **Hora de pickup**, **Hora de dropoff**.                                                                                                                           |
+| tlc_verdes, tlc_amarillos                                       | NA    | EDA_green_cabs, EDA_yellow_cabs | "Se insertan las variables **'dropoff_time' 'pickup_day' 'pickup_time' 'dropoff_day'**	"                                                                                                                                                           |
+| tlc_verdes, tlc_amarillos                                       | NA    | EDA_green_cabs, EDA_yellow_cabs | "                                                                                                                                                                                                                                                  |
+| Se elimina **'lpep_pickup_datetime'  'lpep_dropoff_datetime'**" |       |                                 |                                                                                                                                                                                                                                                    |
+| tlc_verdes                                                      | NA    | EDA_green_cabs                  | Se identifican valores faltantes nan en **'passenger_count':** 34623 & **'payment_type ':** 34623  **'trip_type':** 35019  **'congestion_surcharge':** 719654.                                                                                     |
+| tlc_amarillos                                                   | NA    | EDA_yellow_cabs                 | Se identifican valores faltantes nan en **�passenger_count�**: 22188 **�congestion_surcharge�**:8195675 **�airport_fee�**: 8195675.                                                                                                                |
+| tlc_amarillos                                                   | NA    | EDA_yellow_cabs                 | Se imputa == 0 a las variables **'congestion_surcharge' 'airport_fee'** con valores faltantes nan.                                                                                                                                                 |
+| tlc_verdes                                                      | NA    | EDA_green_cabs                  | Se imputa == 0 a las variables **'congestion_surcharge'** con valores faltantes nan.                                                                                                                                                               |
+| tlc_verdes, tlc_amarillos                                       | NA    | EDA_green_cabs, EDA_yellow_cabs | Se imputa valores de la media a las variables **'trip_distance' 'fare_amount' 'tip_amount' 'passenger_count' 'tolls_amount' 'improvement_surcharge'** con valores faltantes nan.                                                                   |
+| tlc_verdes, tlc_amarillos                                       | NA    | EDA_green_cabs                  | Se modifica variables a *float type.*  a **'congestion_surcharge'**.                                                                                                                                                                               |
+| tlc_verdes, tlc_amarillos                                       | NA    | EDA_green_cabs, EDA_yellow_cabs | Se imputa valores de la moda las variables **'payment_type'** , **'trip_type'** , **'extra'**, **'mta_tax'** con valores faltantes nan.                                                                                                            |
+| tlc_fhv                                                         | NA    | EDA_fhv_cabs                    | Se eliminan las variables **'hvfhs_license_num', 'dispatching_base_num', 'originating_base_num', 'request_datetime', 'on_scene_datetime', 'shared_request_flag', 'shared_match_flag', 'access_a_ride_flag', 'wav_request_flag', 'wav_match_flag'** |
+| tlc_fhv                                                         | NA    | EDA_fhv_cabs                    | Se identifican valores faltantes nan en **'airport_fee'**: 22243779                                                                                                                                                                                |
+| tlc_fhv                                                         | NA    | EDA_fhv_cabs                    | Se imputa == 0 a las variables **'airport_fee'** con valores faltantes nan.                                                                                                                                                                        |
+| tlc_fhv                                                         | NA    | EDA_fhv_cabs                    | Se imputa valores de la media a las variables  **'trip_miles' 'driver_pay' 'sales_tax' 'tolls' 'base_passenger_fare' 'trip_time'**                                                                                                                 |
+| ;                                                               | ;     | ;                               |                                                                                                                                                                                                                                                    |
 
+*Se puede consultar el reporte de los componente medioambientales en:*  [3.ENVIROMENTAL_REPORT](../3.ENVIROMENTAL_REPORT) 
 
 <hr>
 
