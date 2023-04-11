@@ -1,18 +1,19 @@
 # <h1> Análisis Exploratorio de datos (EDA)</h1> 
 
-Se analizan 7 datasets.<br>
-Se disponibiliza la información de los viajes realizados por taxis en la ciudad de New York.<br> 
-
-
 ## 1. Datasets de Movimientos de taxis en New York
 
-- **Viajes mensuales de Taxis New York en Diciembre 2022** [EDA](EDA_Yellow_Cabs_DIC22.ipynb)
+Se emplean 4 datasets. Se disponibiliza la información  guardando la información como diccionarios. [1.disponibilizar.ipynb](1.disponibilizar.ipynb)<br> 
 
-- **Viajes de Taxis Amarillos New York 2018**
+Se analizan los diferentes tipos de taxis existentes en NYC.
+**Taxis Amarillos**, **Taxis verdes** y **Taxis FHV (plataformas como Uber)** con el fin de desarrollar un analisis economico del sector de transporte y observar la distribución de los datos recolectados.<br> 
 
-- **Viajes de Taxis verdes New York 2018**
+- **Viajes mensuales de Taxis New York en Diciembre 2022** [EDA_yellow_cabs_DIC22.ipynb](EDA_Yellow_Cabs_DIC22.ipynb)
 
-- **Viajes de Taxis FHV New York 2019**
+- **Viajes de Taxis Amarillos New York 2018** [EDA_yellow_cabs.ipynb](EDA_yellow_cabs.ipynb)
+
+- **Viajes de Taxis verdes New York 2018** [EDA_green_cabs.ipynb](EDA_green_cabs.ipynb)
+
+- **Viajes de Taxis FHV New York 2019** [EDA_fhv_cabs.ipynb](EDA_fhv_cabs.ipynb)
 
 ## 2. Datasets de Componentes medioambientales
 
