@@ -1,10 +1,30 @@
-# <h1> Diccionario de Datos </h1> 
+# <h1> DATA INFO </h1> 
 
-- **Table_1: air_quality**
 
-- **Tabla_2: vehicular_volume**
+## Data Sources
+
+TLC Trip Record Data .<br>
+
+https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page<br>
+
+Air pollution NYC.<br>
+
+https://data.cityofnewyork.us/Environment/Air-Quality/c3uy-2p5r<br>
+API "https://data.cityofnewyork.us/resource/c3uy-2p5r.json"
+
+Traffic Density/Volume NYC.<br>
+
+https://data.cityofnewyork.us/Transportation/Automated-Traffic-Volume-Counts/7ym2-wayt <br>
+API "https://data.cityofnewyork.us/resource/7ym2-wayt.json"
+
+Noise pollution NYC.<br>
+
+Registro de tipos de sonidos en NYC.<br>
+https://zenodo.org/record/3966543/files/annotations.csv?download=1<br>
 
 <hr>
+
+## Data Dictionary
 
 | **DATA DICTIONARY ENVIROMENTAL TABLES** 	|  	|
 |:---:	|:---:	|
@@ -43,3 +63,9 @@
 | _total_trips_per_day_ 	| _Daily average of individual plus   shared rides or trips taken by passengers on a given month._ 	|
 | _shared_trips_per_day_percent_ 	| _Proportion of rides or trips   that are shared on daily average._ 	|
 
+
+<hr>
+
+- **Table_1: air_quality**
+
+- **Tabla_2: vehicular_volume**
