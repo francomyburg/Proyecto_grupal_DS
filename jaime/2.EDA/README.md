@@ -1,6 +1,6 @@
 # <h1> Análisis Exploratorio de datos (EDA)</h1> 
 
-## 1. Datasets de Movimientos de taxis en New York
+## 1. Movimientos de taxis en New York
 
 Se emplean 4 datasets. Se disponibiliza la información  guardando la información como diccionarios. [1.disponibilizar.ipynb](1.disponibilizar.ipynb)<br> 
 
@@ -15,13 +15,13 @@ Se analizan los diferentes tipos de taxis existentes en NYC.
 
 - **Viajes de Taxis FHV New York 2019** [EDA_fhv_cabs.ipynb](EDA_fhv_cabs.ipynb)
 
-## 2. Datasets de Componentes medioambientales
+## 2. Componentes Medioambientales
 
-- **Contaminacón al aire**   [EDA](EDA_Air_Quality.ipynb)
+- **Contaminacón al aire**   [EDA_Air_Quality.ipynb](EDA_Air_Quality.ipynb)
 
 Se filtra el dataset por 'CD' community districts. Se analizan los datos por las diferentes cargas contaminantes presentes en los Boroughs. Se establece la metrica **Indice de calidad del aire**  
 
-- **Densidad Vehicular**      [EDA](EDA_Air_Quality.ipynb)
+- **Densidad Vehicular**      [EDA_Air_Quality.ipynb](EDA_Air_Quality.ipynb)
 
 Se filtra el dataset desde el año 2008 al 2020. Se calcula la **Densidad Vehicular** en los Boroughs. Se genera el KPI .
 
