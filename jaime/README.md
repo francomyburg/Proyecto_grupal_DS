@@ -6,23 +6,24 @@
 
 Se lleva a cabo un análisis del sector de transporte público en automóviles en la ciudad de Nueva York con el fin de evaluar la viabilidad de invertir en tecnologías más sostenibles, como la implementación de flotas de vehículos eléctricos.<br>
 
-Se analizan tres categorias de transporte de pasajero por taxis presentes en NYC *Yellow Cabs: taxis de color amarillo, Green Cabs: taxis color verde introducidos a NYC desde el 2013, FHV cars: limosinas, carros por renta.* Se analizan los niveles de ruido presentes en la ciudad del año 2016-2020 y la calidad del aire desde el año 2008 al 2020, el movimiento de vehículos desde el año 2010 hasta el 2023 en los 5 distritos en NY: Manhattan (New York County), Brooklyn (Kings County), Queens (Queens County), The Bronx (Bronx County) & Staten Island (Richmond County). Se implementa un modelo ML para estimar tendencias a futuro de los principales indicadores. Se realiza un Dashboard para la visualización de los datos con el mes de mayor actividad en el sector (Diciembre 2022). <br>
+Se analizan tres categorías de transporte de pasajero por taxis presentes en New York: **Yellow Cabs: taxis de color amarillo, Green Cabs: taxis color verde introducidos a NYC desde el 2013, FHV cars: limosinas, carros por renta**. Se analizan los niveles de ruido presentes en la ciudad del año 2016-2020 y la calidad del aire desde el año 2008 al 2020, el movimiento de vehículos desde el año 2010 hasta el 2023 en los 5 Boroughs (distritos) de NYC: **Manhattan (New York County), Brooklyn (Kings County), Queens (Queens County), The Bronx (Bronx County) & Staten Island (Richmond County)**. Se implementa un modelo ML para estimar tendencias a futuro de los principales indicadores. Se realiza un Dashboard para la visualización de los datos con el mes de mayor actividad en el sector (Diciembre 2022).
+ <br>
 
 El proyecto se ejecuta bajo metodología ágil Scrum y se desarrolla en cuatro etapas.<br>
 
 **Etapa 1: Recopilación de los datos**<br>
-Se realizan procesos de recopilación y limpieza de la información. Se desarrolla un EDA.  <br>
+Procesos de recopilación y limpieza de la información. Se desarrolla un EDA.  <br>
 
 **Etapa 2: Creación de base de datos (DW)** <br>
 
-Se crea un DataWarehouse con una carga inicial automatizada de manera incremental en el servicio cloud de Microsoft Azure.<br>
+Creación de DataWarehouse con una carga inicial automatizada de manera incremental en el servicio cloud de Microsoft Azure.<br>
 
 **Etapa 3: Análisis Económico del sector & KPIs** <br>
 
-Se analiza el perfil económico del sector de transporte de pasajeros en vehiculos en NYC para generar metricas y 5 KPI's: <br>
+Análisis del sector económico y generación de insights <br>
 
 **Etapa 4: Modelo ML** <br>
-Se desarolla un modelo de Machine Learning de clasificación de clientes. <br>
+Desarollo de modelo de Machine Learning de clasificación de clientes, resultados. <br>
 
 La gestión del proyecto se desarrolla en:<br>
 *Actividades [Task:](https://trello.com/b/BBq6OTiJ/proyecto-final) Cronograma [Gant:](https://docs.google.com/spreadsheets/d/10gupD91IRV9KfblHfoy6fAw1rV6vu_gw6LNHp0itnfo/edit#gid=1709744959)*
@@ -31,30 +32,22 @@ La gestión del proyecto se desarrolla en:<br>
 
 ## 2. Objetivos
 
-- Identificar patrones y tendencias en los movimientos de taxis en la ciudad de Nueva York (2010-2022).
-
-  -- Mayores promedios de distancias según origen/destino 
-
-  -- Cantidad de viajes según origen/destino 
-
-  -- Montos de viajes según origen/destino
-
-  -- Días y horarios con mayor demanda <br>
+- Identificar patrones y tendencias en los movimientos de taxis en la ciudad de Nueva York (2010-2022).<br>
+  *Mayor promedio de distancias según origen/destino, Cantidad de viajes según origen/destino, Montos de viajes según origen/destino, Días y horarios con mayor demanda.* <br>
 
 - Explorar y analizar la calidad del aire y la contaminación sonora en la ciudad de Nueva York en relación con el movimiento de los taxis, utilizando técnicas de visualización de datos y análisis estadísticos.<br>
 
-- Evaluar la relación entre el movimiento de los taxis y la calidad del aire y la contaminación sonora en la ciudad de Nueva York, para determinar si existe alguna correlación significativa. <br>
+- Evaluar la relación entre el movimiento de los taxis y la calidad del aire o la contaminación sonora en la ciudad de Nueva York, para determinar si existe alguna correlación significativa. <br>
 
 - Análisis de las ganancias económicas del sector. <br>
-  -- Ingreso bruto promedio hora/día/mes <br>
-  -- Proporcion de ingresos por tarifa cliente/empresa<br>
+  *Ingreso bruto promedio hora/día/mes, Proporcion de ingresos por tarifa cliente/empresa.*<br>
 
 - Desarrollar un Modelo de ML de clasificación de usuarios de taxis en la ciudad de Nueva York  para  plantear  estrategias de marketing por microsegmentación.<br>
-  -- Modelo de estimación de tarifa según borough y horario <br>
+  *Modelo de estimación de tarifa según borough y horario.* <br>
 
 - Identificar los desafíos y oportunidades relacionados con la implementación de vehículos eléctricos en la flota de la empresa de servicios de transporte de pasajeros, y evaluar los posibles beneficios ambientales y económicos.
 
-
+<hr>
 <br><h2 align="center">KPIs asociados a los objetivos(planteo)</h2><br>
 
 - 1-Distancia por vehículo (ganancia por kilometro)
@@ -82,7 +75,7 @@ La gestión del proyecto se desarrolla en:<br>
 
 - Gestión de proyectos: Google meet, Trello.<br>
 
-- Ingenieria de datos (EDA, ETL, DATAWAREHOUSE): Python, Pandas, Matplotlib,  Seaborn , SQLAlchemy , PostgreSQL.<br> 
+- Ingenieria de datos (EDA, ETL, DATAWAREHOUSE): Python, Beautiful Soup, Pandas, Matplotlib,  Seaborn , SQLAlchemy , PostgreSQL.<br> 
 
 - Análisis de datos (Business Intelligence & Machine Learning): Python, Pandas, SQLAlchemy , Plotly, PowerBI, Scikit-learn, Streamlit.<br> 
 
@@ -93,7 +86,7 @@ La gestión del proyecto se desarrolla en:<br>
 ## 4. Recopilación de los datos
 
 
-<center><img src="jaime/_src/diagrama.png" width="500" height="300"/></center>
+<img src="src/diagrama_flujo.png" width="500" height="300"/>
 
 El origen de los datos:
 
