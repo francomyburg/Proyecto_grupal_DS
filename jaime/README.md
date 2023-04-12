@@ -2,7 +2,7 @@
 ## **HENRY BOOTCAMP | Proyecto Final**
 <hr>
 
-## 1. Introducción
+# 1. Introducción
 
 Se lleva a cabo un análisis del sector de transporte público en automóviles en la ciudad de Nueva York con el fin de evaluar la viabilidad de invertir en tecnologías más sostenibles, como la implementación de flotas de vehículos eléctricos.<br>
 
@@ -15,11 +15,9 @@ El proyecto se ejecuta bajo metodología ágil Scrum y se desarrolla en cuatro e
 Procesos de recopilación y limpieza de la información. Se desarrolla un EDA.  <br>
 
 **Etapa 2: Creación de base de datos (DW)** <br>
-
 Creación de DataWarehouse con una carga inicial automatizada de manera incremental en el servicio cloud de Microsoft Azure.<br>
 
 **Etapa 3: Análisis Económico del sector & KPIs** <br>
-
 Análisis del sector económico y generación de insights <br>
 
 **Etapa 4: Modelo ML** <br>
@@ -30,25 +28,31 @@ La gestión del proyecto se desarrolla en:<br>
 
 <hr>
 
-## 2. Objetivos
+# 2. Objetivos
 
-- Identificar patrones y tendencias en los movimientos de taxis en la ciudad de Nueva York (2010-2022).<br>
+- Identificar patrones y tendencias en los movimientos de taxis en NYC (2010-2022).<br>
   *Mayor promedio de distancias según origen/destino, Cantidad de viajes según origen/destino, Montos de viajes según origen/destino, Días y horarios con mayor demanda.* <br>
 
-- Explorar y analizar la calidad del aire y la contaminación sonora en la ciudad de Nueva York en relación con el movimiento de los taxis, utilizando técnicas de visualización de datos y análisis estadísticos.<br>
+- Explorar y analizar la calidad del aire, la contaminación sonora en NYC relacionando el movimiento de los taxis.<br>
 
-- Evaluar la relación entre el movimiento de los taxis y la calidad del aire o la contaminación sonora en la ciudad de Nueva York, para determinar si existe alguna correlación significativa. <br>
+- Evaluar la relación entre el movimiento de los taxis y la calidad del aire o la contaminación sonora y determinar si hay correlación significativa. <br>
 
-- Análisis de las ganancias económicas del sector. <br>
+- Realizar un análisis de las ganancias económicas del sector. <br>
   *Ingreso bruto promedio hora/día/mes, Proporcion de ingresos por tarifa cliente/empresa.*<br>
 
 - Desarrollar un Modelo de ML de clasificación de usuarios de taxis en la ciudad de Nueva York  para  plantear  estrategias de marketing por microsegmentación.<br>
   *Modelo de estimación de tarifa según borough y horario.* <br>
 
-- Identificar los desafíos y oportunidades relacionados con la implementación de vehículos eléctricos en la flota de la empresa de servicios de transporte de pasajeros, y evaluar los posibles beneficios ambientales y económicos.
+- Identificar oportunidades para la implementación de vehículos eléctricos en el sector de transporte de pasajeros.
 
 <hr>
-<br><h2 align="center">KPIs asociados a los objetivos(planteo)</h2><br>
+
+# 3. Desarrollo
+
+<img src="src/diagrama_flujo.png" width="500" height="300"/>
+
+
+## 3.1 KPIs 
 
 - 1-Distancia por vehículo (ganancia por kilometro)
 
@@ -69,9 +73,9 @@ La gestión del proyecto se desarrolla en:<br>
     Tarifa/distancia (correlación)
 
 - 5-Cuota del mercado proyectado
-<hr>
+<br>
 
-## 3. Recursos implementados
+## 3.2 Recursos implementados
 
 - Gestión de proyectos: Google meet, Trello.<br>
 
@@ -81,44 +85,23 @@ La gestión del proyecto se desarrolla en:<br>
 
 - Escalabilidad On Cloud: Azure (Azure Data Factory, Azure Blob Storage, Azure Synapse Analytics) <br>
 
-<hr>
-
-## 4. Recopilación de los datos
+## 3.3 Obtencción de los Datos
 
 
-<img src="src/diagrama_flujo.png" width="500" height="300"/>
-
-El origen de los datos:
-
-TLC Trip Record Data .<br>
-
-https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page<br>
-
-Contaminacón del aire NYC.<br>
-
-https://data.cityofnewyork.us/Environment/Air-Quality/c3uy-2p5r<br>
-API "https://data.cityofnewyork.us/resource/c3uy-2p5r.json"
-
-Densidad de Trafico NYC.<br>
-
-https://data.cityofnewyork.us/Transportation/Automated-Traffic-Volume-Counts/7ym2-wayt <br>
-API "https://data.cityofnewyork.us/resource/7ym2-wayt.json"
-
-Contaminacón Acústica NYC.<br>
-
-Registro de tipos de sonidos en NYC.<br>
-https://zenodo.org/record/3966543/files/annotations.csv?download=1<br>
-
-Reporte de los registros al servicio 311 del gobierno NYC. <br>
-
-API "https://data.cityofnewyork.us/resource/erm2-nwe9.json"
 
 <hr>
 
-## 5. EDA
+# 4. ETL
 
-[EDA](https://docs.google.com/presentation/d/1JpArF9OQ-drCRJC0h2I5K6-4FtqC2zgzeXRlCp0JW94/edit#slide=id.g1e1000ce16a_3_11)
+<hr>
 
+# 5. EDA
+<hr>
+
+# 6. Resultados
+<hr>
+
+# 7. Conclusiones
 
 <hr>
 
