@@ -2,18 +2,25 @@
 
 ## 1. Movimientos de taxis en New York
 
-Se emplean 4 datasets. Se disponibiliza la información  guardando la información como diccionarios. [1.disponibilizar.ipynb](1.disponibilizar.ipynb)<br> 
+Se realiza un web scrapring para disponibilizar la data histórica de los servicios de transporte de pasajeros en automóviles en NYC [1.disponibilizar.ipynb](1.disponibilizar.ipynb).<br> 
 
-Se analizan los diferentes tipos de taxis existentes en NYC.
-**Taxis Amarillos**, **Taxis verdes** y **Taxis FHV (plataformas como Uber)** con el fin de desarrollar un analisis economico del sector de transporte y observar la distribución de los datos recolectados.<br> 
 
-- **Viajes mensuales de Taxis New York en Diciembre 2022** [EDA_yellow_cabs_DIC22.ipynb](EDA_Yellow_Cabs_DIC22.ipynb)
+<img src="source/cantidad_taxis.png" width="600" height="400"/>
 
-- **Viajes de Taxis Amarillos New York 2018** [EDA_yellow_cabs.ipynb](EDA_yellow_cabs.ipynb)
+Se analizan dos datasets, correspondientes a los diferentes tipos de taxis existentes en NYC.
+**Taxis Amarillos**, **Taxis verdes** y **Taxis FHV (plataformas: Uber, Lyft & renta)**. 
 
-- **Viajes de Taxis verdes New York 2018** [EDA_green_cabs.ipynb](EDA_green_cabs.ipynb)
+- **Viajes mensuales de Taxis New York en 2010-2022** <br>
+[EDA_yellow_cabs_DIC22.ipynb](EDA_Yellow_Cabs_DIC22.ipynb)<br>
 
-- **Viajes de Taxis FHV New York 2019** [EDA_fhv_cabs.ipynb](EDA_fhv_cabs.ipynb)
+- **Viajes de Taxis Amarillos, Verdes New York 2018 & FHV New York 2019** <br>
+[EDA_yellow_cabs.ipynb](EDA_yellow_cabs.ipynb)<br>
+[EDA_green_cabs.ipynb](EDA_green_cabs.ipynb)<br>
+[EDA_fhv_cabs.ipynb](EDA_fhv_cabs.ipynb)<br>
+
+
+<img src="source/facturacion.png" width="400" height="300"/>
+
 
 ## 2. Componentes Medioambientales
 
