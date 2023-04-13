@@ -49,7 +49,7 @@ La gestión del proyecto se desarrolla en:<br>
 
 # 3. Desarrollo
 
-<img src="src/diagrama_flujo.png" width="500" height="300"/>
+<img src="src/diagrama_flujo.png" width="700" height="400"/>
 
 
 ## 3.1 KPIs 
