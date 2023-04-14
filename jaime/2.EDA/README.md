@@ -7,16 +7,13 @@ Se realiza un web scrapring para disponibilizar la data histórica de los servic
 
 <img src="source/cantidad_taxis.png" width="600" height="400"/>
 
-Se analizan dos datasets, correspondientes a los diferentes tipos de taxis existentes en NYC.
-**Taxis Amarillos**, **Taxis verdes** y **Taxis FHV (plataformas: Uber, Lyft & renta)**. 
+Se analizan dos datasets.<br> 
 
 - **Viajes mensuales de Taxis New York en 2010-2022** <br>
 [EDA_yellow_cabs_DIC22.ipynb](EDA_Yellow_Cabs_DIC22.ipynb)<br>
 
-- **Viajes de Taxis Amarillos, Verdes New York 2018 & FHV New York 2019** <br>
+- **Viajes de Taxis diarios 2018** <br>
 [EDA_yellow_cabs.ipynb](EDA_yellow_cabs.ipynb)<br>
-[EDA_green_cabs.ipynb](EDA_green_cabs.ipynb)<br>
-[EDA_fhv_cabs.ipynb](EDA_fhv_cabs.ipynb)<br>
 
 
 <img src="source/facturacion.png" width="400" height="300"/>
