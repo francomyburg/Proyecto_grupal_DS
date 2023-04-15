@@ -1,8 +1,11 @@
-# <h1> Exploratory Data Analysis (EDA) </h1> 
+# <h1> COMPONENTES AMBIENTALES </h1> 
 
-## Componentes Medioambientales
+# Impactos Ambientales
 
-Promedio de las cargas contaminantes presentes en  la ciudad de New York para cada Borough desde el 2008 hasta el 2020.<br>
+
+## Contaminación al aire.
+
+Se establece el promedio de las cargas contaminantes presentes en  la ciudad de New York para cada Borough desde el 2008 hasta el 2020.<br>
 **Material Particulado de 2.5 micras, Dioxido de Nitrogeno, Ozono** & **Dioxido de Azufre.**
 
 <img src= "source/air_quality1.png" width="800" height="370"/>
