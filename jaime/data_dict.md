@@ -1,28 +1,5 @@
-# <h1> DATA INFO </h1> 
+# <h1> DATA DICTIONARY </h1> 
 
-
-## Data Sources
-
-TLC Trip Record Data .<br>
-
-https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page<br>
-
-Air pollution NYC.<br>
-
-https://data.cityofnewyork.us/Environment/Air-Quality/c3uy-2p5r<br>
-API "https://data.cityofnewyork.us/resource/c3uy-2p5r.json"
-
-Traffic Density/Volume NYC.<br>
-
-https://data.cityofnewyork.us/Transportation/Automated-Traffic-Volume-Counts/7ym2-wayt <br>
-API "https://data.cityofnewyork.us/resource/7ym2-wayt.json"
-
-Noise pollution NYC.<br>
-
-Registro de tipos de sonidos en NYC.<br>
-https://zenodo.org/record/3966543/files/annotations.csv?download=1<br>
-
-<hr>
 
 ## Data Dictionary
 <br>

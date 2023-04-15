@@ -89,7 +89,7 @@ La gestión del proyecto se desarrolla en:<br>
 
 Los datos se extraen de fuentes oficiales que proporciona la ciudad de New York.  **Taxi & Limousine Commission**  https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page y de los datos abiertos de New York, **Open_Data_NYC** https://data.cityofnewyork.us/.<br> 
 
-*El **Diccionario de los datos** y las URLs específicas de la fuente de datos pueden consultarse en (data_info)*
+*El **Diccionario de los datos** puede consultarse en (data_dict)*
 
 
 <hr>
