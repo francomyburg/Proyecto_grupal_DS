@@ -31,11 +31,11 @@ https://zenodo.org/record/3966543/files/annotations.csv?download=1<br>
 |---|:---:|
 | **Table_0:taxi+_zone_lookup.csv** | ** ** |
 | **Header** | **Description** |
-| _borough_name_ | _new york district name _ |
+| _borough_name_ | _new york district name_ |
 | _service_zone       _ | _taxi operating area_ |
 | **Table_1: TLC_Monthy_Report_NYC.csv** | ** ** |
 | **Header** | **Description** |
-| _license_class_ | _Category   based on the type of service offered with the vehicle being driven._ |
+| _license_class_ | _Category  based on the type of service offered with the vehicle being driven._ |
 | _trips_per_day_ | _Daily   average of individual rides or trips taken by passengers on a given month._ |
 | _farebox_per_day_ | _Daily   average amount of money collected from passengers on a given month._ |
 | _unique_drivers_ | _Average   of individual drivers who operate a vehicle within a month._ |
@@ -93,8 +93,8 @@ https://zenodo.org/record/3966543/files/annotations.csv?download=1<br>
 | _borough_name_ | _Borough   name_ |
 | _polluting_agent_ | _type   of pollutant in the air_ |
 | _data_value_ | _amount   of pollutant in the air_ |
-| _Table_4: air_quality.csv_ | _ _ |
-| _Header_ | _Description_ |
+| **Table_4: air_quality.csv** | ** ** |
+| **Header** | **Description** |
 | _pm 2.5_ | _total   particulate matter in the air µg/cm3_ |
 | _air_quality_ | _air   quality classification_ |
 | **Table_5: vehicular_volume.csv** | ** ** |
