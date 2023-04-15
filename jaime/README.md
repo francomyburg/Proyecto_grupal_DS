@@ -1,10 +1,10 @@
-# <h1> Análisis de datos para observar viabilidad de vehículos Eléctricos en el Servicio de Transporte de Pasajeros con Automóviles en la ciudad de New York </h1> 
+# <h1> Análisis de datos para observar viabilidad de vehículos Eléctricos en el Servicio de Transporte de Pasajeros en taxis en la ciudad de New York </h1> 
 ## **HENRY BOOTCAMP | Proyecto Final**
 <hr>
 
 # 1. Introducción
 
-Se lleva a cabo un análisis del sector de transporte público en automóviles en la ciudad de Nueva York con el fin de evaluar la viabilidad de invertir en tecnologías más sostenibles, como la implementación de flotas de vehículos eléctricos.<br>
+Se lleva a cabo un análisis del sector de transporte público en los taxis amarillos de la ciudad de Nueva York con el fin de evaluar la viabilidad de invertir en tecnologías más sostenibles, como la implementación de flotas de vehículos eléctricos.<br>
 
 Se analizan los niveles de ruido presentes en la ciudad del año 2016-2020 y la calidad del aire desde el año 2008 al 2020, el movimiento de vehículos desde el año 2010 hasta el 2023 en los 5 Boroughs (distritos) de NYC: **Manhattan (New York County), Brooklyn (Kings County), Queens (Queens County), The Bronx (Bronx County) & Staten Island (Richmond County)**. Se implementa un modelo ML para estimar tendencias a futuro de los principales indicadores. Se realiza un Dashboard para la visualización de los datos con el mes de mayor actividad en el sector (Diciembre 2022).
  <br>
@@ -87,6 +87,9 @@ La gestión del proyecto se desarrolla en:<br>
 
 ## 3.3 Obtencción de los Datos
 
+Los datos se extraen de fuentes oficiales que proporciona la ciudad de New York  Taxi & Limousine Commission  https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page y de los datos abiertos de New York https://data.cityofnewyork.us/.<br> 
+
+*las fuentes especificas pueden consutarse en (data_info)*
 
 
 <hr>
