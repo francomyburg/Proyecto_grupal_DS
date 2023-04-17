@@ -52,15 +52,19 @@ Se calcula el impacto ambiental positivo generado por la implementación de veh�
 
 **% avance a Meta OMS**: Indica el porcentaje de avance a la meta establecida por la OMS por número de vehículos eléctricos implementados en una flota de transporte en un año. 
 
-**% reducción ruidos registrados**: Indica el porcentaje de reducción de ruido registrados por número de vehículos eléctricos implementados en una flota de transporte en un año.
+**% reducción ruidos registrados**: Indica el porcentaje de reducción de ruidos registrados por número de vehículos eléctricos implementados en una flota de transporte en un año.
 
 La visualización de estos indicadores puede ser consultada en: *[calculadora ambiental]* 
+
+# <h1> ANALISIS FINANCIEROS </h1> 
 
 <hr>
 
 # Conclusiones
 
 Acorde al standard establecido por la EPA el Borough que peor calidad de aire tiene es Manhattan, tambien posee la mayor cantidad de transito vehicular. Esto reafirma la correlación existente entre el volumen vehicular y la contaminación en el aire por PM 2.5
+
+<hr>
 
 *Developed by*
 

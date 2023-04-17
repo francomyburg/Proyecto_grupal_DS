@@ -33,7 +33,7 @@ Datos que relacionan los viajes que realizan los taxis amarillos en NYC. [TLC Tr
 | **Data_source** | **Activities** |
 |---|---|
 | [TLC Trip Record   Data](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page) | Se elimina **'VendorID', 'RatecodeID', 'store_and_fwd_flag'** |
-| [TLC Trip Record   Data](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page) | Se Separa   'lpep_pickup_datetime' y 'lpep_dropoff_datetime'  en día (YYYY-MM-DD) **Hora de pickup**,   **Hora de dropoff**. |
+| [TLC Trip Record   Data](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page) | Se Separa   **'lpep_pickup_datetime' y 'lpep_dropoff_datetime'**  en día (YYYY-MM-DD) **Hora de pickup**,   **Hora de dropoff**. |
 | [TLC Trip Record   Data](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page) | Se   insertan las variables **'dropoff_time' 'pickup_day' 'pickup_time'   'dropoff_day'**	 |
 | [TLC Trip Record   Data](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page) |      Se elimina **'lpep_pickup_datetime'    'lpep_dropoff_datetime'** |
 | [TLC Trip Record   Data](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page) | Se   identifican valores faltantes nan en **'passenger_count'**: 22188   **'congestion_surcharge'**:8195675 **'airport_fee'**: 8195675. |
@@ -45,12 +45,17 @@ Datos del medio ambiente.<br>
 
 | **Data_source** | **Activities** |
 |---|---|
-| [Air pollution NYC](   https://data.cityofnewyork.us/resource/c3uy-2p5r.json) | Se modifica la fecha en **'start_date'** a   (YYYY-MM-DD) |
-| [Air pollution NYC](   https://data.cityofnewyork.us/resource/c3uy-2p5r.json) | Se   eliminan columnas **'unique_id', 'indicator_id',   'measure','geo_type_name','time_period', 'measure_info'** |
-| [Air pollution NYC](   https://data.cityofnewyork.us/resource/c3uy-2p5r.json) | Se   renombran categorías de la columna **'name'** |
-| [Air pollution NYC](   https://data.cityofnewyork.us/resource/c3uy-2p5r.json) | Se   crea columna nueva **'borough_name', 'id_borough'** |
-| [Traffic   Density/Volume NYC](https://data.cityofnewyork.us/resource/7ym2-wayt.json) | Se renombran   columnas **'Yr', 'M','D', 'Boro','date','Vol** |
-| [Traffic Density/Volume   NYC](https://data.cityofnewyork.us/resource/7ym2-wayt.json) | Se   crea columna **'date', 'borough_name', 'id_borough'** |
+| [Air pollution   NYC](     https://data.cityofnewyork.us/resource/c3uy-2p5r.json) | Se   modifica la fecha en **'start_date'** a (YYYY-MM-DD) |
+| [Air pollution   NYC](     https://data.cityofnewyork.us/resource/c3uy-2p5r.json) | Se   eliminan columnas **'unique_id', 'indicator_id',   'measure','geo_type_name','time_period', 'measure_info'** |
+| [Air pollution   NYC](     https://data.cityofnewyork.us/resource/c3uy-2p5r.json) | Se   renombran categorías de la columna **'name'** |
+| [Air pollution   NYC](     https://data.cityofnewyork.us/resource/c3uy-2p5r.json) | Se   crea columna nueva **'borough_name', 'id_borough'** |
+| [Traffic   Density/Volume   NYC](https://data.cityofnewyork.us/resource/7ym2-wayt.json) | Se   renombran columnas **'Yr', 'M','D', 'Boro','date','Vol'** |
+| [Traffic   Density/Volume   NYC](https://data.cityofnewyork.us/resource/7ym2-wayt.json) | Se   crea columna **'date',   'borough_name'** |
+| [Noise   pollution NYC](      https://zenodo.org/record/3966543/files/annotations.csv?download=1) | Se reemplaza -1 por 1 en todo el   dataset |
+| [Noise   pollution NYC](      https://zenodo.org/record/3966543/files/annotations.csv?download=1) | Se seleccionan del dataset las   columnas **['1-1_small-sounding-engine_presence',  '1-2_medium-sounding-engine_presence',  '1-3_large-sounding-engine_presence',   '1-X_engine-of-uncertain-size_presence'] y   [ '5-1_car-horn_presence', '5-2_car-alarm_presence',   '5-3_siren_presence',     '5-4_reverse-beeper_presence', '5-X_other-unknown-alert-signal_presence',   '6-1_stationary-music_proximity']** |
+| [Noise   pollution NYC](      https://zenodo.org/record/3966543/files/annotations.csv?download=1) | se generan la columnas   **'engine_sounds' y 'alarm_sounds'** |
+| [Noise   pollution NYC](      https://zenodo.org/record/3966543/files/annotations.csv?download=1) | se renombras columnas |
+| [Noise   pollution NYC](      https://zenodo.org/record/3966543/files/annotations.csv?download=1) | se selecciona **['borough',   'year', 'week', 'day', 'hour', 'engine_sounds', 'alarm_sounds']** |
 
 Se generan 6 tablas.<br>
 
