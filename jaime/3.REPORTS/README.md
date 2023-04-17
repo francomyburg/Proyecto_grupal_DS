@@ -48,12 +48,13 @@ El porcentaje de disminución que requiere New York en cada uno de sus Boroughs 
 | _staten_island_ | _8,5_ | _5_ | _-70_ |
 | _the_bronx_ | _9,7_ | _5_ | _-94_ |
 
-Se calcula el impacto ambiental positivo generado por la implementación de vehiculos electricos en una flota de transporte, a traves del desarrollo de dos indicadores:
+Se calcula el impacto ambiental positivo generado por la implementación de vehículos eléctricos en una flota de transporte, a través del desarrollo de los siguientes indicadores:
 
-****
-****
+**% avance a Meta OMS**: Indica el porcentaje de avance a la meta establecida por la OMS por número de vehículos eléctricos implementados en una flota de transporte en un año. 
 
-Se desarrolla en Streamlit 
+**% reducción ruidos registrados**: Indica el porcentaje de reducción de ruido registrados por número de vehículos eléctricos implementados en una flota de transporte en un año.
+
+La visualización de estos indicadores puede ser consultada en: *[calculadora ambiental]* 
 
 <hr>
 
