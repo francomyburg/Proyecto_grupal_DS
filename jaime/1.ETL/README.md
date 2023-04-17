@@ -49,8 +49,8 @@ Datos del medio ambiente.<br>
 | [Air pollution NYC](   https://data.cityofnewyork.us/resource/c3uy-2p5r.json) | Se   eliminan columnas **'unique_id', 'indicator_id',   'measure','geo_type_name','time_period', 'measure_info'** |
 | [Air pollution NYC](   https://data.cityofnewyork.us/resource/c3uy-2p5r.json) | Se   renombran categorías de la columna **'name'** |
 | [Air pollution NYC](   https://data.cityofnewyork.us/resource/c3uy-2p5r.json) | Se   crea columna nueva **'borough_name', 'id_borough'** |
-| [Traffic   Density/Volume NYC](ttps://data.cityofnewyork.us/resource/7ym2-wayt.json) | Se renombran   columnas **'Yr', 'M','D', 'Boro','date','Vol** |
-| [Traffic Density/Volume   NYC](ttps://data.cityofnewyork.us/resource/7ym2-wayt.json) | Se   crea columna **'date', 'borough_name', 'id_borough'** |
+| [Traffic   Density/Volume NYC](https://data.cityofnewyork.us/resource/7ym2-wayt.json) | Se renombran   columnas **'Yr', 'M','D', 'Boro','date','Vol** |
+| [Traffic Density/Volume   NYC](https://data.cityofnewyork.us/resource/7ym2-wayt.json) | Se   crea columna **'date', 'borough_name', 'id_borough'** |
 
 Se generan 6 tablas.<br>
 
