@@ -57,8 +57,15 @@ Datos del medio ambiente.<br>
 | [Noise   pollution NYC](      https://zenodo.org/record/3966543/files/annotations.csv?download=1) | se renombras columnas |
 | [Noise   pollution NYC](      https://zenodo.org/record/3966543/files/annotations.csv?download=1) | se selecciona **['borough',   'year', 'week', 'day', 'hour', 'engine_sounds', 'alarm_sounds']** |
 
-Se generan 6 tablas.<br>
+Se generan 5 tablas.<br>
 
+| **table** | **name** |
+|:---:|:---:|
+| table_0 | _TLC_Monthy_Report_NYC.csv_ |
+| table_1 | _tlc_yellow_cabs.parquet_ |
+| table_3 | _air_pollution.csv_ |
+| table_4 | _vehicular_volume.csv_ |
+| table_5 | _noise_pollution.csv_ |
 
 <hr>
 
