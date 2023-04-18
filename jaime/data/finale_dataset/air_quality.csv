@@ -1,4 +1,4 @@
-date,id_cd,cd_name,id_borough,borough,pm 2.5,air_quality
+date,id_cd,cd_name,id_borough,borough_name,pm 2.5,air_quality
 2008-12-01,101,Financial District (CD1),1,manhattan,15.74,aceptable
 2008-12-01,102,Greenwich Village and Soho (CD2),1,manhattan,15.21,aceptable
 2008-12-01,103,Lower East Side and Chinatown (CD3),1,manhattan,14.24,aceptable
@@ -11,18 +11,18 @@ date,id_cd,cd_name,id_borough,borough,pm 2.5,air_quality
 2008-12-01,110,Central Harlem (CD10),1,manhattan,14.53,aceptable
 2008-12-01,111,East Harlem (CD11),1,manhattan,14.15,aceptable
 2008-12-01,112,Washington Heights and Inwood (CD12),1,manhattan,15.14,aceptable
-2008-12-01,201,Mott Haven and Melrose (CD1),4,the_bronx,14.73,aceptable
-2008-12-01,202,Hunts Point and Longwood (CD2),4,the_bronx,14.48,aceptable
-2008-12-01,203,Morrisania and Crotona (CD3),4,the_bronx,14.56,aceptable
-2008-12-01,204,Highbridge and Concourse (CD4),4,the_bronx,15.31,aceptable
-2008-12-01,205,Fordham and University Heights (CD5),4,the_bronx,15.65,aceptable
-2008-12-01,206,Belmont and East Tremont (CD6),4,the_bronx,14.75,aceptable
-2008-12-01,207,Kingsbridge Heights and Bedford (CD7),4,the_bronx,14.97,aceptable
-2008-12-01,208,Riverdale and Fieldston (CD8),4,the_bronx,14.65,aceptable
-2008-12-01,209,Parkchester and Soundview (CD9),4,the_bronx,13.66,aceptable
-2008-12-01,210,Throgs Neck and Co-op City (CD10),4,the_bronx,13.04,aceptable
-2008-12-01,211,Morris Park and Bronxdale (CD11),4,the_bronx,13.55,aceptable
-2008-12-01,212,Williamsbridge and Baychester (CD12),4,the_bronx,13.65,aceptable
+2008-12-01,201,Mott Haven and Melrose (CD1),4,bronx,14.73,aceptable
+2008-12-01,202,Hunts Point and Longwood (CD2),4,bronx,14.48,aceptable
+2008-12-01,203,Morrisania and Crotona (CD3),4,bronx,14.56,aceptable
+2008-12-01,204,Highbridge and Concourse (CD4),4,bronx,15.31,aceptable
+2008-12-01,205,Fordham and University Heights (CD5),4,bronx,15.65,aceptable
+2008-12-01,206,Belmont and East Tremont (CD6),4,bronx,14.75,aceptable
+2008-12-01,207,Kingsbridge Heights and Bedford (CD7),4,bronx,14.97,aceptable
+2008-12-01,208,Riverdale and Fieldston (CD8),4,bronx,14.65,aceptable
+2008-12-01,209,Parkchester and Soundview (CD9),4,bronx,13.66,aceptable
+2008-12-01,210,Throgs Neck and Co-op City (CD10),4,bronx,13.04,aceptable
+2008-12-01,211,Morris Park and Bronxdale (CD11),4,bronx,13.55,aceptable
+2008-12-01,212,Williamsbridge and Baychester (CD12),4,bronx,13.65,aceptable
 2008-12-01,301,Greenpoint and Williamsburg (CD1),2,brooklyn,14.43,aceptable
 2008-12-01,302,Fort Greene and Brooklyn Heights (CD2),2,brooklyn,14.23,aceptable
 2008-12-01,303,Bedford Stuyvesant (CD3),2,brooklyn,13.67,aceptable
@@ -55,9 +55,9 @@ date,id_cd,cd_name,id_borough,borough,pm 2.5,air_quality
 2008-12-01,412,Jamaica and Hollis (CD12),3,queens,12.64,aceptable
 2008-12-01,413,Queens Village (CD13),3,queens,11.72,bueno
 2008-12-01,414,Rockaway and Broad Channel (CD14),3,queens,10.19,bueno
-2008-12-01,501,St. George and Stapleton (CD1),5,staten_island,12.09,aceptable
-2008-12-01,502,South Beach and Willowbrook (CD2),5,staten_island,11.77,bueno
-2008-12-01,503,Tottenville and Great Kills (CD3),5,staten_island,11.71,bueno
+2008-12-01,501,St. George and Stapleton (CD1),5,staten island,12.09,aceptable
+2008-12-01,502,South Beach and Willowbrook (CD2),5,staten island,11.77,bueno
+2008-12-01,503,Tottenville and Great Kills (CD3),5,staten island,11.71,bueno
 2009-12-01,101,Financial District (CD1),1,manhattan,12.28,aceptable
 2009-12-01,102,Greenwich Village and Soho (CD2),1,manhattan,11.47,bueno
 2009-12-01,103,Lower East Side and Chinatown (CD3),1,manhattan,10.39,bueno
@@ -70,18 +70,18 @@ date,id_cd,cd_name,id_borough,borough,pm 2.5,air_quality
 2009-12-01,110,Central Harlem (CD10),1,manhattan,11.46,bueno
 2009-12-01,111,East Harlem (CD11),1,manhattan,10.83,bueno
 2009-12-01,112,Washington Heights and Inwood (CD12),1,manhattan,12.24,aceptable
-2009-12-01,201,Mott Haven and Melrose (CD1),4,the_bronx,11.62,bueno
-2009-12-01,202,Hunts Point and Longwood (CD2),4,the_bronx,11.39,bueno
-2009-12-01,203,Morrisania and Crotona (CD3),4,the_bronx,11.65,bueno
-2009-12-01,204,Highbridge and Concourse (CD4),4,the_bronx,12.47,aceptable
-2009-12-01,205,Fordham and University Heights (CD5),4,the_bronx,12.84,aceptable
-2009-12-01,206,Belmont and East Tremont (CD6),4,the_bronx,11.81,bueno
-2009-12-01,207,Kingsbridge Heights and Bedford (CD7),4,the_bronx,12.02,aceptable
-2009-12-01,208,Riverdale and Fieldston (CD8),4,the_bronx,11.49,bueno
-2009-12-01,209,Parkchester and Soundview (CD9),4,the_bronx,10.59,bueno
-2009-12-01,210,Throgs Neck and Co-op City (CD10),4,the_bronx,9.77,bueno
-2009-12-01,211,Morris Park and Bronxdale (CD11),4,the_bronx,10.38,bueno
-2009-12-01,212,Williamsbridge and Baychester (CD12),4,the_bronx,10.29,bueno
+2009-12-01,201,Mott Haven and Melrose (CD1),4,bronx,11.62,bueno
+2009-12-01,202,Hunts Point and Longwood (CD2),4,bronx,11.39,bueno
+2009-12-01,203,Morrisania and Crotona (CD3),4,bronx,11.65,bueno
+2009-12-01,204,Highbridge and Concourse (CD4),4,bronx,12.47,aceptable
+2009-12-01,205,Fordham and University Heights (CD5),4,bronx,12.84,aceptable
+2009-12-01,206,Belmont and East Tremont (CD6),4,bronx,11.81,bueno
+2009-12-01,207,Kingsbridge Heights and Bedford (CD7),4,bronx,12.02,aceptable
+2009-12-01,208,Riverdale and Fieldston (CD8),4,bronx,11.49,bueno
+2009-12-01,209,Parkchester and Soundview (CD9),4,bronx,10.59,bueno
+2009-12-01,210,Throgs Neck and Co-op City (CD10),4,bronx,9.77,bueno
+2009-12-01,211,Morris Park and Bronxdale (CD11),4,bronx,10.38,bueno
+2009-12-01,212,Williamsbridge and Baychester (CD12),4,bronx,10.29,bueno
 2009-12-01,301,Greenpoint and Williamsburg (CD1),2,brooklyn,10.44,bueno
 2009-12-01,302,Fort Greene and Brooklyn Heights (CD2),2,brooklyn,10.62,bueno
 2009-12-01,303,Bedford Stuyvesant (CD3),2,brooklyn,10.11,bueno
@@ -114,9 +114,9 @@ date,id_cd,cd_name,id_borough,borough,pm 2.5,air_quality
 2009-12-01,412,Jamaica and Hollis (CD12),3,queens,9.65,bueno
 2009-12-01,413,Queens Village (CD13),3,queens,8.86,bueno
 2009-12-01,414,Rockaway and Broad Channel (CD14),3,queens,7.94,bueno
-2009-12-01,501,St. George and Stapleton (CD1),5,staten_island,9.15,bueno
-2009-12-01,502,South Beach and Willowbrook (CD2),5,staten_island,9.02,bueno
-2009-12-01,503,Tottenville and Great Kills (CD3),5,staten_island,9.07,bueno
+2009-12-01,501,St. George and Stapleton (CD1),5,staten island,9.15,bueno
+2009-12-01,502,South Beach and Willowbrook (CD2),5,staten island,9.02,bueno
+2009-12-01,503,Tottenville and Great Kills (CD3),5,staten island,9.07,bueno
 2010-12-01,101,Financial District (CD1),1,manhattan,14.81,aceptable
 2010-12-01,102,Greenwich Village and Soho (CD2),1,manhattan,14.64,aceptable
 2010-12-01,103,Lower East Side and Chinatown (CD3),1,manhattan,13.85,aceptable
@@ -129,18 +129,18 @@ date,id_cd,cd_name,id_borough,borough,pm 2.5,air_quality
 2010-12-01,110,Central Harlem (CD10),1,manhattan,14.3,aceptable
 2010-12-01,111,East Harlem (CD11),1,manhattan,14.14,aceptable
 2010-12-01,112,Washington Heights and Inwood (CD12),1,manhattan,14.63,aceptable
-2010-12-01,201,Mott Haven and Melrose (CD1),4,the_bronx,14.72,aceptable
-2010-12-01,202,Hunts Point and Longwood (CD2),4,the_bronx,14.51,aceptable
-2010-12-01,203,Morrisania and Crotona (CD3),4,the_bronx,14.29,aceptable
-2010-12-01,204,Highbridge and Concourse (CD4),4,the_bronx,14.91,aceptable
-2010-12-01,205,Fordham and University Heights (CD5),4,the_bronx,15.05,aceptable
-2010-12-01,206,Belmont and East Tremont (CD6),4,the_bronx,14.37,aceptable
-2010-12-01,207,Kingsbridge Heights and Bedford (CD7),4,the_bronx,14.3,aceptable
-2010-12-01,208,Riverdale and Fieldston (CD8),4,the_bronx,14.07,aceptable
-2010-12-01,209,Parkchester and Soundview (CD9),4,the_bronx,13.58,aceptable
-2010-12-01,210,Throgs Neck and Co-op City (CD10),4,the_bronx,13.1,aceptable
-2010-12-01,211,Morris Park and Bronxdale (CD11),4,the_bronx,13.36,aceptable
-2010-12-01,212,Williamsbridge and Baychester (CD12),4,the_bronx,13.35,aceptable
+2010-12-01,201,Mott Haven and Melrose (CD1),4,bronx,14.72,aceptable
+2010-12-01,202,Hunts Point and Longwood (CD2),4,bronx,14.51,aceptable
+2010-12-01,203,Morrisania and Crotona (CD3),4,bronx,14.29,aceptable
+2010-12-01,204,Highbridge and Concourse (CD4),4,bronx,14.91,aceptable
+2010-12-01,205,Fordham and University Heights (CD5),4,bronx,15.05,aceptable
+2010-12-01,206,Belmont and East Tremont (CD6),4,bronx,14.37,aceptable
+2010-12-01,207,Kingsbridge Heights and Bedford (CD7),4,bronx,14.3,aceptable
+2010-12-01,208,Riverdale and Fieldston (CD8),4,bronx,14.07,aceptable
+2010-12-01,209,Parkchester and Soundview (CD9),4,bronx,13.58,aceptable
+2010-12-01,210,Throgs Neck and Co-op City (CD10),4,bronx,13.1,aceptable
+2010-12-01,211,Morris Park and Bronxdale (CD11),4,bronx,13.36,aceptable
+2010-12-01,212,Williamsbridge and Baychester (CD12),4,bronx,13.35,aceptable
 2010-12-01,301,Greenpoint and Williamsburg (CD1),2,brooklyn,14.16,aceptable
 2010-12-01,302,Fort Greene and Brooklyn Heights (CD2),2,brooklyn,13.78,aceptable
 2010-12-01,303,Bedford Stuyvesant (CD3),2,brooklyn,12.91,aceptable
@@ -173,9 +173,9 @@ date,id_cd,cd_name,id_borough,borough,pm 2.5,air_quality
 2010-12-01,412,Jamaica and Hollis (CD12),3,queens,11.82,bueno
 2010-12-01,413,Queens Village (CD13),3,queens,11.43,bueno
 2010-12-01,414,Rockaway and Broad Channel (CD14),3,queens,10.28,bueno
-2010-12-01,501,St. George and Stapleton (CD1),5,staten_island,11.97,bueno
-2010-12-01,502,South Beach and Willowbrook (CD2),5,staten_island,11.65,bueno
-2010-12-01,503,Tottenville and Great Kills (CD3),5,staten_island,11.52,bueno
+2010-12-01,501,St. George and Stapleton (CD1),5,staten island,11.97,bueno
+2010-12-01,502,South Beach and Willowbrook (CD2),5,staten island,11.65,bueno
+2010-12-01,503,Tottenville and Great Kills (CD3),5,staten island,11.52,bueno
 2011-12-01,101,Financial District (CD1),1,manhattan,11.61,bueno
 2011-12-01,102,Greenwich Village and Soho (CD2),1,manhattan,11.18,bueno
 2011-12-01,103,Lower East Side and Chinatown (CD3),1,manhattan,10.32,bueno
@@ -188,18 +188,18 @@ date,id_cd,cd_name,id_borough,borough,pm 2.5,air_quality
 2011-12-01,110,Central Harlem (CD10),1,manhattan,10.81,bueno
 2011-12-01,111,East Harlem (CD11),1,manhattan,10.56,bueno
 2011-12-01,112,Washington Heights and Inwood (CD12),1,manhattan,10.96,bueno
-2011-12-01,201,Mott Haven and Melrose (CD1),4,the_bronx,11.17,bueno
-2011-12-01,202,Hunts Point and Longwood (CD2),4,the_bronx,10.92,bueno
-2011-12-01,203,Morrisania and Crotona (CD3),4,the_bronx,10.72,bueno
-2011-12-01,204,Highbridge and Concourse (CD4),4,the_bronx,11.42,bueno
-2011-12-01,205,Fordham and University Heights (CD5),4,the_bronx,11.43,bueno
-2011-12-01,206,Belmont and East Tremont (CD6),4,the_bronx,10.62,bueno
-2011-12-01,207,Kingsbridge Heights and Bedford (CD7),4,the_bronx,10.39,bueno
-2011-12-01,208,Riverdale and Fieldston (CD8),4,the_bronx,9.88,bueno
-2011-12-01,209,Parkchester and Soundview (CD9),4,the_bronx,9.9,bueno
-2011-12-01,210,Throgs Neck and Co-op City (CD10),4,the_bronx,9.12,bueno
-2011-12-01,211,Morris Park and Bronxdale (CD11),4,the_bronx,9.3,bueno
-2011-12-01,212,Williamsbridge and Baychester (CD12),4,the_bronx,8.91,bueno
+2011-12-01,201,Mott Haven and Melrose (CD1),4,bronx,11.17,bueno
+2011-12-01,202,Hunts Point and Longwood (CD2),4,bronx,10.92,bueno
+2011-12-01,203,Morrisania and Crotona (CD3),4,bronx,10.72,bueno
+2011-12-01,204,Highbridge and Concourse (CD4),4,bronx,11.42,bueno
+2011-12-01,205,Fordham and University Heights (CD5),4,bronx,11.43,bueno
+2011-12-01,206,Belmont and East Tremont (CD6),4,bronx,10.62,bueno
+2011-12-01,207,Kingsbridge Heights and Bedford (CD7),4,bronx,10.39,bueno
+2011-12-01,208,Riverdale and Fieldston (CD8),4,bronx,9.88,bueno
+2011-12-01,209,Parkchester and Soundview (CD9),4,bronx,9.9,bueno
+2011-12-01,210,Throgs Neck and Co-op City (CD10),4,bronx,9.12,bueno
+2011-12-01,211,Morris Park and Bronxdale (CD11),4,bronx,9.3,bueno
+2011-12-01,212,Williamsbridge and Baychester (CD12),4,bronx,8.91,bueno
 2011-12-01,301,Greenpoint and Williamsburg (CD1),2,brooklyn,10.5,bueno
 2011-12-01,302,Fort Greene and Brooklyn Heights (CD2),2,brooklyn,10.38,bueno
 2011-12-01,303,Bedford Stuyvesant (CD3),2,brooklyn,9.54,bueno
@@ -232,9 +232,9 @@ date,id_cd,cd_name,id_borough,borough,pm 2.5,air_quality
 2011-12-01,412,Jamaica and Hollis (CD12),3,queens,8.75,bueno
 2011-12-01,413,Queens Village (CD13),3,queens,8.3,bueno
 2011-12-01,414,Rockaway and Broad Channel (CD14),3,queens,6.72,bueno
-2011-12-01,501,St. George and Stapleton (CD1),5,staten_island,8.39,bueno
-2011-12-01,502,South Beach and Willowbrook (CD2),5,staten_island,8.22,bueno
-2011-12-01,503,Tottenville and Great Kills (CD3),5,staten_island,8.63,bueno
+2011-12-01,501,St. George and Stapleton (CD1),5,staten island,8.39,bueno
+2011-12-01,502,South Beach and Willowbrook (CD2),5,staten island,8.22,bueno
+2011-12-01,503,Tottenville and Great Kills (CD3),5,staten island,8.63,bueno
 2012-12-01,101,Financial District (CD1),1,manhattan,12.77,aceptable
 2012-12-01,102,Greenwich Village and Soho (CD2),1,manhattan,12.67,aceptable
 2012-12-01,103,Lower East Side and Chinatown (CD3),1,manhattan,11.59,bueno
@@ -247,18 +247,18 @@ date,id_cd,cd_name,id_borough,borough,pm 2.5,air_quality
 2012-12-01,110,Central Harlem (CD10),1,manhattan,12.09,aceptable
 2012-12-01,111,East Harlem (CD11),1,manhattan,11.98,bueno
 2012-12-01,112,Washington Heights and Inwood (CD12),1,manhattan,12.07,aceptable
-2012-12-01,201,Mott Haven and Melrose (CD1),4,the_bronx,12.26,aceptable
-2012-12-01,202,Hunts Point and Longwood (CD2),4,the_bronx,11.88,bueno
-2012-12-01,203,Morrisania and Crotona (CD3),4,the_bronx,11.7,bueno
-2012-12-01,204,Highbridge and Concourse (CD4),4,the_bronx,12.44,aceptable
-2012-12-01,205,Fordham and University Heights (CD5),4,the_bronx,12.5,aceptable
-2012-12-01,206,Belmont and East Tremont (CD6),4,the_bronx,11.71,bueno
-2012-12-01,207,Kingsbridge Heights and Bedford (CD7),4,the_bronx,11.71,bueno
-2012-12-01,208,Riverdale and Fieldston (CD8),4,the_bronx,11.32,bueno
-2012-12-01,209,Parkchester and Soundview (CD9),4,the_bronx,10.89,bueno
-2012-12-01,210,Throgs Neck and Co-op City (CD10),4,the_bronx,10.29,bueno
-2012-12-01,211,Morris Park and Bronxdale (CD11),4,the_bronx,10.62,bueno
-2012-12-01,212,Williamsbridge and Baychester (CD12),4,the_bronx,10.59,bueno
+2012-12-01,201,Mott Haven and Melrose (CD1),4,bronx,12.26,aceptable
+2012-12-01,202,Hunts Point and Longwood (CD2),4,bronx,11.88,bueno
+2012-12-01,203,Morrisania and Crotona (CD3),4,bronx,11.7,bueno
+2012-12-01,204,Highbridge and Concourse (CD4),4,bronx,12.44,aceptable
+2012-12-01,205,Fordham and University Heights (CD5),4,bronx,12.5,aceptable
+2012-12-01,206,Belmont and East Tremont (CD6),4,bronx,11.71,bueno
+2012-12-01,207,Kingsbridge Heights and Bedford (CD7),4,bronx,11.71,bueno
+2012-12-01,208,Riverdale and Fieldston (CD8),4,bronx,11.32,bueno
+2012-12-01,209,Parkchester and Soundview (CD9),4,bronx,10.89,bueno
+2012-12-01,210,Throgs Neck and Co-op City (CD10),4,bronx,10.29,bueno
+2012-12-01,211,Morris Park and Bronxdale (CD11),4,bronx,10.62,bueno
+2012-12-01,212,Williamsbridge and Baychester (CD12),4,bronx,10.59,bueno
 2012-12-01,301,Greenpoint and Williamsburg (CD1),2,brooklyn,11.72,bueno
 2012-12-01,302,Fort Greene and Brooklyn Heights (CD2),2,brooklyn,11.15,bueno
 2012-12-01,303,Bedford Stuyvesant (CD3),2,brooklyn,10.41,bueno
@@ -292,9 +292,9 @@ date,id_cd,cd_name,id_borough,borough,pm 2.5,air_quality
 2012-12-01,412,Jamaica and Hollis (CD12),3,queens,9.79,bueno
 2012-12-01,413,Queens Village (CD13),3,queens,9.29,bueno
 2012-12-01,414,Rockaway and Broad Channel (CD14),3,queens,9.23,bueno
-2012-12-01,501,St. George and Stapleton (CD1),5,staten_island,9.85,bueno
-2012-12-01,502,South Beach and Willowbrook (CD2),5,staten_island,9.76,bueno
-2012-12-01,503,Tottenville and Great Kills (CD3),5,staten_island,9.6,bueno
+2012-12-01,501,St. George and Stapleton (CD1),5,staten island,9.85,bueno
+2012-12-01,502,South Beach and Willowbrook (CD2),5,staten island,9.76,bueno
+2012-12-01,503,Tottenville and Great Kills (CD3),5,staten island,9.6,bueno
 2009-06-01,101,Financial District (CD1),1,manhattan,13.15,aceptable
 2009-06-01,102,Greenwich Village and Soho (CD2),1,manhattan,12.97,aceptable
 2009-06-01,103,Lower East Side and Chinatown (CD3),1,manhattan,12.04,aceptable
@@ -307,18 +307,18 @@ date,id_cd,cd_name,id_borough,borough,pm 2.5,air_quality
 2009-06-01,110,Central Harlem (CD10),1,manhattan,11.3,bueno
 2009-06-01,111,East Harlem (CD11),1,manhattan,11.48,bueno
 2009-06-01,112,Washington Heights and Inwood (CD12),1,manhattan,10.99,bueno
-2009-06-01,201,Mott Haven and Melrose (CD1),4,the_bronx,11.68,bueno
-2009-06-01,202,Hunts Point and Longwood (CD2),4,the_bronx,11.49,bueno
-2009-06-01,203,Morrisania and Crotona (CD3),4,the_bronx,11.02,bueno
-2009-06-01,204,Highbridge and Concourse (CD4),4,the_bronx,11.55,bueno
-2009-06-01,205,Fordham and University Heights (CD5),4,the_bronx,11.58,bueno
-2009-06-01,206,Belmont and East Tremont (CD6),4,the_bronx,11.05,bueno
-2009-06-01,207,Kingsbridge Heights and Bedford (CD7),4,the_bronx,10.92,bueno
-2009-06-01,208,Riverdale and Fieldston (CD8),4,the_bronx,10.38,bueno
-2009-06-01,209,Parkchester and Soundview (CD9),4,the_bronx,10.64,bueno
-2009-06-01,210,Throgs Neck and Co-op City (CD10),4,the_bronx,10.37,bueno
-2009-06-01,211,Morris Park and Bronxdale (CD11),4,the_bronx,10.34,bueno
-2009-06-01,212,Williamsbridge and Baychester (CD12),4,the_bronx,10.24,bueno
+2009-06-01,201,Mott Haven and Melrose (CD1),4,bronx,11.68,bueno
+2009-06-01,202,Hunts Point and Longwood (CD2),4,bronx,11.49,bueno
+2009-06-01,203,Morrisania and Crotona (CD3),4,bronx,11.02,bueno
+2009-06-01,204,Highbridge and Concourse (CD4),4,bronx,11.55,bueno
+2009-06-01,205,Fordham and University Heights (CD5),4,bronx,11.58,bueno
+2009-06-01,206,Belmont and East Tremont (CD6),4,bronx,11.05,bueno
+2009-06-01,207,Kingsbridge Heights and Bedford (CD7),4,bronx,10.92,bueno
+2009-06-01,208,Riverdale and Fieldston (CD8),4,bronx,10.38,bueno
+2009-06-01,209,Parkchester and Soundview (CD9),4,bronx,10.64,bueno
+2009-06-01,210,Throgs Neck and Co-op City (CD10),4,bronx,10.37,bueno
+2009-06-01,211,Morris Park and Bronxdale (CD11),4,bronx,10.34,bueno
+2009-06-01,212,Williamsbridge and Baychester (CD12),4,bronx,10.24,bueno
 2009-06-01,301,Greenpoint and Williamsburg (CD1),2,brooklyn,12.26,aceptable
 2009-06-01,302,Fort Greene and Brooklyn Heights (CD2),2,brooklyn,11.74,bueno
 2009-06-01,303,Bedford Stuyvesant (CD3),2,brooklyn,11.0,bueno
@@ -351,9 +351,9 @@ date,id_cd,cd_name,id_borough,borough,pm 2.5,air_quality
 2009-06-01,412,Jamaica and Hollis (CD12),3,queens,10.12,bueno
 2009-06-01,413,Queens Village (CD13),3,queens,9.67,bueno
 2009-06-01,414,Rockaway and Broad Channel (CD14),3,queens,9.6,bueno
-2009-06-01,501,St. George and Stapleton (CD1),5,staten_island,10.58,bueno
-2009-06-01,502,South Beach and Willowbrook (CD2),5,staten_island,10.56,bueno
-2009-06-01,503,Tottenville and Great Kills (CD3),5,staten_island,10.39,bueno
+2009-06-01,501,St. George and Stapleton (CD1),5,staten island,10.58,bueno
+2009-06-01,502,South Beach and Willowbrook (CD2),5,staten island,10.56,bueno
+2009-06-01,503,Tottenville and Great Kills (CD3),5,staten island,10.39,bueno
 2010-06-01,101,Financial District (CD1),1,manhattan,13.76,aceptable
 2010-06-01,102,Greenwich Village and Soho (CD2),1,manhattan,13.71,aceptable
 2010-06-01,103,Lower East Side and Chinatown (CD3),1,manhattan,12.94,aceptable
@@ -366,18 +366,18 @@ date,id_cd,cd_name,id_borough,borough,pm 2.5,air_quality
 2010-06-01,110,Central Harlem (CD10),1,manhattan,12.43,aceptable
 2010-06-01,111,East Harlem (CD11),1,manhattan,12.63,aceptable
 2010-06-01,112,Washington Heights and Inwood (CD12),1,manhattan,12.27,aceptable
-2010-06-01,201,Mott Haven and Melrose (CD1),4,the_bronx,12.96,aceptable
-2010-06-01,202,Hunts Point and Longwood (CD2),4,the_bronx,12.85,aceptable
-2010-06-01,203,Morrisania and Crotona (CD3),4,the_bronx,12.32,aceptable
-2010-06-01,204,Highbridge and Concourse (CD4),4,the_bronx,12.77,aceptable
-2010-06-01,205,Fordham and University Heights (CD5),4,the_bronx,12.82,aceptable
-2010-06-01,206,Belmont and East Tremont (CD6),4,the_bronx,12.39,aceptable
-2010-06-01,207,Kingsbridge Heights and Bedford (CD7),4,the_bronx,12.23,aceptable
-2010-06-01,208,Riverdale and Fieldston (CD8),4,the_bronx,11.83,bueno
-2010-06-01,209,Parkchester and Soundview (CD9),4,the_bronx,12.02,aceptable
-2010-06-01,210,Throgs Neck and Co-op City (CD10),4,the_bronx,11.84,bueno
-2010-06-01,211,Morris Park and Bronxdale (CD11),4,the_bronx,11.77,bueno
-2010-06-01,212,Williamsbridge and Baychester (CD12),4,the_bronx,11.75,bueno
+2010-06-01,201,Mott Haven and Melrose (CD1),4,bronx,12.96,aceptable
+2010-06-01,202,Hunts Point and Longwood (CD2),4,bronx,12.85,aceptable
+2010-06-01,203,Morrisania and Crotona (CD3),4,bronx,12.32,aceptable
+2010-06-01,204,Highbridge and Concourse (CD4),4,bronx,12.77,aceptable
+2010-06-01,205,Fordham and University Heights (CD5),4,bronx,12.82,aceptable
+2010-06-01,206,Belmont and East Tremont (CD6),4,bronx,12.39,aceptable
+2010-06-01,207,Kingsbridge Heights and Bedford (CD7),4,bronx,12.23,aceptable
+2010-06-01,208,Riverdale and Fieldston (CD8),4,bronx,11.83,bueno
+2010-06-01,209,Parkchester and Soundview (CD9),4,bronx,12.02,aceptable
+2010-06-01,210,Throgs Neck and Co-op City (CD10),4,bronx,11.84,bueno
+2010-06-01,211,Morris Park and Bronxdale (CD11),4,bronx,11.77,bueno
+2010-06-01,212,Williamsbridge and Baychester (CD12),4,bronx,11.75,bueno
 2010-06-01,301,Greenpoint and Williamsburg (CD1),2,brooklyn,13.41,aceptable
 2010-06-01,302,Fort Greene and Brooklyn Heights (CD2),2,brooklyn,12.72,aceptable
 2010-06-01,303,Bedford Stuyvesant (CD3),2,brooklyn,12.04,aceptable
@@ -409,9 +409,9 @@ date,id_cd,cd_name,id_borough,borough,pm 2.5,air_quality
 2010-06-01,412,Jamaica and Hollis (CD12),3,queens,11.38,bueno
 2010-06-01,413,Queens Village (CD13),3,queens,10.99,bueno
 2010-06-01,414,Rockaway and Broad Channel (CD14),3,queens,10.74,bueno
-2010-06-01,501,St. George and Stapleton (CD1),5,staten_island,11.57,bueno
-2010-06-01,502,South Beach and Willowbrook (CD2),5,staten_island,11.51,bueno
-2010-06-01,503,Tottenville and Great Kills (CD3),5,staten_island,11.27,bueno
+2010-06-01,501,St. George and Stapleton (CD1),5,staten island,11.57,bueno
+2010-06-01,502,South Beach and Willowbrook (CD2),5,staten island,11.51,bueno
+2010-06-01,503,Tottenville and Great Kills (CD3),5,staten island,11.27,bueno
 2011-06-01,101,Financial District (CD1),1,manhattan,13.22,aceptable
 2011-06-01,102,Greenwich Village and Soho (CD2),1,manhattan,13.16,aceptable
 2011-06-01,103,Lower East Side and Chinatown (CD3),1,manhattan,12.42,aceptable
@@ -424,18 +424,18 @@ date,id_cd,cd_name,id_borough,borough,pm 2.5,air_quality
 2011-06-01,110,Central Harlem (CD10),1,manhattan,11.88,bueno
 2011-06-01,111,East Harlem (CD11),1,manhattan,12.1,aceptable
 2011-06-01,112,Washington Heights and Inwood (CD12),1,manhattan,11.72,bueno
-2011-06-01,201,Mott Haven and Melrose (CD1),4,the_bronx,12.46,aceptable
-2011-06-01,202,Hunts Point and Longwood (CD2),4,the_bronx,12.38,aceptable
-2011-06-01,203,Morrisania and Crotona (CD3),4,the_bronx,11.82,bueno
-2011-06-01,204,Highbridge and Concourse (CD4),4,the_bronx,12.24,aceptable
-2011-06-01,205,Fordham and University Heights (CD5),4,the_bronx,12.3,aceptable
-2011-06-01,206,Belmont and East Tremont (CD6),4,the_bronx,11.9,bueno
-2011-06-01,207,Kingsbridge Heights and Bedford (CD7),4,the_bronx,11.72,bueno
-2011-06-01,208,Riverdale and Fieldston (CD8),4,the_bronx,11.29,bueno
-2011-06-01,209,Parkchester and Soundview (CD9),4,the_bronx,11.58,bueno
-2011-06-01,210,Throgs Neck and Co-op City (CD10),4,the_bronx,11.45,bueno
-2011-06-01,211,Morris Park and Bronxdale (CD11),4,the_bronx,11.32,bueno
-2011-06-01,212,Williamsbridge and Baychester (CD12),4,the_bronx,11.28,bueno
+2011-06-01,201,Mott Haven and Melrose (CD1),4,bronx,12.46,aceptable
+2011-06-01,202,Hunts Point and Longwood (CD2),4,bronx,12.38,aceptable
+2011-06-01,203,Morrisania and Crotona (CD3),4,bronx,11.82,bueno
+2011-06-01,204,Highbridge and Concourse (CD4),4,bronx,12.24,aceptable
+2011-06-01,205,Fordham and University Heights (CD5),4,bronx,12.3,aceptable
+2011-06-01,206,Belmont and East Tremont (CD6),4,bronx,11.9,bueno
+2011-06-01,207,Kingsbridge Heights and Bedford (CD7),4,bronx,11.72,bueno
+2011-06-01,208,Riverdale and Fieldston (CD8),4,bronx,11.29,bueno
+2011-06-01,209,Parkchester and Soundview (CD9),4,bronx,11.58,bueno
+2011-06-01,210,Throgs Neck and Co-op City (CD10),4,bronx,11.45,bueno
+2011-06-01,211,Morris Park and Bronxdale (CD11),4,bronx,11.32,bueno
+2011-06-01,212,Williamsbridge and Baychester (CD12),4,bronx,11.28,bueno
 2011-06-01,301,Greenpoint and Williamsburg (CD1),2,brooklyn,12.93,aceptable
 2011-06-01,302,Fort Greene and Brooklyn Heights (CD2),2,brooklyn,12.23,aceptable
 2011-06-01,303,Bedford Stuyvesant (CD3),2,brooklyn,11.6,bueno
@@ -468,9 +468,9 @@ date,id_cd,cd_name,id_borough,borough,pm 2.5,air_quality
 2011-06-01,412,Jamaica and Hollis (CD12),3,queens,11.15,bueno
 2011-06-01,413,Queens Village (CD13),3,queens,10.81,bueno
 2011-06-01,414,Rockaway and Broad Channel (CD14),3,queens,10.59,bueno
-2011-06-01,501,St. George and Stapleton (CD1),5,staten_island,11.16,bueno
-2011-06-01,502,South Beach and Willowbrook (CD2),5,staten_island,11.15,bueno
-2011-06-01,503,Tottenville and Great Kills (CD3),5,staten_island,10.99,bueno
+2011-06-01,501,St. George and Stapleton (CD1),5,staten island,11.16,bueno
+2011-06-01,502,South Beach and Willowbrook (CD2),5,staten island,11.15,bueno
+2011-06-01,503,Tottenville and Great Kills (CD3),5,staten island,10.99,bueno
 2012-06-01,101,Financial District (CD1),1,manhattan,12.25,aceptable
 2012-06-01,102,Greenwich Village and Soho (CD2),1,manhattan,12.15,aceptable
 2012-06-01,103,Lower East Side and Chinatown (CD3),1,manhattan,11.35,bueno
@@ -483,18 +483,18 @@ date,id_cd,cd_name,id_borough,borough,pm 2.5,air_quality
 2012-06-01,110,Central Harlem (CD10),1,manhattan,10.8,bueno
 2012-06-01,111,East Harlem (CD11),1,manhattan,10.99,bueno
 2012-06-01,112,Washington Heights and Inwood (CD12),1,manhattan,10.61,bueno
-2012-06-01,201,Mott Haven and Melrose (CD1),4,the_bronx,11.32,bueno
-2012-06-01,202,Hunts Point and Longwood (CD2),4,the_bronx,11.22,bueno
-2012-06-01,203,Morrisania and Crotona (CD3),4,the_bronx,10.7,bueno
-2012-06-01,204,Highbridge and Concourse (CD4),4,the_bronx,11.14,bueno
-2012-06-01,205,Fordham and University Heights (CD5),4,the_bronx,11.2,bueno
-2012-06-01,206,Belmont and East Tremont (CD6),4,the_bronx,10.77,bueno
-2012-06-01,207,Kingsbridge Heights and Bedford (CD7),4,the_bronx,10.62,bueno
-2012-06-01,208,Riverdale and Fieldston (CD8),4,the_bronx,10.14,bueno
-2012-06-01,209,Parkchester and Soundview (CD9),4,the_bronx,10.42,bueno
-2012-06-01,210,Throgs Neck and Co-op City (CD10),4,the_bronx,10.27,bueno
-2012-06-01,211,Morris Park and Bronxdale (CD11),4,the_bronx,10.17,bueno
-2012-06-01,212,Williamsbridge and Baychester (CD12),4,the_bronx,10.12,bueno
+2012-06-01,201,Mott Haven and Melrose (CD1),4,bronx,11.32,bueno
+2012-06-01,202,Hunts Point and Longwood (CD2),4,bronx,11.22,bueno
+2012-06-01,203,Morrisania and Crotona (CD3),4,bronx,10.7,bueno
+2012-06-01,204,Highbridge and Concourse (CD4),4,bronx,11.14,bueno
+2012-06-01,205,Fordham and University Heights (CD5),4,bronx,11.2,bueno
+2012-06-01,206,Belmont and East Tremont (CD6),4,bronx,10.77,bueno
+2012-06-01,207,Kingsbridge Heights and Bedford (CD7),4,bronx,10.62,bueno
+2012-06-01,208,Riverdale and Fieldston (CD8),4,bronx,10.14,bueno
+2012-06-01,209,Parkchester and Soundview (CD9),4,bronx,10.42,bueno
+2012-06-01,210,Throgs Neck and Co-op City (CD10),4,bronx,10.27,bueno
+2012-06-01,211,Morris Park and Bronxdale (CD11),4,bronx,10.17,bueno
+2012-06-01,212,Williamsbridge and Baychester (CD12),4,bronx,10.12,bueno
 2012-06-01,301,Greenpoint and Williamsburg (CD1),2,brooklyn,11.78,bueno
 2012-06-01,302,Fort Greene and Brooklyn Heights (CD2),2,brooklyn,11.12,bueno
 2012-06-01,303,Bedford Stuyvesant (CD3),2,brooklyn,10.47,bueno
@@ -527,9 +527,9 @@ date,id_cd,cd_name,id_borough,borough,pm 2.5,air_quality
 2012-06-01,412,Jamaica and Hollis (CD12),3,queens,9.98,bueno
 2012-06-01,413,Queens Village (CD13),3,queens,9.63,bueno
 2012-06-01,414,Rockaway and Broad Channel (CD14),3,queens,9.41,bueno
-2012-06-01,501,St. George and Stapleton (CD1),5,staten_island,9.98,bueno
-2012-06-01,502,South Beach and Willowbrook (CD2),5,staten_island,9.97,bueno
-2012-06-01,503,Tottenville and Great Kills (CD3),5,staten_island,9.8,bueno
+2012-06-01,501,St. George and Stapleton (CD1),5,staten island,9.98,bueno
+2012-06-01,502,South Beach and Willowbrook (CD2),5,staten island,9.97,bueno
+2012-06-01,503,Tottenville and Great Kills (CD3),5,staten island,9.8,bueno
 2013-06-01,101,Financial District (CD1),1,manhattan,12.22,aceptable
 2013-06-01,102,Greenwich Village and Soho (CD2),1,manhattan,12.09,aceptable
 2013-06-01,103,Lower East Side and Chinatown (CD3),1,manhattan,11.25,bueno
@@ -542,18 +542,18 @@ date,id_cd,cd_name,id_borough,borough,pm 2.5,air_quality
 2013-06-01,110,Central Harlem (CD10),1,manhattan,10.71,bueno
 2013-06-01,111,East Harlem (CD11),1,manhattan,10.9,bueno
 2013-06-01,112,Washington Heights and Inwood (CD12),1,manhattan,10.49,bueno
-2013-06-01,201,Mott Haven and Melrose (CD1),4,the_bronx,11.21,bueno
-2013-06-01,202,Hunts Point and Longwood (CD2),4,the_bronx,11.13,bueno
-2013-06-01,203,Morrisania and Crotona (CD3),4,the_bronx,10.62,bueno
-2013-06-01,204,Highbridge and Concourse (CD4),4,the_bronx,11.06,bueno
-2013-06-01,205,Fordham and University Heights (CD5),4,the_bronx,11.13,bueno
-2013-06-01,206,Belmont and East Tremont (CD6),4,the_bronx,10.7,bueno
-2013-06-01,207,Kingsbridge Heights and Bedford (CD7),4,the_bronx,10.56,bueno
-2013-06-01,208,Riverdale and Fieldston (CD8),4,the_bronx,10.01,bueno
-2013-06-01,209,Parkchester and Soundview (CD9),4,the_bronx,10.37,bueno
-2013-06-01,210,Throgs Neck and Co-op City (CD10),4,the_bronx,10.25,bueno
-2013-06-01,211,Morris Park and Bronxdale (CD11),4,the_bronx,10.12,bueno
-2013-06-01,212,Williamsbridge and Baychester (CD12),4,the_bronx,10.06,bueno
+2013-06-01,201,Mott Haven and Melrose (CD1),4,bronx,11.21,bueno
+2013-06-01,202,Hunts Point and Longwood (CD2),4,bronx,11.13,bueno
+2013-06-01,203,Morrisania and Crotona (CD3),4,bronx,10.62,bueno
+2013-06-01,204,Highbridge and Concourse (CD4),4,bronx,11.06,bueno
+2013-06-01,205,Fordham and University Heights (CD5),4,bronx,11.13,bueno
+2013-06-01,206,Belmont and East Tremont (CD6),4,bronx,10.7,bueno
+2013-06-01,207,Kingsbridge Heights and Bedford (CD7),4,bronx,10.56,bueno
+2013-06-01,208,Riverdale and Fieldston (CD8),4,bronx,10.01,bueno
+2013-06-01,209,Parkchester and Soundview (CD9),4,bronx,10.37,bueno
+2013-06-01,210,Throgs Neck and Co-op City (CD10),4,bronx,10.25,bueno
+2013-06-01,211,Morris Park and Bronxdale (CD11),4,bronx,10.12,bueno
+2013-06-01,212,Williamsbridge and Baychester (CD12),4,bronx,10.06,bueno
 2013-06-01,301,Greenpoint and Williamsburg (CD1),2,brooklyn,11.64,bueno
 2013-06-01,302,Fort Greene and Brooklyn Heights (CD2),2,brooklyn,10.98,bueno
 2013-06-01,303,Bedford Stuyvesant (CD3),2,brooklyn,10.37,bueno
@@ -586,9 +586,9 @@ date,id_cd,cd_name,id_borough,borough,pm 2.5,air_quality
 2013-06-01,412,Jamaica and Hollis (CD12),3,queens,10.07,bueno
 2013-06-01,413,Queens Village (CD13),3,queens,9.77,bueno
 2013-06-01,414,Rockaway and Broad Channel (CD14),3,queens,9.44,bueno
-2013-06-01,501,St. George and Stapleton (CD1),5,staten_island,9.47,bueno
-2013-06-01,502,South Beach and Willowbrook (CD2),5,staten_island,9.41,bueno
-2013-06-01,503,Tottenville and Great Kills (CD3),5,staten_island,9.13,bueno
+2013-06-01,501,St. George and Stapleton (CD1),5,staten island,9.47,bueno
+2013-06-01,502,South Beach and Willowbrook (CD2),5,staten island,9.41,bueno
+2013-06-01,503,Tottenville and Great Kills (CD3),5,staten island,9.13,bueno
 2008-12-01,101,Financial District (CD1),1,manhattan,13.05,aceptable
 2008-12-01,102,Greenwich Village and Soho (CD2),1,manhattan,12.82,aceptable
 2008-12-01,103,Lower East Side and Chinatown (CD3),1,manhattan,11.85,bueno
@@ -601,18 +601,18 @@ date,id_cd,cd_name,id_borough,borough,pm 2.5,air_quality
 2008-12-01,110,Central Harlem (CD10),1,manhattan,11.55,bueno
 2008-12-01,111,East Harlem (CD11),1,manhattan,11.54,bueno
 2008-12-01,112,Washington Heights and Inwood (CD12),1,manhattan,11.55,bueno
-2008-12-01,201,Mott Haven and Melrose (CD1),4,the_bronx,11.86,bueno
-2008-12-01,202,Hunts Point and Longwood (CD2),4,the_bronx,11.64,bueno
-2008-12-01,203,Morrisania and Crotona (CD3),4,the_bronx,11.37,bueno
-2008-12-01,204,Highbridge and Concourse (CD4),4,the_bronx,11.96,bueno
-2008-12-01,205,Fordham and University Heights (CD5),4,the_bronx,12.1,aceptable
-2008-12-01,206,Belmont and East Tremont (CD6),4,the_bronx,11.46,bueno
-2008-12-01,207,Kingsbridge Heights and Bedford (CD7),4,the_bronx,11.47,bueno
-2008-12-01,208,Riverdale and Fieldston (CD8),4,the_bronx,11.02,bueno
-2008-12-01,209,Parkchester and Soundview (CD9),4,the_bronx,10.82,bueno
-2008-12-01,210,Throgs Neck and Co-op City (CD10),4,the_bronx,10.47,bueno
-2008-12-01,211,Morris Park and Bronxdale (CD11),4,the_bronx,10.63,bueno
-2008-12-01,212,Williamsbridge and Baychester (CD12),4,the_bronx,10.64,bueno
+2008-12-01,201,Mott Haven and Melrose (CD1),4,bronx,11.86,bueno
+2008-12-01,202,Hunts Point and Longwood (CD2),4,bronx,11.64,bueno
+2008-12-01,203,Morrisania and Crotona (CD3),4,bronx,11.37,bueno
+2008-12-01,204,Highbridge and Concourse (CD4),4,bronx,11.96,bueno
+2008-12-01,205,Fordham and University Heights (CD5),4,bronx,12.1,aceptable
+2008-12-01,206,Belmont and East Tremont (CD6),4,bronx,11.46,bueno
+2008-12-01,207,Kingsbridge Heights and Bedford (CD7),4,bronx,11.47,bueno
+2008-12-01,208,Riverdale and Fieldston (CD8),4,bronx,11.02,bueno
+2008-12-01,209,Parkchester and Soundview (CD9),4,bronx,10.82,bueno
+2008-12-01,210,Throgs Neck and Co-op City (CD10),4,bronx,10.47,bueno
+2008-12-01,211,Morris Park and Bronxdale (CD11),4,bronx,10.63,bueno
+2008-12-01,212,Williamsbridge and Baychester (CD12),4,bronx,10.64,bueno
 2008-12-01,301,Greenpoint and Williamsburg (CD1),2,brooklyn,12.03,aceptable
 2008-12-01,302,Fort Greene and Brooklyn Heights (CD2),2,brooklyn,11.55,bueno
 2008-12-01,303,Bedford Stuyvesant (CD3),2,brooklyn,10.84,bueno
@@ -645,9 +645,9 @@ date,id_cd,cd_name,id_borough,borough,pm 2.5,air_quality
 2008-12-01,412,Jamaica and Hollis (CD12),3,queens,9.92,bueno
 2008-12-01,413,Queens Village (CD13),3,queens,9.37,bueno
 2008-12-01,414,Rockaway and Broad Channel (CD14),3,queens,8.75,bueno
-2008-12-01,501,St. George and Stapleton (CD1),5,staten_island,9.99,bueno
-2008-12-01,502,South Beach and Willowbrook (CD2),5,staten_island,9.85,bueno
-2008-12-01,503,Tottenville and Great Kills (CD3),5,staten_island,9.67,bueno
+2008-12-01,501,St. George and Stapleton (CD1),5,staten island,9.99,bueno
+2008-12-01,502,South Beach and Willowbrook (CD2),5,staten island,9.85,bueno
+2008-12-01,503,Tottenville and Great Kills (CD3),5,staten island,9.67,bueno
 2009-12-01,101,Financial District (CD1),1,manhattan,12.14,aceptable
 2009-12-01,102,Greenwich Village and Soho (CD2),1,manhattan,11.63,bueno
 2009-12-01,103,Lower East Side and Chinatown (CD3),1,manhattan,10.62,bueno
@@ -660,18 +660,18 @@ date,id_cd,cd_name,id_borough,borough,pm 2.5,air_quality
 2009-12-01,110,Central Harlem (CD10),1,manhattan,10.59,bueno
 2009-12-01,111,East Harlem (CD11),1,manhattan,10.41,bueno
 2009-12-01,112,Washington Heights and Inwood (CD12),1,manhattan,10.74,bueno
-2009-12-01,201,Mott Haven and Melrose (CD1),4,the_bronx,10.88,bueno
-2009-12-01,202,Hunts Point and Longwood (CD2),4,the_bronx,10.71,bueno
-2009-12-01,203,Morrisania and Crotona (CD3),4,the_bronx,10.57,bueno
-2009-12-01,204,Highbridge and Concourse (CD4),4,the_bronx,11.19,bueno
-2009-12-01,205,Fordham and University Heights (CD5),4,the_bronx,11.4,bueno
-2009-12-01,206,Belmont and East Tremont (CD6),4,the_bronx,10.67,bueno
-2009-12-01,207,Kingsbridge Heights and Bedford (CD7),4,the_bronx,10.7,bueno
-2009-12-01,208,Riverdale and Fieldston (CD8),4,the_bronx,10.09,bueno
-2009-12-01,209,Parkchester and Soundview (CD9),4,the_bronx,9.96,bueno
-2009-12-01,210,Throgs Neck and Co-op City (CD10),4,the_bronx,9.5,bueno
-2009-12-01,211,Morris Park and Bronxdale (CD11),4,the_bronx,9.71,bueno
-2009-12-01,212,Williamsbridge and Baychester (CD12),4,the_bronx,9.6,bueno
+2009-12-01,201,Mott Haven and Melrose (CD1),4,bronx,10.88,bueno
+2009-12-01,202,Hunts Point and Longwood (CD2),4,bronx,10.71,bueno
+2009-12-01,203,Morrisania and Crotona (CD3),4,bronx,10.57,bueno
+2009-12-01,204,Highbridge and Concourse (CD4),4,bronx,11.19,bueno
+2009-12-01,205,Fordham and University Heights (CD5),4,bronx,11.4,bueno
+2009-12-01,206,Belmont and East Tremont (CD6),4,bronx,10.67,bueno
+2009-12-01,207,Kingsbridge Heights and Bedford (CD7),4,bronx,10.7,bueno
+2009-12-01,208,Riverdale and Fieldston (CD8),4,bronx,10.09,bueno
+2009-12-01,209,Parkchester and Soundview (CD9),4,bronx,9.96,bueno
+2009-12-01,210,Throgs Neck and Co-op City (CD10),4,bronx,9.5,bueno
+2009-12-01,211,Morris Park and Bronxdale (CD11),4,bronx,9.71,bueno
+2009-12-01,212,Williamsbridge and Baychester (CD12),4,bronx,9.6,bueno
 2009-12-01,301,Greenpoint and Williamsburg (CD1),2,brooklyn,10.73,bueno
 2009-12-01,302,Fort Greene and Brooklyn Heights (CD2),2,brooklyn,10.52,bueno
 2009-12-01,303,Bedford Stuyvesant (CD3),2,brooklyn,9.9,bueno
@@ -704,9 +704,9 @@ date,id_cd,cd_name,id_borough,borough,pm 2.5,air_quality
 2009-12-01,412,Jamaica and Hollis (CD12),3,queens,9.22,bueno
 2009-12-01,413,Queens Village (CD13),3,queens,8.66,bueno
 2009-12-01,414,Rockaway and Broad Channel (CD14),3,queens,7.98,bueno
-2009-12-01,501,St. George and Stapleton (CD1),5,staten_island,8.87,bueno
-2009-12-01,502,South Beach and Willowbrook (CD2),5,staten_island,8.8,bueno
-2009-12-01,503,Tottenville and Great Kills (CD3),5,staten_island,8.75,bueno
+2009-12-01,501,St. George and Stapleton (CD1),5,staten island,8.87,bueno
+2009-12-01,502,South Beach and Willowbrook (CD2),5,staten island,8.8,bueno
+2009-12-01,503,Tottenville and Great Kills (CD3),5,staten island,8.75,bueno
 2010-12-01,101,Financial District (CD1),1,manhattan,12.27,aceptable
 2010-12-01,102,Greenwich Village and Soho (CD2),1,manhattan,12.08,aceptable
 2010-12-01,103,Lower East Side and Chinatown (CD3),1,manhattan,11.26,bueno
@@ -719,18 +719,18 @@ date,id_cd,cd_name,id_borough,borough,pm 2.5,air_quality
 2010-12-01,110,Central Harlem (CD10),1,manhattan,11.08,bueno
 2010-12-01,111,East Harlem (CD11),1,manhattan,11.12,bueno
 2010-12-01,112,Washington Heights and Inwood (CD12),1,manhattan,11.13,bueno
-2010-12-01,201,Mott Haven and Melrose (CD1),4,the_bronx,11.58,bueno
-2010-12-01,202,Hunts Point and Longwood (CD2),4,the_bronx,11.47,bueno
-2010-12-01,203,Morrisania and Crotona (CD3),4,the_bronx,11.09,bueno
-2010-12-01,204,Highbridge and Concourse (CD4),4,the_bronx,11.58,bueno
-2010-12-01,205,Fordham and University Heights (CD5),4,the_bronx,11.71,bueno
-2010-12-01,206,Belmont and East Tremont (CD6),4,the_bronx,11.18,bueno
-2010-12-01,207,Kingsbridge Heights and Bedford (CD7),4,the_bronx,11.08,bueno
-2010-12-01,208,Riverdale and Fieldston (CD8),4,the_bronx,10.65,bueno
-2010-12-01,209,Parkchester and Soundview (CD9),4,the_bronx,10.68,bueno
-2010-12-01,210,Throgs Neck and Co-op City (CD10),4,the_bronx,10.42,bueno
-2010-12-01,211,Morris Park and Bronxdale (CD11),4,the_bronx,10.45,bueno
-2010-12-01,212,Williamsbridge and Baychester (CD12),4,the_bronx,10.41,bueno
+2010-12-01,201,Mott Haven and Melrose (CD1),4,bronx,11.58,bueno
+2010-12-01,202,Hunts Point and Longwood (CD2),4,bronx,11.47,bueno
+2010-12-01,203,Morrisania and Crotona (CD3),4,bronx,11.09,bueno
+2010-12-01,204,Highbridge and Concourse (CD4),4,bronx,11.58,bueno
+2010-12-01,205,Fordham and University Heights (CD5),4,bronx,11.71,bueno
+2010-12-01,206,Belmont and East Tremont (CD6),4,bronx,11.18,bueno
+2010-12-01,207,Kingsbridge Heights and Bedford (CD7),4,bronx,11.08,bueno
+2010-12-01,208,Riverdale and Fieldston (CD8),4,bronx,10.65,bueno
+2010-12-01,209,Parkchester and Soundview (CD9),4,bronx,10.68,bueno
+2010-12-01,210,Throgs Neck and Co-op City (CD10),4,bronx,10.42,bueno
+2010-12-01,211,Morris Park and Bronxdale (CD11),4,bronx,10.45,bueno
+2010-12-01,212,Williamsbridge and Baychester (CD12),4,bronx,10.41,bueno
 2010-12-01,301,Greenpoint and Williamsburg (CD1),2,brooklyn,11.6,bueno
 2010-12-01,302,Fort Greene and Brooklyn Heights (CD2),2,brooklyn,11.12,bueno
 2010-12-01,303,Bedford Stuyvesant (CD3),2,brooklyn,10.38,bueno
@@ -763,9 +763,9 @@ date,id_cd,cd_name,id_borough,borough,pm 2.5,air_quality
 2010-12-01,412,Jamaica and Hollis (CD12),3,queens,9.54,bueno
 2010-12-01,413,Queens Village (CD13),3,queens,9.17,bueno
 2010-12-01,414,Rockaway and Broad Channel (CD14),3,queens,8.44,bueno
-2010-12-01,501,St. George and Stapleton (CD1),5,staten_island,9.58,bueno
-2010-12-01,502,South Beach and Willowbrook (CD2),5,staten_island,9.46,bueno
-2010-12-01,503,Tottenville and Great Kills (CD3),5,staten_island,9.33,bueno
+2010-12-01,501,St. George and Stapleton (CD1),5,staten island,9.58,bueno
+2010-12-01,502,South Beach and Willowbrook (CD2),5,staten island,9.46,bueno
+2010-12-01,503,Tottenville and Great Kills (CD3),5,staten island,9.33,bueno
 2011-12-01,101,Financial District (CD1),1,manhattan,11.3,bueno
 2011-12-01,102,Greenwich Village and Soho (CD2),1,manhattan,11.05,bueno
 2011-12-01,103,Lower East Side and Chinatown (CD3),1,manhattan,10.14,bueno
@@ -778,18 +778,18 @@ date,id_cd,cd_name,id_borough,borough,pm 2.5,air_quality
 2011-12-01,110,Central Harlem (CD10),1,manhattan,9.95,bueno
 2011-12-01,111,East Harlem (CD11),1,manhattan,9.98,bueno
 2011-12-01,112,Washington Heights and Inwood (CD12),1,manhattan,9.88,bueno
-2011-12-01,201,Mott Haven and Melrose (CD1),4,the_bronx,10.38,bueno
-2011-12-01,202,Hunts Point and Longwood (CD2),4,the_bronx,10.25,bueno
-2011-12-01,203,Morrisania and Crotona (CD3),4,the_bronx,9.88,bueno
-2011-12-01,204,Highbridge and Concourse (CD4),4,the_bronx,10.4,bueno
-2011-12-01,205,Fordham and University Heights (CD5),4,the_bronx,10.5,bueno
-2011-12-01,206,Belmont and East Tremont (CD6),4,the_bronx,9.93,bueno
-2011-12-01,207,Kingsbridge Heights and Bedford (CD7),4,the_bronx,9.82,bueno
-2011-12-01,208,Riverdale and Fieldston (CD8),4,the_bronx,9.27,bueno
-2011-12-01,209,Parkchester and Soundview (CD9),4,the_bronx,9.45,bueno
-2011-12-01,210,Throgs Neck and Co-op City (CD10),4,the_bronx,9.13,bueno
-2011-12-01,211,Morris Park and Bronxdale (CD11),4,the_bronx,9.15,bueno
-2011-12-01,212,Williamsbridge and Baychester (CD12),4,the_bronx,9.03,bueno
+2011-12-01,201,Mott Haven and Melrose (CD1),4,bronx,10.38,bueno
+2011-12-01,202,Hunts Point and Longwood (CD2),4,bronx,10.25,bueno
+2011-12-01,203,Morrisania and Crotona (CD3),4,bronx,9.88,bueno
+2011-12-01,204,Highbridge and Concourse (CD4),4,bronx,10.4,bueno
+2011-12-01,205,Fordham and University Heights (CD5),4,bronx,10.5,bueno
+2011-12-01,206,Belmont and East Tremont (CD6),4,bronx,9.93,bueno
+2011-12-01,207,Kingsbridge Heights and Bedford (CD7),4,bronx,9.82,bueno
+2011-12-01,208,Riverdale and Fieldston (CD8),4,bronx,9.27,bueno
+2011-12-01,209,Parkchester and Soundview (CD9),4,bronx,9.45,bueno
+2011-12-01,210,Throgs Neck and Co-op City (CD10),4,bronx,9.13,bueno
+2011-12-01,211,Morris Park and Bronxdale (CD11),4,bronx,9.15,bueno
+2011-12-01,212,Williamsbridge and Baychester (CD12),4,bronx,9.03,bueno
 2011-12-01,301,Greenpoint and Williamsburg (CD1),2,brooklyn,10.38,bueno
 2011-12-01,302,Fort Greene and Brooklyn Heights (CD2),2,brooklyn,9.92,bueno
 2011-12-01,303,Bedford Stuyvesant (CD3),2,brooklyn,9.2,bueno
@@ -822,9 +822,9 @@ date,id_cd,cd_name,id_borough,borough,pm 2.5,air_quality
 2011-12-01,412,Jamaica and Hollis (CD12),3,queens,8.45,bueno
 2011-12-01,413,Queens Village (CD13),3,queens,8.05,bueno
 2011-12-01,414,Rockaway and Broad Channel (CD14),3,queens,7.36,bueno
-2011-12-01,501,St. George and Stapleton (CD1),5,staten_island,8.4,bueno
-2011-12-01,502,South Beach and Willowbrook (CD2),5,staten_island,8.35,bueno
-2011-12-01,503,Tottenville and Great Kills (CD3),5,staten_island,8.33,bueno
+2011-12-01,501,St. George and Stapleton (CD1),5,staten island,8.4,bueno
+2011-12-01,502,South Beach and Willowbrook (CD2),5,staten island,8.35,bueno
+2011-12-01,503,Tottenville and Great Kills (CD3),5,staten island,8.33,bueno
 2012-12-01,101,Financial District (CD1),1,manhattan,11.06,bueno
 2012-12-01,102,Greenwich Village and Soho (CD2),1,manhattan,10.9,bueno
 2012-12-01,103,Lower East Side and Chinatown (CD3),1,manhattan,9.9,bueno
@@ -837,18 +837,18 @@ date,id_cd,cd_name,id_borough,borough,pm 2.5,air_quality
 2012-12-01,110,Central Harlem (CD10),1,manhattan,9.64,bueno
 2012-12-01,111,East Harlem (CD11),1,manhattan,9.71,bueno
 2012-12-01,112,Washington Heights and Inwood (CD12),1,manhattan,9.46,bueno
-2012-12-01,201,Mott Haven and Melrose (CD1),4,the_bronx,9.97,bueno
-2012-12-01,202,Hunts Point and Longwood (CD2),4,the_bronx,9.76,bueno
-2012-12-01,203,Morrisania and Crotona (CD3),4,the_bronx,9.4,bueno
-2012-12-01,204,Highbridge and Concourse (CD4),4,the_bronx,9.97,bueno
-2012-12-01,205,Fordham and University Heights (CD5),4,the_bronx,10.05,bueno
-2012-12-01,206,Belmont and East Tremont (CD6),4,the_bronx,9.46,bueno
-2012-12-01,207,Kingsbridge Heights and Bedford (CD7),4,the_bronx,9.4,bueno
-2012-12-01,208,Riverdale and Fieldston (CD8),4,the_bronx,8.87,bueno
-2012-12-01,209,Parkchester and Soundview (CD9),4,the_bronx,8.94,bueno
-2012-12-01,210,Throgs Neck and Co-op City (CD10),4,the_bronx,8.66,bueno
-2012-12-01,211,Morris Park and Bronxdale (CD11),4,the_bronx,8.71,bueno
-2012-12-01,212,Williamsbridge and Baychester (CD12),4,the_bronx,8.66,bueno
+2012-12-01,201,Mott Haven and Melrose (CD1),4,bronx,9.97,bueno
+2012-12-01,202,Hunts Point and Longwood (CD2),4,bronx,9.76,bueno
+2012-12-01,203,Morrisania and Crotona (CD3),4,bronx,9.4,bueno
+2012-12-01,204,Highbridge and Concourse (CD4),4,bronx,9.97,bueno
+2012-12-01,205,Fordham and University Heights (CD5),4,bronx,10.05,bueno
+2012-12-01,206,Belmont and East Tremont (CD6),4,bronx,9.46,bueno
+2012-12-01,207,Kingsbridge Heights and Bedford (CD7),4,bronx,9.4,bueno
+2012-12-01,208,Riverdale and Fieldston (CD8),4,bronx,8.87,bueno
+2012-12-01,209,Parkchester and Soundview (CD9),4,bronx,8.94,bueno
+2012-12-01,210,Throgs Neck and Co-op City (CD10),4,bronx,8.66,bueno
+2012-12-01,211,Morris Park and Bronxdale (CD11),4,bronx,8.71,bueno
+2012-12-01,212,Williamsbridge and Baychester (CD12),4,bronx,8.66,bueno
 2012-12-01,301,Greenpoint and Williamsburg (CD1),2,brooklyn,10.09,bueno
 2012-12-01,302,Fort Greene and Brooklyn Heights (CD2),2,brooklyn,9.52,bueno
 2012-12-01,303,Bedford Stuyvesant (CD3),2,brooklyn,8.82,bueno
@@ -881,9 +881,9 @@ date,id_cd,cd_name,id_borough,borough,pm 2.5,air_quality
 2012-12-01,412,Jamaica and Hollis (CD12),3,queens,8.26,bueno
 2012-12-01,413,Queens Village (CD13),3,queens,7.87,bueno
 2012-12-01,414,Rockaway and Broad Channel (CD14),3,queens,7.61,bueno
-2012-12-01,501,St. George and Stapleton (CD1),5,staten_island,8.11,bueno
-2012-12-01,502,South Beach and Willowbrook (CD2),5,staten_island,8.05,bueno
-2012-12-01,503,Tottenville and Great Kills (CD3),5,staten_island,7.84,bueno
+2012-12-01,501,St. George and Stapleton (CD1),5,staten island,8.11,bueno
+2012-12-01,502,South Beach and Willowbrook (CD2),5,staten island,8.05,bueno
+2012-12-01,503,Tottenville and Great Kills (CD3),5,staten island,7.84,bueno
 2013-12-01,101,Financial District (CD1),1,manhattan,14.51,aceptable
 2013-12-01,102,Greenwich Village and Soho (CD2),1,manhattan,14.41,aceptable
 2013-12-01,103,Lower East Side and Chinatown (CD3),1,manhattan,13.39,aceptable
@@ -896,18 +896,18 @@ date,id_cd,cd_name,id_borough,borough,pm 2.5,air_quality
 2013-12-01,110,Central Harlem (CD10),1,manhattan,13.03,aceptable
 2013-12-01,111,East Harlem (CD11),1,manhattan,13.11,aceptable
 2013-12-01,112,Washington Heights and Inwood (CD12),1,manhattan,12.91,aceptable
-2013-12-01,201,Mott Haven and Melrose (CD1),4,the_bronx,13.38,aceptable
-2013-12-01,202,Hunts Point and Longwood (CD2),4,the_bronx,13.15,aceptable
-2013-12-01,203,Morrisania and Crotona (CD3),4,the_bronx,12.77,aceptable
-2013-12-01,204,Highbridge and Concourse (CD4),4,the_bronx,13.34,aceptable
-2013-12-01,205,Fordham and University Heights (CD5),4,the_bronx,13.44,aceptable
-2013-12-01,206,Belmont and East Tremont (CD6),4,the_bronx,12.85,aceptable
-2013-12-01,207,Kingsbridge Heights and Bedford (CD7),4,the_bronx,12.83,aceptable
-2013-12-01,208,Riverdale and Fieldston (CD8),4,the_bronx,12.44,aceptable
-2013-12-01,209,Parkchester and Soundview (CD9),4,the_bronx,12.25,aceptable
-2013-12-01,210,Throgs Neck and Co-op City (CD10),4,the_bronx,11.95,bueno
-2013-12-01,211,Morris Park and Bronxdale (CD11),4,the_bronx,12.1,aceptable
-2013-12-01,212,Williamsbridge and Baychester (CD12),4,the_bronx,12.16,aceptable
+2013-12-01,201,Mott Haven and Melrose (CD1),4,bronx,13.38,aceptable
+2013-12-01,202,Hunts Point and Longwood (CD2),4,bronx,13.15,aceptable
+2013-12-01,203,Morrisania and Crotona (CD3),4,bronx,12.77,aceptable
+2013-12-01,204,Highbridge and Concourse (CD4),4,bronx,13.34,aceptable
+2013-12-01,205,Fordham and University Heights (CD5),4,bronx,13.44,aceptable
+2013-12-01,206,Belmont and East Tremont (CD6),4,bronx,12.85,aceptable
+2013-12-01,207,Kingsbridge Heights and Bedford (CD7),4,bronx,12.83,aceptable
+2013-12-01,208,Riverdale and Fieldston (CD8),4,bronx,12.44,aceptable
+2013-12-01,209,Parkchester and Soundview (CD9),4,bronx,12.25,aceptable
+2013-12-01,210,Throgs Neck and Co-op City (CD10),4,bronx,11.95,bueno
+2013-12-01,211,Morris Park and Bronxdale (CD11),4,bronx,12.1,aceptable
+2013-12-01,212,Williamsbridge and Baychester (CD12),4,bronx,12.16,aceptable
 2013-12-01,301,Greenpoint and Williamsburg (CD1),2,brooklyn,13.59,aceptable
 2013-12-01,302,Fort Greene and Brooklyn Heights (CD2),2,brooklyn,12.96,aceptable
 2013-12-01,303,Bedford Stuyvesant (CD3),2,brooklyn,12.1,aceptable
@@ -940,9 +940,9 @@ date,id_cd,cd_name,id_borough,borough,pm 2.5,air_quality
 2013-12-01,412,Jamaica and Hollis (CD12),3,queens,10.88,bueno
 2013-12-01,413,Queens Village (CD13),3,queens,10.35,bueno
 2013-12-01,414,Rockaway and Broad Channel (CD14),3,queens,9.87,bueno
-2013-12-01,501,St. George and Stapleton (CD1),5,staten_island,11.97,bueno
-2013-12-01,502,South Beach and Willowbrook (CD2),5,staten_island,11.85,bueno
-2013-12-01,503,Tottenville and Great Kills (CD3),5,staten_island,11.58,bueno
+2013-12-01,501,St. George and Stapleton (CD1),5,staten island,11.97,bueno
+2013-12-01,502,South Beach and Willowbrook (CD2),5,staten island,11.85,bueno
+2013-12-01,503,Tottenville and Great Kills (CD3),5,staten island,11.58,bueno
 2014-06-01,101,Financial District (CD1),1,manhattan,10.92,bueno
 2014-06-01,102,Greenwich Village and Soho (CD2),1,manhattan,10.82,bueno
 2014-06-01,103,Lower East Side and Chinatown (CD3),1,manhattan,10.04,bueno
@@ -955,18 +955,18 @@ date,id_cd,cd_name,id_borough,borough,pm 2.5,air_quality
 2014-06-01,110,Central Harlem (CD10),1,manhattan,9.05,bueno
 2014-06-01,111,East Harlem (CD11),1,manhattan,9.25,bueno
 2014-06-01,112,Washington Heights and Inwood (CD12),1,manhattan,8.94,bueno
-2014-06-01,201,Mott Haven and Melrose (CD1),4,the_bronx,9.57,bueno
-2014-06-01,202,Hunts Point and Longwood (CD2),4,the_bronx,9.45,bueno
-2014-06-01,203,Morrisania and Crotona (CD3),4,the_bronx,8.94,bueno
-2014-06-01,204,Highbridge and Concourse (CD4),4,the_bronx,9.39,bueno
-2014-06-01,205,Fordham and University Heights (CD5),4,the_bronx,9.5,bueno
-2014-06-01,206,Belmont and East Tremont (CD6),4,the_bronx,9.07,bueno
-2014-06-01,207,Kingsbridge Heights and Bedford (CD7),4,the_bronx,9.0,bueno
-2014-06-01,208,Riverdale and Fieldston (CD8),4,the_bronx,8.65,bueno
-2014-06-01,209,Parkchester and Soundview (CD9),4,the_bronx,8.63,bueno
-2014-06-01,210,Throgs Neck and Co-op City (CD10),4,the_bronx,8.56,bueno
-2014-06-01,211,Morris Park and Bronxdale (CD11),4,the_bronx,8.53,bueno
-2014-06-01,212,Williamsbridge and Baychester (CD12),4,the_bronx,8.64,bueno
+2014-06-01,201,Mott Haven and Melrose (CD1),4,bronx,9.57,bueno
+2014-06-01,202,Hunts Point and Longwood (CD2),4,bronx,9.45,bueno
+2014-06-01,203,Morrisania and Crotona (CD3),4,bronx,8.94,bueno
+2014-06-01,204,Highbridge and Concourse (CD4),4,bronx,9.39,bueno
+2014-06-01,205,Fordham and University Heights (CD5),4,bronx,9.5,bueno
+2014-06-01,206,Belmont and East Tremont (CD6),4,bronx,9.07,bueno
+2014-06-01,207,Kingsbridge Heights and Bedford (CD7),4,bronx,9.0,bueno
+2014-06-01,208,Riverdale and Fieldston (CD8),4,bronx,8.65,bueno
+2014-06-01,209,Parkchester and Soundview (CD9),4,bronx,8.63,bueno
+2014-06-01,210,Throgs Neck and Co-op City (CD10),4,bronx,8.56,bueno
+2014-06-01,211,Morris Park and Bronxdale (CD11),4,bronx,8.53,bueno
+2014-06-01,212,Williamsbridge and Baychester (CD12),4,bronx,8.64,bueno
 2014-06-01,301,Greenpoint and Williamsburg (CD1),2,brooklyn,10.46,bueno
 2014-06-01,302,Fort Greene and Brooklyn Heights (CD2),2,brooklyn,9.86,bueno
 2014-06-01,303,Bedford Stuyvesant (CD3),2,brooklyn,9.09,bueno
@@ -999,9 +999,9 @@ date,id_cd,cd_name,id_borough,borough,pm 2.5,air_quality
 2014-06-01,412,Jamaica and Hollis (CD12),3,queens,8.11,bueno
 2014-06-01,413,Queens Village (CD13),3,queens,7.74,bueno
 2014-06-01,414,Rockaway and Broad Channel (CD14),3,queens,7.36,bueno
-2014-06-01,501,St. George and Stapleton (CD1),5,staten_island,8.16,bueno
-2014-06-01,502,South Beach and Willowbrook (CD2),5,staten_island,7.93,bueno
-2014-06-01,503,Tottenville and Great Kills (CD3),5,staten_island,7.59,bueno
+2014-06-01,501,St. George and Stapleton (CD1),5,staten island,8.16,bueno
+2014-06-01,502,South Beach and Willowbrook (CD2),5,staten island,7.93,bueno
+2014-06-01,503,Tottenville and Great Kills (CD3),5,staten island,7.59,bueno
 2013-12-01,101,Financial District (CD1),1,manhattan,11.37,bueno
 2013-12-01,102,Greenwich Village and Soho (CD2),1,manhattan,11.23,bueno
 2013-12-01,103,Lower East Side and Chinatown (CD3),1,manhattan,10.31,bueno
@@ -1014,18 +1014,18 @@ date,id_cd,cd_name,id_borough,borough,pm 2.5,air_quality
 2013-12-01,110,Central Harlem (CD10),1,manhattan,9.67,bueno
 2013-12-01,111,East Harlem (CD11),1,manhattan,9.82,bueno
 2013-12-01,112,Washington Heights and Inwood (CD12),1,manhattan,9.46,bueno
-2013-12-01,201,Mott Haven and Melrose (CD1),4,the_bronx,10.11,bueno
-2013-12-01,202,Hunts Point and Longwood (CD2),4,the_bronx,9.96,bueno
-2013-12-01,203,Morrisania and Crotona (CD3),4,the_bronx,9.49,bueno
-2013-12-01,204,Highbridge and Concourse (CD4),4,the_bronx,9.99,bueno
-2013-12-01,205,Fordham and University Heights (CD5),4,the_bronx,10.07,bueno
-2013-12-01,206,Belmont and East Tremont (CD6),4,the_bronx,9.56,bueno
-2013-12-01,207,Kingsbridge Heights and Bedford (CD7),4,the_bronx,9.48,bueno
-2013-12-01,208,Riverdale and Fieldston (CD8),4,the_bronx,9.0,bueno
-2013-12-01,209,Parkchester and Soundview (CD9),4,the_bronx,9.12,bueno
-2013-12-01,210,Throgs Neck and Co-op City (CD10),4,the_bronx,8.92,bueno
-2013-12-01,211,Morris Park and Bronxdale (CD11),4,the_bronx,8.92,bueno
-2013-12-01,212,Williamsbridge and Baychester (CD12),4,the_bronx,8.91,bueno
+2013-12-01,201,Mott Haven and Melrose (CD1),4,bronx,10.11,bueno
+2013-12-01,202,Hunts Point and Longwood (CD2),4,bronx,9.96,bueno
+2013-12-01,203,Morrisania and Crotona (CD3),4,bronx,9.49,bueno
+2013-12-01,204,Highbridge and Concourse (CD4),4,bronx,9.99,bueno
+2013-12-01,205,Fordham and University Heights (CD5),4,bronx,10.07,bueno
+2013-12-01,206,Belmont and East Tremont (CD6),4,bronx,9.56,bueno
+2013-12-01,207,Kingsbridge Heights and Bedford (CD7),4,bronx,9.48,bueno
+2013-12-01,208,Riverdale and Fieldston (CD8),4,bronx,9.0,bueno
+2013-12-01,209,Parkchester and Soundview (CD9),4,bronx,9.12,bueno
+2013-12-01,210,Throgs Neck and Co-op City (CD10),4,bronx,8.92,bueno
+2013-12-01,211,Morris Park and Bronxdale (CD11),4,bronx,8.92,bueno
+2013-12-01,212,Williamsbridge and Baychester (CD12),4,bronx,8.91,bueno
 2013-12-01,301,Greenpoint and Williamsburg (CD1),2,brooklyn,10.64,bueno
 2013-12-01,302,Fort Greene and Brooklyn Heights (CD2),2,brooklyn,10.01,bueno
 2013-12-01,303,Bedford Stuyvesant (CD3),2,brooklyn,9.27,bueno
@@ -1058,9 +1058,9 @@ date,id_cd,cd_name,id_borough,borough,pm 2.5,air_quality
 2013-12-01,412,Jamaica and Hollis (CD12),3,queens,8.45,bueno
 2013-12-01,413,Queens Village (CD13),3,queens,8.03,bueno
 2013-12-01,414,Rockaway and Broad Channel (CD14),3,queens,7.69,bueno
-2013-12-01,501,St. George and Stapleton (CD1),5,staten_island,8.61,bueno
-2013-12-01,502,South Beach and Willowbrook (CD2),5,staten_island,8.49,bueno
-2013-12-01,503,Tottenville and Great Kills (CD3),5,staten_island,8.22,bueno
+2013-12-01,501,St. George and Stapleton (CD1),5,staten island,8.61,bueno
+2013-12-01,502,South Beach and Willowbrook (CD2),5,staten island,8.49,bueno
+2013-12-01,503,Tottenville and Great Kills (CD3),5,staten island,8.22,bueno
 2014-12-01,307,Sunset Park (CD7),2,brooklyn,9.73,bueno
 2015-01-01,101,Financial District (CD1),1,manhattan,10.57,bueno
 2015-06-01,101,Financial District (CD1),1,manhattan,11.04,bueno
@@ -1098,42 +1098,42 @@ date,id_cd,cd_name,id_borough,borough,pm 2.5,air_quality
 2015-01-01,112,Washington Heights and Inwood (CD12),1,manhattan,9.36,bueno
 2015-06-01,112,Washington Heights and Inwood (CD12),1,manhattan,9.9,bueno
 2014-12-01,112,Washington Heights and Inwood (CD12),1,manhattan,10.31,bueno
-2015-01-01,201,Mott Haven and Melrose (CD1),4,the_bronx,9.93,bueno
-2015-06-01,201,Mott Haven and Melrose (CD1),4,the_bronx,10.63,bueno
-2014-12-01,201,Mott Haven and Melrose (CD1),4,the_bronx,10.81,bueno
-2015-01-01,202,Hunts Point and Longwood (CD2),4,the_bronx,9.85,bueno
-2015-06-01,202,Hunts Point and Longwood (CD2),4,the_bronx,10.6,bueno
-2014-12-01,202,Hunts Point and Longwood (CD2),4,the_bronx,10.76,bueno
-2015-01-01,203,Morrisania and Crotona (CD3),4,the_bronx,9.3,bueno
-2015-06-01,203,Morrisania and Crotona (CD3),4,the_bronx,9.99,bueno
-2014-12-01,203,Morrisania and Crotona (CD3),4,the_bronx,10.26,bueno
-2015-01-01,204,Highbridge and Concourse (CD4),4,the_bronx,9.72,bueno
-2015-06-01,204,Highbridge and Concourse (CD4),4,the_bronx,10.37,bueno
-2014-12-01,204,Highbridge and Concourse (CD4),4,the_bronx,10.67,bueno
-2015-01-01,205,Fordham and University Heights (CD5),4,the_bronx,9.85,bueno
-2015-06-01,205,Fordham and University Heights (CD5),4,the_bronx,10.47,bueno
-2014-12-01,205,Fordham and University Heights (CD5),4,the_bronx,10.85,bueno
-2015-01-01,206,Belmont and East Tremont (CD6),4,the_bronx,9.45,bueno
-2015-06-01,206,Belmont and East Tremont (CD6),4,the_bronx,10.11,bueno
-2014-12-01,206,Belmont and East Tremont (CD6),4,the_bronx,10.44,bueno
-2015-01-01,207,Kingsbridge Heights and Bedford (CD7),4,the_bronx,9.34,bueno
-2015-06-01,207,Kingsbridge Heights and Bedford (CD7),4,the_bronx,9.94,bueno
-2014-12-01,207,Kingsbridge Heights and Bedford (CD7),4,the_bronx,10.37,bueno
-2015-01-01,208,Riverdale and Fieldston (CD8),4,the_bronx,9.16,bueno
-2015-06-01,208,Riverdale and Fieldston (CD8),4,the_bronx,9.62,bueno
-2014-12-01,208,Riverdale and Fieldston (CD8),4,the_bronx,10.15,bueno
-2015-01-01,209,Parkchester and Soundview (CD9),4,the_bronx,8.99,bueno
-2015-06-01,209,Parkchester and Soundview (CD9),4,the_bronx,9.76,bueno
-2014-12-01,209,Parkchester and Soundview (CD9),4,the_bronx,9.95,bueno
-2015-01-01,210,Throgs Neck and Co-op City (CD10),4,the_bronx,8.96,bueno
-2015-06-01,210,Throgs Neck and Co-op City (CD10),4,the_bronx,9.7,bueno
-2014-12-01,210,Throgs Neck and Co-op City (CD10),4,the_bronx,9.89,bueno
-2015-01-01,211,Morris Park and Bronxdale (CD11),4,the_bronx,8.91,bueno
-2015-06-01,211,Morris Park and Bronxdale (CD11),4,the_bronx,9.59,bueno
-2014-12-01,211,Morris Park and Bronxdale (CD11),4,the_bronx,9.9,bueno
-2015-01-01,212,Williamsbridge and Baychester (CD12),4,the_bronx,9.08,bueno
-2015-06-01,212,Williamsbridge and Baychester (CD12),4,the_bronx,9.65,bueno
-2014-12-01,212,Williamsbridge and Baychester (CD12),4,the_bronx,10.09,bueno
+2015-01-01,201,Mott Haven and Melrose (CD1),4,bronx,9.93,bueno
+2015-06-01,201,Mott Haven and Melrose (CD1),4,bronx,10.63,bueno
+2014-12-01,201,Mott Haven and Melrose (CD1),4,bronx,10.81,bueno
+2015-01-01,202,Hunts Point and Longwood (CD2),4,bronx,9.85,bueno
+2015-06-01,202,Hunts Point and Longwood (CD2),4,bronx,10.6,bueno
+2014-12-01,202,Hunts Point and Longwood (CD2),4,bronx,10.76,bueno
+2015-01-01,203,Morrisania and Crotona (CD3),4,bronx,9.3,bueno
+2015-06-01,203,Morrisania and Crotona (CD3),4,bronx,9.99,bueno
+2014-12-01,203,Morrisania and Crotona (CD3),4,bronx,10.26,bueno
+2015-01-01,204,Highbridge and Concourse (CD4),4,bronx,9.72,bueno
+2015-06-01,204,Highbridge and Concourse (CD4),4,bronx,10.37,bueno
+2014-12-01,204,Highbridge and Concourse (CD4),4,bronx,10.67,bueno
+2015-01-01,205,Fordham and University Heights (CD5),4,bronx,9.85,bueno
+2015-06-01,205,Fordham and University Heights (CD5),4,bronx,10.47,bueno
+2014-12-01,205,Fordham and University Heights (CD5),4,bronx,10.85,bueno
+2015-01-01,206,Belmont and East Tremont (CD6),4,bronx,9.45,bueno
+2015-06-01,206,Belmont and East Tremont (CD6),4,bronx,10.11,bueno
+2014-12-01,206,Belmont and East Tremont (CD6),4,bronx,10.44,bueno
+2015-01-01,207,Kingsbridge Heights and Bedford (CD7),4,bronx,9.34,bueno
+2015-06-01,207,Kingsbridge Heights and Bedford (CD7),4,bronx,9.94,bueno
+2014-12-01,207,Kingsbridge Heights and Bedford (CD7),4,bronx,10.37,bueno
+2015-01-01,208,Riverdale and Fieldston (CD8),4,bronx,9.16,bueno
+2015-06-01,208,Riverdale and Fieldston (CD8),4,bronx,9.62,bueno
+2014-12-01,208,Riverdale and Fieldston (CD8),4,bronx,10.15,bueno
+2015-01-01,209,Parkchester and Soundview (CD9),4,bronx,8.99,bueno
+2015-06-01,209,Parkchester and Soundview (CD9),4,bronx,9.76,bueno
+2014-12-01,209,Parkchester and Soundview (CD9),4,bronx,9.95,bueno
+2015-01-01,210,Throgs Neck and Co-op City (CD10),4,bronx,8.96,bueno
+2015-06-01,210,Throgs Neck and Co-op City (CD10),4,bronx,9.7,bueno
+2014-12-01,210,Throgs Neck and Co-op City (CD10),4,bronx,9.89,bueno
+2015-01-01,211,Morris Park and Bronxdale (CD11),4,bronx,8.91,bueno
+2015-06-01,211,Morris Park and Bronxdale (CD11),4,bronx,9.59,bueno
+2014-12-01,211,Morris Park and Bronxdale (CD11),4,bronx,9.9,bueno
+2015-01-01,212,Williamsbridge and Baychester (CD12),4,bronx,9.08,bueno
+2015-06-01,212,Williamsbridge and Baychester (CD12),4,bronx,9.65,bueno
+2014-12-01,212,Williamsbridge and Baychester (CD12),4,bronx,10.09,bueno
 2015-01-01,301,Greenpoint and Williamsburg (CD1),2,brooklyn,10.56,bueno
 2015-06-01,301,Greenpoint and Williamsburg (CD1),2,brooklyn,11.08,bueno
 2014-12-01,301,Greenpoint and Williamsburg (CD1),2,brooklyn,10.91,bueno
@@ -1229,15 +1229,15 @@ date,id_cd,cd_name,id_borough,borough,pm 2.5,air_quality
 2015-01-01,414,Rockaway and Broad Channel (CD14),3,queens,7.15,bueno
 2015-06-01,414,Rockaway and Broad Channel (CD14),3,queens,8.28,bueno
 2014-12-01,414,Rockaway and Broad Channel (CD14),3,queens,7.39,bueno
-2015-01-01,501,St. George and Stapleton (CD1),5,staten_island,8.15,bueno
-2015-06-01,501,St. George and Stapleton (CD1),5,staten_island,8.91,bueno
-2014-12-01,501,St. George and Stapleton (CD1),5,staten_island,8.72,bueno
-2015-01-01,502,South Beach and Willowbrook (CD2),5,staten_island,7.8,bueno
-2015-06-01,502,South Beach and Willowbrook (CD2),5,staten_island,8.77,bueno
-2014-12-01,502,South Beach and Willowbrook (CD2),5,staten_island,8.51,bueno
-2015-01-01,503,Tottenville and Great Kills (CD3),5,staten_island,7.29,bueno
-2015-06-01,503,Tottenville and Great Kills (CD3),5,staten_island,8.44,bueno
-2014-12-01,503,Tottenville and Great Kills (CD3),5,staten_island,8.06,bueno
+2015-01-01,501,St. George and Stapleton (CD1),5,staten island,8.15,bueno
+2015-06-01,501,St. George and Stapleton (CD1),5,staten island,8.91,bueno
+2014-12-01,501,St. George and Stapleton (CD1),5,staten island,8.72,bueno
+2015-01-01,502,South Beach and Willowbrook (CD2),5,staten island,7.8,bueno
+2015-06-01,502,South Beach and Willowbrook (CD2),5,staten island,8.77,bueno
+2014-12-01,502,South Beach and Willowbrook (CD2),5,staten island,8.51,bueno
+2015-01-01,503,Tottenville and Great Kills (CD3),5,staten island,7.29,bueno
+2015-06-01,503,Tottenville and Great Kills (CD3),5,staten island,8.44,bueno
+2014-12-01,503,Tottenville and Great Kills (CD3),5,staten island,8.06,bueno
 2015-12-01,101,Financial District (CD1),1,manhattan,10.29,bueno
 2016-05-31,101,Financial District (CD1),1,manhattan,9.83,bueno
 2015-12-31,101,Financial District (CD1),1,manhattan,9.56,bueno
@@ -1274,42 +1274,42 @@ date,id_cd,cd_name,id_borough,borough,pm 2.5,air_quality
 2015-12-01,112,Washington Heights and Inwood (CD12),1,manhattan,8.52,bueno
 2016-05-31,112,Washington Heights and Inwood (CD12),1,manhattan,8.42,bueno
 2015-12-31,112,Washington Heights and Inwood (CD12),1,manhattan,7.79,bueno
-2015-12-01,201,Mott Haven and Melrose (CD1),4,the_bronx,9.03,bueno
-2016-05-31,201,Mott Haven and Melrose (CD1),4,the_bronx,9.28,bueno
-2015-12-31,201,Mott Haven and Melrose (CD1),4,the_bronx,8.55,bueno
-2015-12-01,202,Hunts Point and Longwood (CD2),4,the_bronx,8.99,bueno
-2016-05-31,202,Hunts Point and Longwood (CD2),4,the_bronx,9.19,bueno
-2015-12-31,202,Hunts Point and Longwood (CD2),4,the_bronx,8.49,bueno
-2015-12-01,203,Morrisania and Crotona (CD3),4,the_bronx,8.42,bueno
-2016-05-31,203,Morrisania and Crotona (CD3),4,the_bronx,8.52,bueno
-2015-12-31,203,Morrisania and Crotona (CD3),4,the_bronx,7.85,bueno
-2015-12-01,204,Highbridge and Concourse (CD4),4,the_bronx,8.83,bueno
-2016-05-31,204,Highbridge and Concourse (CD4),4,the_bronx,8.94,bueno
-2015-12-31,204,Highbridge and Concourse (CD4),4,the_bronx,8.25,bueno
-2015-12-01,205,Fordham and University Heights (CD5),4,the_bronx,9.01,bueno
-2016-05-31,205,Fordham and University Heights (CD5),4,the_bronx,8.95,bueno
-2015-12-31,205,Fordham and University Heights (CD5),4,the_bronx,8.34,bueno
-2015-12-01,206,Belmont and East Tremont (CD6),4,the_bronx,8.61,bueno
-2016-05-31,206,Belmont and East Tremont (CD6),4,the_bronx,8.55,bueno
-2015-12-31,206,Belmont and East Tremont (CD6),4,the_bronx,7.96,bueno
-2015-12-01,207,Kingsbridge Heights and Bedford (CD7),4,the_bronx,8.52,bueno
-2016-05-31,207,Kingsbridge Heights and Bedford (CD7),4,the_bronx,8.28,bueno
-2015-12-31,207,Kingsbridge Heights and Bedford (CD7),4,the_bronx,7.78,bueno
-2015-12-01,208,Riverdale and Fieldston (CD8),4,the_bronx,8.4,bueno
-2016-05-31,208,Riverdale and Fieldston (CD8),4,the_bronx,7.94,bueno
-2015-12-31,208,Riverdale and Fieldston (CD8),4,the_bronx,7.49,bueno
-2015-12-01,209,Parkchester and Soundview (CD9),4,the_bronx,8.14,bueno
-2016-05-31,209,Parkchester and Soundview (CD9),4,the_bronx,8.23,bueno
-2015-12-31,209,Parkchester and Soundview (CD9),4,the_bronx,7.6,bueno
-2015-12-01,210,Throgs Neck and Co-op City (CD10),4,the_bronx,8.1,bueno
-2016-05-31,210,Throgs Neck and Co-op City (CD10),4,the_bronx,8.01,bueno
-2015-12-31,210,Throgs Neck and Co-op City (CD10),4,the_bronx,7.51,bueno
-2015-12-01,211,Morris Park and Bronxdale (CD11),4,the_bronx,8.07,bueno
-2016-05-31,211,Morris Park and Bronxdale (CD11),4,the_bronx,7.9,bueno
-2015-12-31,211,Morris Park and Bronxdale (CD11),4,the_bronx,7.4,bueno
-2015-12-01,212,Williamsbridge and Baychester (CD12),4,the_bronx,8.27,bueno
-2016-05-31,212,Williamsbridge and Baychester (CD12),4,the_bronx,7.84,bueno
-2015-12-31,212,Williamsbridge and Baychester (CD12),4,the_bronx,7.46,bueno
+2015-12-01,201,Mott Haven and Melrose (CD1),4,bronx,9.03,bueno
+2016-05-31,201,Mott Haven and Melrose (CD1),4,bronx,9.28,bueno
+2015-12-31,201,Mott Haven and Melrose (CD1),4,bronx,8.55,bueno
+2015-12-01,202,Hunts Point and Longwood (CD2),4,bronx,8.99,bueno
+2016-05-31,202,Hunts Point and Longwood (CD2),4,bronx,9.19,bueno
+2015-12-31,202,Hunts Point and Longwood (CD2),4,bronx,8.49,bueno
+2015-12-01,203,Morrisania and Crotona (CD3),4,bronx,8.42,bueno
+2016-05-31,203,Morrisania and Crotona (CD3),4,bronx,8.52,bueno
+2015-12-31,203,Morrisania and Crotona (CD3),4,bronx,7.85,bueno
+2015-12-01,204,Highbridge and Concourse (CD4),4,bronx,8.83,bueno
+2016-05-31,204,Highbridge and Concourse (CD4),4,bronx,8.94,bueno
+2015-12-31,204,Highbridge and Concourse (CD4),4,bronx,8.25,bueno
+2015-12-01,205,Fordham and University Heights (CD5),4,bronx,9.01,bueno
+2016-05-31,205,Fordham and University Heights (CD5),4,bronx,8.95,bueno
+2015-12-31,205,Fordham and University Heights (CD5),4,bronx,8.34,bueno
+2015-12-01,206,Belmont and East Tremont (CD6),4,bronx,8.61,bueno
+2016-05-31,206,Belmont and East Tremont (CD6),4,bronx,8.55,bueno
+2015-12-31,206,Belmont and East Tremont (CD6),4,bronx,7.96,bueno
+2015-12-01,207,Kingsbridge Heights and Bedford (CD7),4,bronx,8.52,bueno
+2016-05-31,207,Kingsbridge Heights and Bedford (CD7),4,bronx,8.28,bueno
+2015-12-31,207,Kingsbridge Heights and Bedford (CD7),4,bronx,7.78,bueno
+2015-12-01,208,Riverdale and Fieldston (CD8),4,bronx,8.4,bueno
+2016-05-31,208,Riverdale and Fieldston (CD8),4,bronx,7.94,bueno
+2015-12-31,208,Riverdale and Fieldston (CD8),4,bronx,7.49,bueno
+2015-12-01,209,Parkchester and Soundview (CD9),4,bronx,8.14,bueno
+2016-05-31,209,Parkchester and Soundview (CD9),4,bronx,8.23,bueno
+2015-12-31,209,Parkchester and Soundview (CD9),4,bronx,7.6,bueno
+2015-12-01,210,Throgs Neck and Co-op City (CD10),4,bronx,8.1,bueno
+2016-05-31,210,Throgs Neck and Co-op City (CD10),4,bronx,8.01,bueno
+2015-12-31,210,Throgs Neck and Co-op City (CD10),4,bronx,7.51,bueno
+2015-12-01,211,Morris Park and Bronxdale (CD11),4,bronx,8.07,bueno
+2016-05-31,211,Morris Park and Bronxdale (CD11),4,bronx,7.9,bueno
+2015-12-31,211,Morris Park and Bronxdale (CD11),4,bronx,7.4,bueno
+2015-12-01,212,Williamsbridge and Baychester (CD12),4,bronx,8.27,bueno
+2016-05-31,212,Williamsbridge and Baychester (CD12),4,bronx,7.84,bueno
+2015-12-31,212,Williamsbridge and Baychester (CD12),4,bronx,7.46,bueno
 2015-12-01,301,Greenpoint and Williamsburg (CD1),2,brooklyn,10.28,bueno
 2016-05-31,301,Greenpoint and Williamsburg (CD1),2,brooklyn,9.88,bueno
 2015-12-31,301,Greenpoint and Williamsburg (CD1),2,brooklyn,9.55,bueno
@@ -1406,15 +1406,15 @@ date,id_cd,cd_name,id_borough,borough,pm 2.5,air_quality
 2015-12-01,414,Rockaway and Broad Channel (CD14),3,queens,5.92,bueno
 2016-05-31,414,Rockaway and Broad Channel (CD14),3,queens,6.87,bueno
 2015-12-31,414,Rockaway and Broad Channel (CD14),3,queens,5.98,bueno
-2015-12-01,501,St. George and Stapleton (CD1),5,staten_island,7.87,bueno
-2016-05-31,501,St. George and Stapleton (CD1),5,staten_island,8.04,bueno
-2015-12-31,501,St. George and Stapleton (CD1),5,staten_island,7.11,bueno
-2015-12-01,502,South Beach and Willowbrook (CD2),5,staten_island,7.49,bueno
-2016-05-31,502,South Beach and Willowbrook (CD2),5,staten_island,7.92,bueno
-2015-12-31,502,South Beach and Willowbrook (CD2),5,staten_island,6.89,bueno
-2015-12-01,503,Tottenville and Great Kills (CD3),5,staten_island,7.17,bueno
-2016-05-31,503,Tottenville and Great Kills (CD3),5,staten_island,7.54,bueno
-2015-12-31,503,Tottenville and Great Kills (CD3),5,staten_island,6.62,bueno
+2015-12-01,501,St. George and Stapleton (CD1),5,staten island,7.87,bueno
+2016-05-31,501,St. George and Stapleton (CD1),5,staten island,8.04,bueno
+2015-12-31,501,St. George and Stapleton (CD1),5,staten island,7.11,bueno
+2015-12-01,502,South Beach and Willowbrook (CD2),5,staten island,7.49,bueno
+2016-05-31,502,South Beach and Willowbrook (CD2),5,staten island,7.92,bueno
+2015-12-31,502,South Beach and Willowbrook (CD2),5,staten island,6.89,bueno
+2015-12-01,503,Tottenville and Great Kills (CD3),5,staten island,7.17,bueno
+2016-05-31,503,Tottenville and Great Kills (CD3),5,staten island,7.54,bueno
+2015-12-31,503,Tottenville and Great Kills (CD3),5,staten island,6.62,bueno
 2017-01-01,105,Midtown (CD5),1,manhattan,10.92,bueno
 2016-12-01,105,Midtown (CD5),1,manhattan,11.05,bueno
 2016-12-01,307,Sunset Park (CD7),2,brooklyn,8.37,bueno
@@ -1452,42 +1452,42 @@ date,id_cd,cd_name,id_borough,borough,pm 2.5,air_quality
 2017-06-01,112,Washington Heights and Inwood (CD12),1,manhattan,9.85,bueno
 2017-01-01,112,Washington Heights and Inwood (CD12),1,manhattan,7.77,bueno
 2016-12-01,112,Washington Heights and Inwood (CD12),1,manhattan,8.17,bueno
-2017-06-01,201,Mott Haven and Melrose (CD1),4,the_bronx,10.52,bueno
-2017-01-01,201,Mott Haven and Melrose (CD1),4,the_bronx,8.54,bueno
-2016-12-01,201,Mott Haven and Melrose (CD1),4,the_bronx,8.98,bueno
-2017-06-01,202,Hunts Point and Longwood (CD2),4,the_bronx,10.41,bueno
-2017-01-01,202,Hunts Point and Longwood (CD2),4,the_bronx,8.49,bueno
-2016-12-01,202,Hunts Point and Longwood (CD2),4,the_bronx,9.04,bueno
-2017-06-01,203,Morrisania and Crotona (CD3),4,the_bronx,9.81,bueno
-2017-01-01,203,Morrisania and Crotona (CD3),4,the_bronx,7.87,bueno
-2016-12-01,203,Morrisania and Crotona (CD3),4,the_bronx,8.38,bueno
-2017-06-01,204,Highbridge and Concourse (CD4),4,the_bronx,10.22,bueno
-2017-01-01,204,Highbridge and Concourse (CD4),4,the_bronx,8.25,bueno
-2016-12-01,204,Highbridge and Concourse (CD4),4,the_bronx,8.66,bueno
-2017-06-01,205,Fordham and University Heights (CD5),4,the_bronx,10.24,bueno
-2017-01-01,205,Fordham and University Heights (CD5),4,the_bronx,8.3,bueno
-2016-12-01,205,Fordham and University Heights (CD5),4,the_bronx,8.72,bueno
-2017-06-01,206,Belmont and East Tremont (CD6),4,the_bronx,9.85,bueno
-2017-01-01,206,Belmont and East Tremont (CD6),4,the_bronx,7.94,bueno
-2016-12-01,206,Belmont and East Tremont (CD6),4,the_bronx,8.45,bueno
-2017-06-01,207,Kingsbridge Heights and Bedford (CD7),4,the_bronx,9.6,bueno
-2017-01-01,207,Kingsbridge Heights and Bedford (CD7),4,the_bronx,7.73,bueno
-2016-12-01,207,Kingsbridge Heights and Bedford (CD7),4,the_bronx,8.26,bueno
-2017-06-01,208,Riverdale and Fieldston (CD8),4,the_bronx,9.45,bueno
-2017-01-01,208,Riverdale and Fieldston (CD8),4,the_bronx,7.4,bueno
-2016-12-01,208,Riverdale and Fieldston (CD8),4,the_bronx,7.91,bueno
-2017-06-01,209,Parkchester and Soundview (CD9),4,the_bronx,9.43,bueno
-2017-01-01,209,Parkchester and Soundview (CD9),4,the_bronx,7.62,bueno
-2016-12-01,209,Parkchester and Soundview (CD9),4,the_bronx,8.23,bueno
-2017-06-01,210,Throgs Neck and Co-op City (CD10),4,the_bronx,9.24,bueno
-2017-01-01,210,Throgs Neck and Co-op City (CD10),4,the_bronx,7.51,bueno
-2016-12-01,210,Throgs Neck and Co-op City (CD10),4,the_bronx,8.21,bueno
-2017-06-01,211,Morris Park and Bronxdale (CD11),4,the_bronx,9.18,bueno
-2017-01-01,211,Morris Park and Bronxdale (CD11),4,the_bronx,7.39,bueno
-2016-12-01,211,Morris Park and Bronxdale (CD11),4,the_bronx,8.06,bueno
-2017-06-01,212,Williamsbridge and Baychester (CD12),4,the_bronx,9.2,bueno
-2017-01-01,212,Williamsbridge and Baychester (CD12),4,the_bronx,7.37,bueno
-2016-12-01,212,Williamsbridge and Baychester (CD12),4,the_bronx,8.04,bueno
+2017-06-01,201,Mott Haven and Melrose (CD1),4,bronx,10.52,bueno
+2017-01-01,201,Mott Haven and Melrose (CD1),4,bronx,8.54,bueno
+2016-12-01,201,Mott Haven and Melrose (CD1),4,bronx,8.98,bueno
+2017-06-01,202,Hunts Point and Longwood (CD2),4,bronx,10.41,bueno
+2017-01-01,202,Hunts Point and Longwood (CD2),4,bronx,8.49,bueno
+2016-12-01,202,Hunts Point and Longwood (CD2),4,bronx,9.04,bueno
+2017-06-01,203,Morrisania and Crotona (CD3),4,bronx,9.81,bueno
+2017-01-01,203,Morrisania and Crotona (CD3),4,bronx,7.87,bueno
+2016-12-01,203,Morrisania and Crotona (CD3),4,bronx,8.38,bueno
+2017-06-01,204,Highbridge and Concourse (CD4),4,bronx,10.22,bueno
+2017-01-01,204,Highbridge and Concourse (CD4),4,bronx,8.25,bueno
+2016-12-01,204,Highbridge and Concourse (CD4),4,bronx,8.66,bueno
+2017-06-01,205,Fordham and University Heights (CD5),4,bronx,10.24,bueno
+2017-01-01,205,Fordham and University Heights (CD5),4,bronx,8.3,bueno
+2016-12-01,205,Fordham and University Heights (CD5),4,bronx,8.72,bueno
+2017-06-01,206,Belmont and East Tremont (CD6),4,bronx,9.85,bueno
+2017-01-01,206,Belmont and East Tremont (CD6),4,bronx,7.94,bueno
+2016-12-01,206,Belmont and East Tremont (CD6),4,bronx,8.45,bueno
+2017-06-01,207,Kingsbridge Heights and Bedford (CD7),4,bronx,9.6,bueno
+2017-01-01,207,Kingsbridge Heights and Bedford (CD7),4,bronx,7.73,bueno
+2016-12-01,207,Kingsbridge Heights and Bedford (CD7),4,bronx,8.26,bueno
+2017-06-01,208,Riverdale and Fieldston (CD8),4,bronx,9.45,bueno
+2017-01-01,208,Riverdale and Fieldston (CD8),4,bronx,7.4,bueno
+2016-12-01,208,Riverdale and Fieldston (CD8),4,bronx,7.91,bueno
+2017-06-01,209,Parkchester and Soundview (CD9),4,bronx,9.43,bueno
+2017-01-01,209,Parkchester and Soundview (CD9),4,bronx,7.62,bueno
+2016-12-01,209,Parkchester and Soundview (CD9),4,bronx,8.23,bueno
+2017-06-01,210,Throgs Neck and Co-op City (CD10),4,bronx,9.24,bueno
+2017-01-01,210,Throgs Neck and Co-op City (CD10),4,bronx,7.51,bueno
+2016-12-01,210,Throgs Neck and Co-op City (CD10),4,bronx,8.21,bueno
+2017-06-01,211,Morris Park and Bronxdale (CD11),4,bronx,9.18,bueno
+2017-01-01,211,Morris Park and Bronxdale (CD11),4,bronx,7.39,bueno
+2016-12-01,211,Morris Park and Bronxdale (CD11),4,bronx,8.06,bueno
+2017-06-01,212,Williamsbridge and Baychester (CD12),4,bronx,9.2,bueno
+2017-01-01,212,Williamsbridge and Baychester (CD12),4,bronx,7.37,bueno
+2016-12-01,212,Williamsbridge and Baychester (CD12),4,bronx,8.04,bueno
 2017-06-01,301,Greenpoint and Williamsburg (CD1),2,brooklyn,10.85,bueno
 2017-01-01,301,Greenpoint and Williamsburg (CD1),2,brooklyn,9.06,bueno
 2016-12-01,301,Greenpoint and Williamsburg (CD1),2,brooklyn,9.4,bueno
@@ -1583,15 +1583,15 @@ date,id_cd,cd_name,id_borough,borough,pm 2.5,air_quality
 2017-06-01,414,Rockaway and Broad Channel (CD14),3,queens,7.73,bueno
 2017-01-01,414,Rockaway and Broad Channel (CD14),3,queens,6.32,bueno
 2016-12-01,414,Rockaway and Broad Channel (CD14),3,queens,7.29,bueno
-2017-06-01,501,St. George and Stapleton (CD1),5,staten_island,8.43,bueno
-2017-01-01,501,St. George and Stapleton (CD1),5,staten_island,7.03,bueno
-2016-12-01,501,St. George and Stapleton (CD1),5,staten_island,7.23,bueno
-2017-06-01,502,South Beach and Willowbrook (CD2),5,staten_island,8.17,bueno
-2017-01-01,502,South Beach and Willowbrook (CD2),5,staten_island,6.89,bueno
-2016-12-01,502,South Beach and Willowbrook (CD2),5,staten_island,7.17,bueno
-2017-06-01,503,Tottenville and Great Kills (CD3),5,staten_island,7.91,bueno
-2017-01-01,503,Tottenville and Great Kills (CD3),5,staten_island,6.6,bueno
-2016-12-01,503,Tottenville and Great Kills (CD3),5,staten_island,6.87,bueno
+2017-06-01,501,St. George and Stapleton (CD1),5,staten island,8.43,bueno
+2017-01-01,501,St. George and Stapleton (CD1),5,staten island,7.03,bueno
+2016-12-01,501,St. George and Stapleton (CD1),5,staten island,7.23,bueno
+2017-06-01,502,South Beach and Willowbrook (CD2),5,staten island,8.17,bueno
+2017-01-01,502,South Beach and Willowbrook (CD2),5,staten island,6.89,bueno
+2016-12-01,502,South Beach and Willowbrook (CD2),5,staten island,7.17,bueno
+2017-06-01,503,Tottenville and Great Kills (CD3),5,staten island,7.91,bueno
+2017-01-01,503,Tottenville and Great Kills (CD3),5,staten island,6.6,bueno
+2016-12-01,503,Tottenville and Great Kills (CD3),5,staten island,6.87,bueno
 2018-01-01,101,Financial District (CD1),1,manhattan,8.97,bueno
 2018-06-01,101,Financial District (CD1),1,manhattan,10.11,bueno
 2017-12-01,101,Financial District (CD1),1,manhattan,10.45,bueno
@@ -1628,42 +1628,42 @@ date,id_cd,cd_name,id_borough,borough,pm 2.5,air_quality
 2018-01-01,112,Washington Heights and Inwood (CD12),1,manhattan,7.32,bueno
 2018-06-01,112,Washington Heights and Inwood (CD12),1,manhattan,8.65,bueno
 2017-12-01,112,Washington Heights and Inwood (CD12),1,manhattan,8.3,bueno
-2018-01-01,201,Mott Haven and Melrose (CD1),4,the_bronx,8.05,bueno
-2018-06-01,201,Mott Haven and Melrose (CD1),4,the_bronx,9.41,bueno
-2017-12-01,201,Mott Haven and Melrose (CD1),4,the_bronx,8.97,bueno
-2018-01-01,202,Hunts Point and Longwood (CD2),4,the_bronx,8.12,bueno
-2018-06-01,202,Hunts Point and Longwood (CD2),4,the_bronx,9.5,bueno
-2017-12-01,202,Hunts Point and Longwood (CD2),4,the_bronx,9.05,bueno
-2018-01-01,203,Morrisania and Crotona (CD3),4,the_bronx,7.45,bueno
-2018-06-01,203,Morrisania and Crotona (CD3),4,the_bronx,8.84,bueno
-2017-12-01,203,Morrisania and Crotona (CD3),4,the_bronx,8.37,bueno
-2018-01-01,204,Highbridge and Concourse (CD4),4,the_bronx,7.73,bueno
-2018-06-01,204,Highbridge and Concourse (CD4),4,the_bronx,9.1,bueno
-2017-12-01,204,Highbridge and Concourse (CD4),4,the_bronx,8.65,bueno
-2018-01-01,205,Fordham and University Heights (CD5),4,the_bronx,7.68,bueno
-2018-06-01,205,Fordham and University Heights (CD5),4,the_bronx,9.04,bueno
-2017-12-01,205,Fordham and University Heights (CD5),4,the_bronx,8.66,bueno
-2018-01-01,206,Belmont and East Tremont (CD6),4,the_bronx,7.37,bueno
-2018-06-01,206,Belmont and East Tremont (CD6),4,the_bronx,8.73,bueno
-2017-12-01,206,Belmont and East Tremont (CD6),4,the_bronx,8.37,bueno
-2018-01-01,207,Kingsbridge Heights and Bedford (CD7),4,the_bronx,7.38,bueno
-2018-06-01,207,Kingsbridge Heights and Bedford (CD7),4,the_bronx,8.75,bueno
-2017-12-01,207,Kingsbridge Heights and Bedford (CD7),4,the_bronx,8.39,bueno
-2018-01-01,208,Riverdale and Fieldston (CD8),4,the_bronx,6.95,bueno
-2018-06-01,208,Riverdale and Fieldston (CD8),4,the_bronx,8.26,bueno
-2017-12-01,208,Riverdale and Fieldston (CD8),4,the_bronx,8.0,bueno
-2018-01-01,209,Parkchester and Soundview (CD9),4,the_bronx,7.11,bueno
-2018-06-01,209,Parkchester and Soundview (CD9),4,the_bronx,8.5,bueno
-2017-12-01,209,Parkchester and Soundview (CD9),4,the_bronx,8.12,bueno
-2018-01-01,210,Throgs Neck and Co-op City (CD10),4,the_bronx,6.88,bueno
-2018-06-01,210,Throgs Neck and Co-op City (CD10),4,the_bronx,8.26,bueno
-2017-12-01,210,Throgs Neck and Co-op City (CD10),4,the_bronx,7.99,bueno
-2018-01-01,211,Morris Park and Bronxdale (CD11),4,the_bronx,7.08,bueno
-2018-06-01,211,Morris Park and Bronxdale (CD11),4,the_bronx,8.46,bueno
-2017-12-01,211,Morris Park and Bronxdale (CD11),4,the_bronx,8.14,bueno
-2018-01-01,212,Williamsbridge and Baychester (CD12),4,the_bronx,6.97,bueno
-2018-06-01,212,Williamsbridge and Baychester (CD12),4,the_bronx,8.29,bueno
-2017-12-01,212,Williamsbridge and Baychester (CD12),4,the_bronx,8.1,bueno
+2018-01-01,201,Mott Haven and Melrose (CD1),4,bronx,8.05,bueno
+2018-06-01,201,Mott Haven and Melrose (CD1),4,bronx,9.41,bueno
+2017-12-01,201,Mott Haven and Melrose (CD1),4,bronx,8.97,bueno
+2018-01-01,202,Hunts Point and Longwood (CD2),4,bronx,8.12,bueno
+2018-06-01,202,Hunts Point and Longwood (CD2),4,bronx,9.5,bueno
+2017-12-01,202,Hunts Point and Longwood (CD2),4,bronx,9.05,bueno
+2018-01-01,203,Morrisania and Crotona (CD3),4,bronx,7.45,bueno
+2018-06-01,203,Morrisania and Crotona (CD3),4,bronx,8.84,bueno
+2017-12-01,203,Morrisania and Crotona (CD3),4,bronx,8.37,bueno
+2018-01-01,204,Highbridge and Concourse (CD4),4,bronx,7.73,bueno
+2018-06-01,204,Highbridge and Concourse (CD4),4,bronx,9.1,bueno
+2017-12-01,204,Highbridge and Concourse (CD4),4,bronx,8.65,bueno
+2018-01-01,205,Fordham and University Heights (CD5),4,bronx,7.68,bueno
+2018-06-01,205,Fordham and University Heights (CD5),4,bronx,9.04,bueno
+2017-12-01,205,Fordham and University Heights (CD5),4,bronx,8.66,bueno
+2018-01-01,206,Belmont and East Tremont (CD6),4,bronx,7.37,bueno
+2018-06-01,206,Belmont and East Tremont (CD6),4,bronx,8.73,bueno
+2017-12-01,206,Belmont and East Tremont (CD6),4,bronx,8.37,bueno
+2018-01-01,207,Kingsbridge Heights and Bedford (CD7),4,bronx,7.38,bueno
+2018-06-01,207,Kingsbridge Heights and Bedford (CD7),4,bronx,8.75,bueno
+2017-12-01,207,Kingsbridge Heights and Bedford (CD7),4,bronx,8.39,bueno
+2018-01-01,208,Riverdale and Fieldston (CD8),4,bronx,6.95,bueno
+2018-06-01,208,Riverdale and Fieldston (CD8),4,bronx,8.26,bueno
+2017-12-01,208,Riverdale and Fieldston (CD8),4,bronx,8.0,bueno
+2018-01-01,209,Parkchester and Soundview (CD9),4,bronx,7.11,bueno
+2018-06-01,209,Parkchester and Soundview (CD9),4,bronx,8.5,bueno
+2017-12-01,209,Parkchester and Soundview (CD9),4,bronx,8.12,bueno
+2018-01-01,210,Throgs Neck and Co-op City (CD10),4,bronx,6.88,bueno
+2018-06-01,210,Throgs Neck and Co-op City (CD10),4,bronx,8.26,bueno
+2017-12-01,210,Throgs Neck and Co-op City (CD10),4,bronx,7.99,bueno
+2018-01-01,211,Morris Park and Bronxdale (CD11),4,bronx,7.08,bueno
+2018-06-01,211,Morris Park and Bronxdale (CD11),4,bronx,8.46,bueno
+2017-12-01,211,Morris Park and Bronxdale (CD11),4,bronx,8.14,bueno
+2018-01-01,212,Williamsbridge and Baychester (CD12),4,bronx,6.97,bueno
+2018-06-01,212,Williamsbridge and Baychester (CD12),4,bronx,8.29,bueno
+2017-12-01,212,Williamsbridge and Baychester (CD12),4,bronx,8.1,bueno
 2018-01-01,301,Greenpoint and Williamsburg (CD1),2,brooklyn,8.87,bueno
 2018-06-01,301,Greenpoint and Williamsburg (CD1),2,brooklyn,10.01,bueno
 2017-12-01,301,Greenpoint and Williamsburg (CD1),2,brooklyn,10.22,bueno
@@ -1760,15 +1760,15 @@ date,id_cd,cd_name,id_borough,borough,pm 2.5,air_quality
 2018-01-01,414,Rockaway and Broad Channel (CD14),3,queens,6.06,bueno
 2018-06-01,414,Rockaway and Broad Channel (CD14),3,queens,7.75,bueno
 2017-12-01,414,Rockaway and Broad Channel (CD14),3,queens,7.0,bueno
-2018-01-01,501,St. George and Stapleton (CD1),5,staten_island,6.58,bueno
-2018-06-01,501,St. George and Stapleton (CD1),5,staten_island,7.65,bueno
-2017-12-01,501,St. George and Stapleton (CD1),5,staten_island,8.02,bueno
-2018-01-01,502,South Beach and Willowbrook (CD2),5,staten_island,6.49,bueno
-2018-06-01,502,South Beach and Willowbrook (CD2),5,staten_island,7.62,bueno
-2017-12-01,502,South Beach and Willowbrook (CD2),5,staten_island,7.87,bueno
-2018-01-01,503,Tottenville and Great Kills (CD3),5,staten_island,6.19,bueno
-2018-06-01,503,Tottenville and Great Kills (CD3),5,staten_island,7.36,bueno
-2017-12-01,503,Tottenville and Great Kills (CD3),5,staten_island,7.58,bueno
+2018-01-01,501,St. George and Stapleton (CD1),5,staten island,6.58,bueno
+2018-06-01,501,St. George and Stapleton (CD1),5,staten island,7.65,bueno
+2017-12-01,501,St. George and Stapleton (CD1),5,staten island,8.02,bueno
+2018-01-01,502,South Beach and Willowbrook (CD2),5,staten island,6.49,bueno
+2018-06-01,502,South Beach and Willowbrook (CD2),5,staten island,7.62,bueno
+2017-12-01,502,South Beach and Willowbrook (CD2),5,staten island,7.87,bueno
+2018-01-01,503,Tottenville and Great Kills (CD3),5,staten island,6.19,bueno
+2018-06-01,503,Tottenville and Great Kills (CD3),5,staten island,7.36,bueno
+2017-12-01,503,Tottenville and Great Kills (CD3),5,staten island,7.58,bueno
 2018-12-01,316,Brownsville (CD16),2,brooklyn,7.24,bueno
 2019-01-01,101,Financial District (CD1),1,manhattan,8.42,bueno
 2019-06-01,101,Financial District (CD1),1,manhattan,9.69,bueno
@@ -1806,42 +1806,42 @@ date,id_cd,cd_name,id_borough,borough,pm 2.5,air_quality
 2019-01-01,112,Washington Heights and Inwood (CD12),1,manhattan,7.17,bueno
 2019-06-01,112,Washington Heights and Inwood (CD12),1,manhattan,8.21,bueno
 2018-12-01,112,Washington Heights and Inwood (CD12),1,manhattan,7.84,bueno
-2019-01-01,201,Mott Haven and Melrose (CD1),4,the_bronx,7.69,bueno
-2019-06-01,201,Mott Haven and Melrose (CD1),4,the_bronx,8.86,bueno
-2018-12-01,201,Mott Haven and Melrose (CD1),4,the_bronx,8.24,bueno
-2019-01-01,202,Hunts Point and Longwood (CD2),4,the_bronx,7.82,bueno
-2019-06-01,202,Hunts Point and Longwood (CD2),4,the_bronx,9.0,bueno
-2018-12-01,202,Hunts Point and Longwood (CD2),4,the_bronx,8.32,bueno
-2019-01-01,203,Morrisania and Crotona (CD3),4,the_bronx,6.91,bueno
-2019-06-01,203,Morrisania and Crotona (CD3),4,the_bronx,8.05,bueno
-2018-12-01,203,Morrisania and Crotona (CD3),4,the_bronx,7.43,bueno
-2019-01-01,204,Highbridge and Concourse (CD4),4,the_bronx,7.24,bueno
-2019-06-01,204,Highbridge and Concourse (CD4),4,the_bronx,8.33,bueno
-2018-12-01,204,Highbridge and Concourse (CD4),4,the_bronx,7.89,bueno
-2019-01-01,205,Fordham and University Heights (CD5),4,the_bronx,7.29,bueno
-2019-06-01,205,Fordham and University Heights (CD5),4,the_bronx,8.31,bueno
-2018-12-01,205,Fordham and University Heights (CD5),4,the_bronx,7.97,bueno
-2019-01-01,206,Belmont and East Tremont (CD6),4,the_bronx,7.15,bueno
-2019-06-01,206,Belmont and East Tremont (CD6),4,the_bronx,8.2,bueno
-2018-12-01,206,Belmont and East Tremont (CD6),4,the_bronx,7.8,bueno
-2019-01-01,207,Kingsbridge Heights and Bedford (CD7),4,the_bronx,6.78,bueno
-2019-06-01,207,Kingsbridge Heights and Bedford (CD7),4,the_bronx,7.85,bueno
-2018-12-01,207,Kingsbridge Heights and Bedford (CD7),4,the_bronx,7.31,bueno
-2019-01-01,208,Riverdale and Fieldston (CD8),4,the_bronx,6.68,bueno
-2019-06-01,208,Riverdale and Fieldston (CD8),4,the_bronx,7.75,bueno
-2018-12-01,208,Riverdale and Fieldston (CD8),4,the_bronx,7.13,bueno
-2019-01-01,209,Parkchester and Soundview (CD9),4,the_bronx,6.81,bueno
-2019-06-01,209,Parkchester and Soundview (CD9),4,the_bronx,7.91,bueno
-2018-12-01,209,Parkchester and Soundview (CD9),4,the_bronx,7.39,bueno
-2019-01-01,210,Throgs Neck and Co-op City (CD10),4,the_bronx,6.7,bueno
-2019-06-01,210,Throgs Neck and Co-op City (CD10),4,the_bronx,7.73,bueno
-2018-12-01,210,Throgs Neck and Co-op City (CD10),4,the_bronx,7.3,bueno
-2019-01-01,211,Morris Park and Bronxdale (CD11),4,the_bronx,6.65,bueno
-2019-06-01,211,Morris Park and Bronxdale (CD11),4,the_bronx,7.73,bueno
-2018-12-01,211,Morris Park and Bronxdale (CD11),4,the_bronx,7.15,bueno
-2019-01-01,212,Williamsbridge and Baychester (CD12),4,the_bronx,6.66,bueno
-2019-06-01,212,Williamsbridge and Baychester (CD12),4,the_bronx,7.69,bueno
-2018-12-01,212,Williamsbridge and Baychester (CD12),4,the_bronx,7.14,bueno
+2019-01-01,201,Mott Haven and Melrose (CD1),4,bronx,7.69,bueno
+2019-06-01,201,Mott Haven and Melrose (CD1),4,bronx,8.86,bueno
+2018-12-01,201,Mott Haven and Melrose (CD1),4,bronx,8.24,bueno
+2019-01-01,202,Hunts Point and Longwood (CD2),4,bronx,7.82,bueno
+2019-06-01,202,Hunts Point and Longwood (CD2),4,bronx,9.0,bueno
+2018-12-01,202,Hunts Point and Longwood (CD2),4,bronx,8.32,bueno
+2019-01-01,203,Morrisania and Crotona (CD3),4,bronx,6.91,bueno
+2019-06-01,203,Morrisania and Crotona (CD3),4,bronx,8.05,bueno
+2018-12-01,203,Morrisania and Crotona (CD3),4,bronx,7.43,bueno
+2019-01-01,204,Highbridge and Concourse (CD4),4,bronx,7.24,bueno
+2019-06-01,204,Highbridge and Concourse (CD4),4,bronx,8.33,bueno
+2018-12-01,204,Highbridge and Concourse (CD4),4,bronx,7.89,bueno
+2019-01-01,205,Fordham and University Heights (CD5),4,bronx,7.29,bueno
+2019-06-01,205,Fordham and University Heights (CD5),4,bronx,8.31,bueno
+2018-12-01,205,Fordham and University Heights (CD5),4,bronx,7.97,bueno
+2019-01-01,206,Belmont and East Tremont (CD6),4,bronx,7.15,bueno
+2019-06-01,206,Belmont and East Tremont (CD6),4,bronx,8.2,bueno
+2018-12-01,206,Belmont and East Tremont (CD6),4,bronx,7.8,bueno
+2019-01-01,207,Kingsbridge Heights and Bedford (CD7),4,bronx,6.78,bueno
+2019-06-01,207,Kingsbridge Heights and Bedford (CD7),4,bronx,7.85,bueno
+2018-12-01,207,Kingsbridge Heights and Bedford (CD7),4,bronx,7.31,bueno
+2019-01-01,208,Riverdale and Fieldston (CD8),4,bronx,6.68,bueno
+2019-06-01,208,Riverdale and Fieldston (CD8),4,bronx,7.75,bueno
+2018-12-01,208,Riverdale and Fieldston (CD8),4,bronx,7.13,bueno
+2019-01-01,209,Parkchester and Soundview (CD9),4,bronx,6.81,bueno
+2019-06-01,209,Parkchester and Soundview (CD9),4,bronx,7.91,bueno
+2018-12-01,209,Parkchester and Soundview (CD9),4,bronx,7.39,bueno
+2019-01-01,210,Throgs Neck and Co-op City (CD10),4,bronx,6.7,bueno
+2019-06-01,210,Throgs Neck and Co-op City (CD10),4,bronx,7.73,bueno
+2018-12-01,210,Throgs Neck and Co-op City (CD10),4,bronx,7.3,bueno
+2019-01-01,211,Morris Park and Bronxdale (CD11),4,bronx,6.65,bueno
+2019-06-01,211,Morris Park and Bronxdale (CD11),4,bronx,7.73,bueno
+2018-12-01,211,Morris Park and Bronxdale (CD11),4,bronx,7.15,bueno
+2019-01-01,212,Williamsbridge and Baychester (CD12),4,bronx,6.66,bueno
+2019-06-01,212,Williamsbridge and Baychester (CD12),4,bronx,7.69,bueno
+2018-12-01,212,Williamsbridge and Baychester (CD12),4,bronx,7.14,bueno
 2019-01-01,301,Greenpoint and Williamsburg (CD1),2,brooklyn,8.61,bueno
 2019-06-01,301,Greenpoint and Williamsburg (CD1),2,brooklyn,9.99,bueno
 2018-12-01,301,Greenpoint and Williamsburg (CD1),2,brooklyn,9.27,bueno
@@ -1937,15 +1937,15 @@ date,id_cd,cd_name,id_borough,borough,pm 2.5,air_quality
 2019-01-01,414,Rockaway and Broad Channel (CD14),3,queens,5.59,bueno
 2019-06-01,414,Rockaway and Broad Channel (CD14),3,queens,7.02,bueno
 2018-12-01,414,Rockaway and Broad Channel (CD14),3,queens,6.28,bueno
-2019-01-01,501,St. George and Stapleton (CD1),5,staten_island,6.14,bueno
-2019-06-01,501,St. George and Stapleton (CD1),5,staten_island,7.63,bueno
-2018-12-01,501,St. George and Stapleton (CD1),5,staten_island,6.68,bueno
-2019-01-01,502,South Beach and Willowbrook (CD2),5,staten_island,5.88,bueno
-2019-06-01,502,South Beach and Willowbrook (CD2),5,staten_island,7.35,bueno
-2018-12-01,502,South Beach and Willowbrook (CD2),5,staten_island,6.45,bueno
-2019-01-01,503,Tottenville and Great Kills (CD3),5,staten_island,5.83,bueno
-2019-06-01,503,Tottenville and Great Kills (CD3),5,staten_island,7.26,bueno
-2018-12-01,503,Tottenville and Great Kills (CD3),5,staten_island,6.45,bueno
+2019-01-01,501,St. George and Stapleton (CD1),5,staten island,6.14,bueno
+2019-06-01,501,St. George and Stapleton (CD1),5,staten island,7.63,bueno
+2018-12-01,501,St. George and Stapleton (CD1),5,staten island,6.68,bueno
+2019-01-01,502,South Beach and Willowbrook (CD2),5,staten island,5.88,bueno
+2019-06-01,502,South Beach and Willowbrook (CD2),5,staten island,7.35,bueno
+2018-12-01,502,South Beach and Willowbrook (CD2),5,staten island,6.45,bueno
+2019-01-01,503,Tottenville and Great Kills (CD3),5,staten island,5.83,bueno
+2019-06-01,503,Tottenville and Great Kills (CD3),5,staten island,7.26,bueno
+2018-12-01,503,Tottenville and Great Kills (CD3),5,staten island,6.45,bueno
 2019-12-01,105,Midtown (CD5),1,manhattan,12.55,aceptable
 2020-06-01,105,Midtown (CD5),1,manhattan,9.19,bueno
 2020-01-01,106,Stuyvesant Town and Turtle Bay (CD6),1,manhattan,7.79,bueno
@@ -1969,16 +1969,16 @@ date,id_cd,cd_name,id_borough,borough,pm 2.5,air_quality
 2020-01-01,112,Washington Heights and Inwood (CD12),1,manhattan,6.28,bueno
 2019-12-01,112,Washington Heights and Inwood (CD12),1,manhattan,7.33,bueno
 2020-06-01,112,Washington Heights and Inwood (CD12),1,manhattan,7.35,bueno
-2020-01-01,201,Mott Haven and Melrose (CD1),4,the_bronx,6.3,bueno
-2019-12-01,201,Mott Haven and Melrose (CD1),4,the_bronx,7.25,bueno
-2020-06-01,201,Mott Haven and Melrose (CD1),4,the_bronx,7.48,bueno
-2020-01-01,202,Hunts Point and Longwood (CD2),4,the_bronx,6.56,bueno
-2019-12-01,202,Hunts Point and Longwood (CD2),4,the_bronx,7.52,bueno
-2020-06-01,202,Hunts Point and Longwood (CD2),4,the_bronx,7.73,bueno
-2020-01-01,203,Morrisania and Crotona (CD3),4,the_bronx,6.22,bueno
-2019-12-01,203,Morrisania and Crotona (CD3),4,the_bronx,7.21,bueno
-2020-06-01,203,Morrisania and Crotona (CD3),4,the_bronx,7.33,bueno
-2020-01-01,204,Highbridge and Concourse (CD4),4,the_bronx,6.12,bueno
+2020-01-01,201,Mott Haven and Melrose (CD1),4,bronx,6.3,bueno
+2019-12-01,201,Mott Haven and Melrose (CD1),4,bronx,7.25,bueno
+2020-06-01,201,Mott Haven and Melrose (CD1),4,bronx,7.48,bueno
+2020-01-01,202,Hunts Point and Longwood (CD2),4,bronx,6.56,bueno
+2019-12-01,202,Hunts Point and Longwood (CD2),4,bronx,7.52,bueno
+2020-06-01,202,Hunts Point and Longwood (CD2),4,bronx,7.73,bueno
+2020-01-01,203,Morrisania and Crotona (CD3),4,bronx,6.22,bueno
+2019-12-01,203,Morrisania and Crotona (CD3),4,bronx,7.21,bueno
+2020-06-01,203,Morrisania and Crotona (CD3),4,bronx,7.33,bueno
+2020-01-01,204,Highbridge and Concourse (CD4),4,bronx,6.12,bueno
 2020-01-01,105,Midtown (CD5),1,manhattan,9.24,bueno
 2020-06-01,104,Clinton and Chelsea (CD4),1,manhattan,8.32,bueno
 2019-12-01,104,Clinton and Chelsea (CD4),1,manhattan,10.55,bueno
@@ -1993,32 +1993,32 @@ date,id_cd,cd_name,id_borough,borough,pm 2.5,air_quality
 2019-12-01,101,Financial District (CD1),1,manhattan,10.03,bueno
 2020-01-01,101,Financial District (CD1),1,manhattan,7.52,bueno
 2020-06-01,312,Borough Park (CD12),2,brooklyn,6.78,bueno
-2019-12-01,204,Highbridge and Concourse (CD4),4,the_bronx,7.13,bueno
-2020-06-01,204,Highbridge and Concourse (CD4),4,the_bronx,7.23,bueno
-2020-01-01,205,Fordham and University Heights (CD5),4,the_bronx,6.21,bueno
-2019-12-01,205,Fordham and University Heights (CD5),4,the_bronx,7.22,bueno
-2020-06-01,205,Fordham and University Heights (CD5),4,the_bronx,7.3,bueno
-2020-01-01,206,Belmont and East Tremont (CD6),4,the_bronx,6.32,bueno
-2019-12-01,206,Belmont and East Tremont (CD6),4,the_bronx,7.4,bueno
-2020-06-01,206,Belmont and East Tremont (CD6),4,the_bronx,7.37,bueno
-2020-01-01,207,Kingsbridge Heights and Bedford (CD7),4,the_bronx,6.05,bueno
-2019-12-01,207,Kingsbridge Heights and Bedford (CD7),4,the_bronx,6.78,bueno
-2020-06-01,207,Kingsbridge Heights and Bedford (CD7),4,the_bronx,7.26,bueno
-2020-01-01,208,Riverdale and Fieldston (CD8),4,the_bronx,5.87,bueno
-2019-12-01,208,Riverdale and Fieldston (CD8),4,the_bronx,6.33,bueno
-2020-06-01,208,Riverdale and Fieldston (CD8),4,the_bronx,7.21,bueno
-2020-01-01,209,Parkchester and Soundview (CD9),4,the_bronx,6.2,bueno
-2019-12-01,209,Parkchester and Soundview (CD9),4,the_bronx,7.43,bueno
-2020-06-01,209,Parkchester and Soundview (CD9),4,the_bronx,7.2,bueno
-2020-01-01,210,Throgs Neck and Co-op City (CD10),4,the_bronx,6.07,bueno
-2019-12-01,210,Throgs Neck and Co-op City (CD10),4,the_bronx,7.26,bueno
-2020-06-01,210,Throgs Neck and Co-op City (CD10),4,the_bronx,7.08,bueno
-2020-01-01,211,Morris Park and Bronxdale (CD11),4,the_bronx,6.01,bueno
-2019-12-01,211,Morris Park and Bronxdale (CD11),4,the_bronx,6.85,bueno
-2020-06-01,211,Morris Park and Bronxdale (CD11),4,the_bronx,7.17,bueno
-2020-01-01,212,Williamsbridge and Baychester (CD12),4,the_bronx,5.92,bueno
-2019-12-01,212,Williamsbridge and Baychester (CD12),4,the_bronx,6.53,bueno
-2020-06-01,212,Williamsbridge and Baychester (CD12),4,the_bronx,7.18,bueno
+2019-12-01,204,Highbridge and Concourse (CD4),4,bronx,7.13,bueno
+2020-06-01,204,Highbridge and Concourse (CD4),4,bronx,7.23,bueno
+2020-01-01,205,Fordham and University Heights (CD5),4,bronx,6.21,bueno
+2019-12-01,205,Fordham and University Heights (CD5),4,bronx,7.22,bueno
+2020-06-01,205,Fordham and University Heights (CD5),4,bronx,7.3,bueno
+2020-01-01,206,Belmont and East Tremont (CD6),4,bronx,6.32,bueno
+2019-12-01,206,Belmont and East Tremont (CD6),4,bronx,7.4,bueno
+2020-06-01,206,Belmont and East Tremont (CD6),4,bronx,7.37,bueno
+2020-01-01,207,Kingsbridge Heights and Bedford (CD7),4,bronx,6.05,bueno
+2019-12-01,207,Kingsbridge Heights and Bedford (CD7),4,bronx,6.78,bueno
+2020-06-01,207,Kingsbridge Heights and Bedford (CD7),4,bronx,7.26,bueno
+2020-01-01,208,Riverdale and Fieldston (CD8),4,bronx,5.87,bueno
+2019-12-01,208,Riverdale and Fieldston (CD8),4,bronx,6.33,bueno
+2020-06-01,208,Riverdale and Fieldston (CD8),4,bronx,7.21,bueno
+2020-01-01,209,Parkchester and Soundview (CD9),4,bronx,6.2,bueno
+2019-12-01,209,Parkchester and Soundview (CD9),4,bronx,7.43,bueno
+2020-06-01,209,Parkchester and Soundview (CD9),4,bronx,7.2,bueno
+2020-01-01,210,Throgs Neck and Co-op City (CD10),4,bronx,6.07,bueno
+2019-12-01,210,Throgs Neck and Co-op City (CD10),4,bronx,7.26,bueno
+2020-06-01,210,Throgs Neck and Co-op City (CD10),4,bronx,7.08,bueno
+2020-01-01,211,Morris Park and Bronxdale (CD11),4,bronx,6.01,bueno
+2019-12-01,211,Morris Park and Bronxdale (CD11),4,bronx,6.85,bueno
+2020-06-01,211,Morris Park and Bronxdale (CD11),4,bronx,7.17,bueno
+2020-01-01,212,Williamsbridge and Baychester (CD12),4,bronx,5.92,bueno
+2019-12-01,212,Williamsbridge and Baychester (CD12),4,bronx,6.53,bueno
+2020-06-01,212,Williamsbridge and Baychester (CD12),4,bronx,7.18,bueno
 2020-01-01,301,Greenpoint and Williamsburg (CD1),2,brooklyn,7.08,bueno
 2019-12-01,301,Greenpoint and Williamsburg (CD1),2,brooklyn,8.6,bueno
 2020-06-01,301,Greenpoint and Williamsburg (CD1),2,brooklyn,8.0,bueno
@@ -2114,12 +2114,12 @@ date,id_cd,cd_name,id_borough,borough,pm 2.5,air_quality
 2020-01-01,414,Rockaway and Broad Channel (CD14),3,queens,5.33,bueno
 2019-12-01,414,Rockaway and Broad Channel (CD14),3,queens,6.12,bueno
 2020-06-01,414,Rockaway and Broad Channel (CD14),3,queens,6.27,bueno
-2020-01-01,501,St. George and Stapleton (CD1),5,staten_island,5.84,bueno
-2019-12-01,501,St. George and Stapleton (CD1),5,staten_island,7.43,bueno
-2020-06-01,501,St. George and Stapleton (CD1),5,staten_island,6.74,bueno
-2020-01-01,502,South Beach and Willowbrook (CD2),5,staten_island,5.58,bueno
-2019-12-01,502,South Beach and Willowbrook (CD2),5,staten_island,6.89,bueno
-2020-06-01,502,South Beach and Willowbrook (CD2),5,staten_island,6.55,bueno
-2020-01-01,503,Tottenville and Great Kills (CD3),5,staten_island,5.32,bueno
-2019-12-01,503,Tottenville and Great Kills (CD3),5,staten_island,5.95,bueno
-2020-06-01,503,Tottenville and Great Kills (CD3),5,staten_island,6.52,bueno
+2020-01-01,501,St. George and Stapleton (CD1),5,staten island,5.84,bueno
+2019-12-01,501,St. George and Stapleton (CD1),5,staten island,7.43,bueno
+2020-06-01,501,St. George and Stapleton (CD1),5,staten island,6.74,bueno
+2020-01-01,502,South Beach and Willowbrook (CD2),5,staten island,5.58,bueno
+2019-12-01,502,South Beach and Willowbrook (CD2),5,staten island,6.89,bueno
+2020-06-01,502,South Beach and Willowbrook (CD2),5,staten island,6.55,bueno
+2020-01-01,503,Tottenville and Great Kills (CD3),5,staten island,5.32,bueno
+2019-12-01,503,Tottenville and Great Kills (CD3),5,staten island,5.95,bueno
+2020-06-01,503,Tottenville and Great Kills (CD3),5,staten island,6.52,bueno
