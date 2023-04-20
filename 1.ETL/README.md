@@ -13,7 +13,6 @@ Los scripts necesarios para el desarrollo de las actividades puede ser consultad
 Se realiza la extracción con python y se almacenan los datos en Azure Blob Storage.<br>
 
 TLC Trip Record Data .<br>
-
 https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page <br>
 
 
