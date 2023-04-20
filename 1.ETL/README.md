@@ -1,28 +1,36 @@
 # <h1> ETL </h1> 
 
+Se realizan procesos de extracción y transformación a datos que tienen información de la ciudad de New York y de los viajes realizados por taxis en sus diferentes distritos para cargarlos en una base de datos en la nube de Microsoft Azure. 
+
+Los scripts necesarios para el desarrollo de las actividades puede ser consultado en: []
 
 ## 1. Extract
 
 ### Data Sources
 
+**Datos de viajes de los taxis en NYC:**<br>
+
+Se realiza la extracción con python y se almacenan los datos en Azure Blob Storage.<br>
+
 TLC Trip Record Data .<br>
 
 https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page <br>
 
-Air pollution NYC.<br>
 
+**Datos del medio ambiente NYC:**<br>
+
+Se realiza la extracción de los datos y se almacena de manera local: [data_finale](https://github.com/francomyburg/Proyecto_grupal_DS/tree/main/data/finale_dataset).
+
+Air pollution NYC.<br>
 https://data.cityofnewyork.us/Environment/Air-Quality/c3uy-2p5r<br>
 API "https://data.cityofnewyork.us/resource/c3uy-2p5r.json"
 
 Traffic Density/Volume NYC.<br>
-
 https://data.cityofnewyork.us/Transportation/Automated-Traffic-Volume-Counts/7ym2-wayt <br>
 API "https://data.cityofnewyork.us/resource/7ym2-wayt.json"
 
 Noise pollution NYC.<br>
-
-Registro de tipos de sonidos en NYC.<br>
-https://zenodo.org/record/3966543/files/annotations.csv?download=1<br>
+Registro de tipos de sonidos en NYC https://zenodo.org/record/3966543/files/annotations.csv?download=1<br>
 
 <hr>
 
@@ -74,9 +82,15 @@ Se generan 5 tablas.<br>
 ### Carga de tablas de aspectos ambientales
 
 ### Carga de tabla de viajes de taxis
-Se emplea el siguiente scrip para la carga de todos los viajes realizados por los taxis amarillos en NYC. <br>
+
+Se emplea databricks para realizar la carga:<br>
 
 
+https://www.youtube.com/watch?v=4nu3QpO49Kw
+
+ <br>
+
+<hr>
 *Developed by*
 
 <a href="https://www.linkedin.com/in/franco-jonas-myburg-6095b8255/"><img alt="Franco" title="Connect with Franco" src="https://img.shields.io/badge/Franco Myburg-0077B5?style=flat&logo=Linkedin&logoColor=white"></a> **DATA ENGINEER**
