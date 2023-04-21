@@ -67,7 +67,7 @@ Se generan 5 tablas.<br>
 | **table** | **name** |
 |:---:|:---:|
 | table_0 | _TLC_Monthy_Report_NYC.csv_ |
-| table_1 | _tlc_yellow_cabs.parquet_ |
+| table_1 | _yellow_2022_12.parquet_ |
 | table_3 | _air_pollution.csv_ |
 | table_4 | _vehicular_volume.csv_ |
 | table_5 | _noise_pollution.csv_ |
