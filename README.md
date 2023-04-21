@@ -49,7 +49,7 @@ La gestión del proyecto se desarrolla en:<br>
 
 # 3. Desarrollo
 
-<img src="src/esquema.png" width="700" height="400"/>
+<img src="src/esquema.png" width="900" height="300"/>
 
 
 ## 3.1 KPIs 
@@ -93,7 +93,15 @@ Los datos se extraen de fuentes oficiales que proporciona la ciudad de New York.
 
 # 4. ETL
 
-Se extraen los datos. Se generan 6 tablas y se cargan a la base de datos [nombre]. <br>
+Se extraen los datos. Se emplean procesos de transformación. Se generan 5 tablas y se cargan a una base de datos SQL en Azure[nombre](https://github.com/francomyburg/Proyecto_grupal_DS/tree/main/1.ETL/DATABASE).  <br>
+
+| **table** | **name** | **descripción** |
+|:---:|:---:|---|
+| _table_0_ | _TLC_Monthy_Report_NYC.csv_ | _relaciona datos de los viajes mensuales de taxi en NYC_ |
+| _table_1_ | _yellow_2022_12.parquet_ | _relaciona datos de los viajes diarios de taxi en NYC_ |
+| _table_2_ | _air_pollution.csv_ | _relaciona datos de las cargas contaminantes en el aire en NYC_ |
+| _table_3_ | _vehicular_volume.csv_ | _relaciona datos de los flujos de vehículos en NYC_ |
+| _table_4_ | _noise_pollution.csv_ | _relaciona datos de registros de sonidos molestos por vehículos en NYC_ |
 
 *Los aspectos más importantes de este proceso se pueden consultar en: [ETL](https://github.com/francomyburg/Proyecto_grupal_DS/tree/main/1.ETL).*<br>
 

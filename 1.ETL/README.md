@@ -69,19 +69,24 @@ Se generan 5 tablas.<br>
 |:---:|:---:|
 | table_0 | _TLC_Monthy_Report_NYC.csv_ |
 | table_1 | _yellow_2022_12.parquet_ |
-| table_3 | _air_pollution.csv_ |
-| table_4 | _vehicular_volume.csv_ |
-| table_5 | _noise_pollution.csv_ |
+| table_2 | _air_pollution.csv_ |
+| table_3 | _vehicular_volume.csv_ |
+| table_4 | _noise_pollution.csv_ |
 
 <hr>
 
 ## 3. Load
 
-Se crea una base de datos SQl en 
+Se crea una base de datos SQl en Azure SQL.<br>
+
+<img src="DATABASE/Diagrama_ER.png" width="700" height="400"/>
+
+La tabla Ml Projected Demand corresponde al resultado del modelo de ML. Mientras que la tabla Borough y taxi_zone son tablas auxiliares destinadas a generar una mejor integración en el modelo de relación para facilitar búsquedas y consultas.
+
 
 ### Carga de tablas de aspectos ambientales
 
-Se carga estos datos de manera manual, desde la ubicación local de los datos tranformados.
+Se carga estos datos de manera manual, desde la ubicación local de los datos tranformados [data_finale](https://github.com/francomyburg/Proyecto_grupal_DS/tree/main/data/finale_dataset).
 
 ### Carga de tabla de viajes de taxis
 
