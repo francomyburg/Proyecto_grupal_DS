@@ -40,13 +40,11 @@ Datos que relacionan los viajes que realizan los taxis amarillos en NYC. [TLC Tr
 | **Data_source** | **Activities** |
 |---|---|
 | [TLC Trip Record   Data](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page) | Se elimina **'VendorID', 'RatecodeID', 'store_and_fwd_flag'** |
-| [TLC Trip Record   Data](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page) | Se Separa   **'lpep_pickup_datetime' y 'lpep_dropoff_datetime'**  en día (YYYY-MM-DD) **Hora de pickup**,   **Hora de dropoff**. |
-| [TLC Trip Record   Data](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page) | Se   insertan las variables **'dropoff_time' 'pickup_day' 'pickup_time'   'dropoff_day'**	 |
-| [TLC Trip Record   Data](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page) |      Se elimina **'lpep_pickup_datetime'    'lpep_dropoff_datetime'** |
 | [TLC Trip Record   Data](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page) | Se   identifican valores faltantes nan en **'passenger_count'**: 22188   **'congestion_surcharge'**:8195675 **'airport_fee'**: 8195675. |
-| [TLC Trip Record   Data](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page) | Se   imputa == 0 a las variables **'congestion_surcharge' 'airport_fee'** con   valores faltantes nan. |
-| [TLC Trip Record   Data](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page) | Se   imputa valores de la media a las variables **'trip_distance' 'fare_amount'   'tip_amount' 'passenger_count' 'tolls_amount' 'improvement_surcharge'** con   valores faltantes nan. |
-| [TLC Trip Record   Data](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page) | Se   imputa valores de la moda las variables **'payment_type'** , **'trip_type'**   , **'extra'**, **'mta_tax'** con valores faltantes nan. |
+| [TLC Trip Record   Data](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page) | Se   imputa == 0 a las variables **'fare_amount'** **'extra'** **'mta_tax'** **'tolls_amount'** **'congestion_surcharge'** **'improvement_surcharge'** **'airport_fee'** con   valores faltantes nan. |
+| [TLC Trip Record   Data](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page) | Se aplica valor absoluto a todas las columnas con tipo de dato numérico (para contrarrestar valores negativos, cuyo valor absoluto es congruente).|
+| [TLC Trip Record   Data](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page) | Se eliminan filas con ubicación desconocida (valores 264 y 265) en **'PULocationID'** y **'DOLocationID'**.|
+| [TLC Trip Record   Data](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page) | Se eliminan filas con años no correspondientes al de la tabla actual en columna **'tpep_pickup_datetime'**.|
 
 Datos del medio ambiente.<br>
 
@@ -82,10 +80,17 @@ Se generan 5 tablas.<br>
 
 ### Carga de tabla de viajes de taxis
 
-Se emplea databricks para realizar la carga:<br>
+Se emplea Azure Databricks para realizar la carga:<br>
 
+[Video de Automatización](https://www.youtube.com/watch?v=4nu3QpO49Kw)
 
-https://www.youtube.com/watch?v=4nu3QpO49Kw
+1. Auto Loader se integró para procesar incrementalmente los nuevos archivos que se descargan a Azure Blob Storage. 
+
+2. Esta función se encarga de validar los datos, de forma que sólo acepte valores nulos en las columnas especificadas y que la estructura del archivo se apegue al esquema indicado.
+
+3. Los archivos se procesan automáticamente una vez el trabajo se calendariza en la sección Compute de Databricks.
+
+4. Se utilizó PySpark para algunas modificaciones antes de la carga final de las tablas, que son "Streaming Tables" y se transforman a un formato adecuado para Azure SQL Database.
 
  <br>
 
