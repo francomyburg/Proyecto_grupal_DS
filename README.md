@@ -8,22 +8,14 @@ Se lleva a cabo un análisis del sector de transporte público en los taxis amar
 
 Se analizan datos en NYC de: los sonidos registrados por el trafico, la contaminación en el aire, el movimiento de vehículos por zona y los viajes que realizan los taxis en la ciudad para  los 5 Boroughs (distritos) de New York: **Manhattan (New York County), Brooklyn (Kings County), Queens (Queens County), The Bronx (Bronx County) & Staten Island (Richmond County)**.<br>
 
- Se implementa un modelo ML para estimar tendencias a futuro de los principales indicadores. Se realiza un Dashboard para la visualización de los datos con el mes de mayor actividad en el sector (Diciembre 2022).
- <br>
+Se implementa un modelo de Machine Learning  para estimar tendencias a futuro de los principales indicadores. Se realiza un Dashboard para la visualización de los datos. <br>
 
 El proyecto se ejecuta bajo metodología ágil Scrum y se desarrolla en cuatro etapas.<br>
 
 **Etapa 1: Recopilación de los datos**<br>
-Procesos de recopilación y limpieza de la información. Se desarrolla un EDA.  <br>
-
 **Etapa 2: Creación de base de datos** <br>
-Creación de una base de datos SQL con una carga inicial automatizada de manera incremental en el servicio cloud de Microsoft Azure.<br>
-
-**Etapa 3: Análisis Económico del sector & KPIs** <br>
-Análisis del sector económico y generación de insights <br>
-
+**Etapa 3: Análisis Económico, KPIs** <br>
 **Etapa 4: Modelo ML** <br>
-Desarollo de modelo de Machine Learning de clasificación de clientes, resultados. <br>
 
 La gestión del proyecto se desarrolla en:<br>
 *Actividades [Task:](https://trello.com/b/BBq6OTiJ/proyecto-final) Cronograma [Gant:](https://docs.google.com/spreadsheets/d/10gupD91IRV9KfblHfoy6fAw1rV6vu_gw6LNHp0itnfo/edit#gid=1709744959)*
@@ -33,17 +25,14 @@ La gestión del proyecto se desarrolla en:<br>
 # 2. Objetivos
 
 - Identificar patrones y tendencias en los movimientos de taxis en NYC (2010-2022).<br>
-  *Mayor promedio de distancias según origen/destino, Cantidad de viajes según origen/destino, Montos de viajes según origen/destino, Días y horarios con mayor demanda.* <br>
-
-- Explorar y analizar la calidad del aire, la contaminación sonora en NYC relacionando el movimiento de los taxis.<br>
+ 
+- Explorar y analizar la calidad del aire, la contaminación por ruido en NYC en relación al movimiento de los taxis.<br>
 
 - Evaluar la relación entre el movimiento de los taxis y la calidad del aire o la contaminación sonora y determinar si hay correlación significativa. <br>
 
 - Realizar un análisis de las ganancias económicas del sector. <br>
-  *Ingreso bruto promedio hora/día/mes, Proporcion de ingresos por tarifa cliente/empresa.*<br>
 
-- Desarrollar un Modelo de ML de clasificación de usuarios de taxis en la ciudad de Nueva York  para  plantear  estrategias de marketing por microsegmentación.<br>
-  *Modelo de estimación de tarifa según borough y horario.* <br>
+- Desarrollar un Modelo de ML para estimar comportamientos futuros del sector de transporte de taxi en NYC.<br>
 
 - Identificar oportunidades para la implementación de vehículos eléctricos en el sector de transporte de pasajeros.
 
@@ -95,7 +84,7 @@ Los datos se extraen de fuentes oficiales que proporciona la ciudad de New York.
 
 # 4. ETL
 
-Se extraen los datos. Se emplean procesos de transformación. Se generan 5 tablas y se cargan a una base de datos SQL en Azure[nombre](https://github.com/francomyburg/Proyecto_grupal_DS/tree/main/1.ETL/DATABASE).  <br>
+Se realizan procesos de recopilación y limpieza de la información. Se generan 5 tablas y se cargan a una base de datos SQL en Azure[taxifinal](https://github.com/francomyburg/Proyecto_grupal_DS/tree/main/1.ETL/DATABASE).  <br>
 
 | **table** | **name** | **descripción** |
 |:---:|:---:|---|
