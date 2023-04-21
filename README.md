@@ -49,30 +49,27 @@ La gestión del proyecto se desarrolla en:<br>
 
 # 3. Desarrollo
 
-<img src="src/diagrama_flujo.png" width="700" height="400"/>
+<img src="src/esquema.png" width="700" height="400"/>
 
 
 ## 3.1 KPIs 
 
-- 1-Distancia por vehículo (ganancia por kilometro)
+- 1. Distancia por vehículo (ganancia por kilometro)
 
-    Mayores promedios de distancias según origen/destino 
+      Mayores promedios de distancias según origen/destino.<br> 
+      Cantidad de viajes según origen/destino  
+      Montos de viajes según origen/destino.<br> 
+      Dias y horarios con mayor demanda.<br> 
 
-    Cantidad de viajes según origen/destino 
+- 2. % disminución de contaminantes en el aire por vehículos eléctricos (% Variación promedio de PM 2,5)
 
-    Montos de viajes según origen/destino
+- 3. % disminución de contaminación por ruido por vehículos eléctricos (% Variación promedio de sonidos registrados)
 
-    Dias y horarios con mayor demanda
+- 4. Ingresos brutos/netos cliente/empresa por dia/mes
 
-- 2-Indice de calidad del aire (Variación anual en MP 2,5 per m2)
+      Tarifa/distancia (correlación)
 
-- 3-Contaminación Acústica (Variación anual en Decibeles per m2)
-
-- 4-Ingresos brutos/netos cliente/empresa por dia/mes
-
-    Tarifa/distancia (correlación)
-
-- 5-Cuota del mercado proyectado
+- 5. Cuota del mercado proyectado
 <br>
 
 ## 3.2 Recursos implementados
@@ -89,7 +86,7 @@ La gestión del proyecto se desarrolla en:<br>
 
 Los datos se extraen de fuentes oficiales que proporciona la ciudad de New York.  **Taxi & Limousine Commission**  https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page y de los datos abiertos de New York, **Open_Data_NYC** https://data.cityofnewyork.us/.<br> 
 
-*El **Diccionario de los datos** puede consultarse en (data_dict)*
+*El **Diccionario de los datos** puede consultarse en [data_dict](https://github.com/francomyburg/Proyecto_grupal_DS).*
 
 
 <hr>
@@ -98,7 +95,7 @@ Los datos se extraen de fuentes oficiales que proporciona la ciudad de New York.
 
 Se extraen los datos. Se generan 6 tablas y se cargan a la base de datos [nombre]. <br>
 
-Los aspectos más importantes de este proceso se pueden consultar en [].<br>
+*Los aspectos más importantes de este proceso se pueden consultar en: [ETL](https://github.com/francomyburg/Proyecto_grupal_DS/tree/main/1.ETL).*<br>
 
 
 

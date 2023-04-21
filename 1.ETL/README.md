@@ -2,7 +2,7 @@
 
 Se realizan procesos de extracción y transformación a datos que tienen información de la ciudad de New York y de los viajes realizados por taxis en sus diferentes distritos para cargarlos en una base de datos en la nube de Microsoft Azure. 
 
-Los scripts necesarios para el desarrollo de las actividades puede ser consultado en: []
+*Los scripts necesarios para el desarrollo de las actividades puede ser consultado en: [ETL.ipynb](https://github.com/francomyburg/Proyecto_grupal_DS/blob/main/1.ETL/ETL-Databricks.ipynb).*
 
 ## 1. Extract
 
@@ -77,7 +77,11 @@ Se generan 5 tablas.<br>
 
 ## 3. Load
 
+Se crea una base de datos SQl en 
+
 ### Carga de tablas de aspectos ambientales
+
+Se carga estos datos de manera manual, desde la ubicación local de los datos tranformados.
 
 ### Carga de tabla de viajes de taxis
 
