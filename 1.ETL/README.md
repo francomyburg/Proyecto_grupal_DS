@@ -45,6 +45,7 @@ Datos que relacionan los viajes que realizan los taxis amarillos en NYC. [TLC Tr
 | [TLC Trip Record   Data](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page) | Se aplica valor absoluto a todas las columnas con tipo de dato numérico (para contrarrestar valores negativos, cuyo valor absoluto es congruente).|
 | [TLC Trip Record   Data](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page) | Se eliminan filas con ubicación desconocida (valores 264 y 265) en **'PULocationID'** y **'DOLocationID'**.|
 | [TLC Trip Record   Data](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page) | Se eliminan filas con años no correspondientes al de la tabla actual en columna **'tpep_pickup_datetime'**.|
+| [TLC Trip Record   Data](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page) | Se eliminan filas con distancia igual a 0 o mayor a 250 millas en **'trip_distance'**.|
 
 Datos del medio ambiente.<br>
 
