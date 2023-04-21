@@ -4,7 +4,7 @@
 
 # 1. Introducción
 
-Se lleva a cabo un análisis del sector de transporte público en los taxis amarillos de la ciudad de Nueva York con el fin de evaluar la viabilidad de invertir en tecnologías más sostenibles, como la implementación de flotas de vehículos eléctricos.<br>
+Se lleva a cabo un análisis del sector de transporte público en los taxis amarillos de la ciudad de Nueva York con el fin de evaluar la viabilidad de invertir en tecnologías sostenibles, como la implementación de flotas de vehículos eléctricos.<br>
 
 Se analizan los niveles de ruido presentes en la ciudad del año 2016-2020 y la calidad del aire desde el año 2008 al 2020, el movimiento de vehículos desde el año 2010 hasta el 2023 en los 5 Boroughs (distritos) de NYC: **Manhattan (New York County), Brooklyn (Kings County), Queens (Queens County), The Bronx (Bronx County) & Staten Island (Richmond County)**. Se implementa un modelo ML para estimar tendencias a futuro de los principales indicadores. Se realiza un Dashboard para la visualización de los datos con el mes de mayor actividad en el sector (Diciembre 2022).
  <br>
@@ -14,8 +14,8 @@ El proyecto se ejecuta bajo metodología ágil Scrum y se desarrolla en cuatro e
 **Etapa 1: Recopilación de los datos**<br>
 Procesos de recopilación y limpieza de la información. Se desarrolla un EDA.  <br>
 
-**Etapa 2: Creación de base de datos (DW)** <br>
-Creación de DataWarehouse con una carga inicial automatizada de manera incremental en el servicio cloud de Microsoft Azure.<br>
+**Etapa 2: Creación de base de datos** <br>
+Creación de una base de datos SQL con una carga inicial automatizada de manera incremental en el servicio cloud de Microsoft Azure.<br>
 
 **Etapa 3: Análisis Económico del sector & KPIs** <br>
 Análisis del sector económico y generación de insights <br>
@@ -79,7 +79,7 @@ La gestión del proyecto se desarrolla en:<br>
 
 - Gestión de proyectos: Google meet, Trello.<br>
 
-- Ingenieria de datos (EDA, ETL, DATAWAREHOUSE): Python, Beautiful Soup, Pandas, Matplotlib,  Seaborn , SQLAlchemy , PostgreSQL.<br> 
+- Ingenieria de datos (EDA, ETL, SQL BD): Python, Beautiful Soup, Pandas, Matplotlib,  Seaborn , SQLAlchemy , Azure SQL.<br> 
 
 - Análisis de datos (Business Intelligence & Machine Learning): Python, Pandas, SQLAlchemy , Plotly, PowerBI, Scikit-learn, Streamlit.<br> 
 
@@ -95,6 +95,12 @@ Los datos se extraen de fuentes oficiales que proporciona la ciudad de New York.
 <hr>
 
 # 4. ETL
+
+Se extraen los datos. Se generan 6 tablas y se cargan a la base de datos [nombre]. <br>
+
+Los aspectos más importantes de este proceso se pueden consultar en [].<br>
+
+
 
 <hr>
 
