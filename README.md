@@ -26,9 +26,7 @@ La gestión del proyecto se desarrolla en:<br>
 
 - Identificar patrones y tendencias en los movimientos de taxis en NYC (2010-2022).<br>
  
-- Explorar y analizar la calidad del aire, la contaminación por ruido en NYC en relación al movimiento de los taxis.<br>
-
-- Evaluar la relación entre el movimiento de los taxis y la calidad del aire o la contaminación sonora y determinar si hay correlación significativa. <br>
+- Investigar la relación entre el movimiento de los taxis y la calidad del aire y la contaminación sonora en NYC, para determinar alguna  correlación existente. <br>
 
 - Realizar un análisis de las ganancias económicas del sector. <br>
 
