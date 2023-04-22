@@ -1,19 +1,13 @@
-# <h1> Análisis de datos para observar viabilidad de vehículos Eléctricos en el Servicio de Transporte de taxis en la ciudad de New York </h1> 
+# <h1> Análisis de mercado para evaluar la viabilidad de la incorporación de vehículos eléctricos en el servicio de taxis en la ciudad de Nueva York. </h1> 
 ## **HENRY BOOTCAMP | Proyecto Final**
 <hr>
 
 # 1. Introducción
 
-Se lleva a cabo un análisis del sector de transporte público en los taxis amarillos de la ciudad de Nueva York con el fin de evaluar la viabilidad de invertir en tecnologías sostenibles, como la implementación de flotas de vehículos eléctricos.<br>
-
-Se analizan datos en NYC de: los sonidos registrados por el tráfico, la contaminación en el aire, el movimiento de vehículos por zona y los viajes que realizan los taxis en la ciudad para  los 5 Boroughs (distritos) de New York: **Manhattan (New York County), Brooklyn (Kings County), Queens (Queens County), The Bronx (Bronx County) & Staten Island (Richmond County)**.Se implementa un modelo de Machine Learning  para estimar tendencias a futuro de los principales indicadores. Se realiza un Dashboard para la visualización de los datos. <br>
+Se lleva a cabo un análisis del sector de transporte público en los taxis amarillos de la ciudad de Nueva York con el fin de evaluar la viabilidad de invertir en tecnologías sostenibles como la implementación de flotas de vehículos eléctricos. Se analizan datos en NYC de los sonidos registrados por el tráfico, la contaminación en el aire, el movimiento de vehículos por zona y los viajes que realizan los taxis en la ciudad para  los 5 Boroughs (distritos) de New York: **Manhattan (New York County), Brooklyn (Kings County), Queens (Queens County), The Bronx (Bronx County) & Staten Island (Richmond County)**.Se implementa un modelo de Machine Learning  para estimar tendencias a futuro de los principales indicadores. Se realiza un Dashboard para la visualización de los datos y resultados obtenidos. <br>
 
 El proyecto se ejecuta bajo metodología ágil Scrum y se desarrolla en cuatro etapas.<br>
-
-**Etapa 1: Recopilación de los datos**<br>
-**Etapa 2: Creación de base de datos** <br>
-**Etapa 3: Análisis Económico, KPIs** <br>
-**Etapa 4: Modelo ML** <br>
+**Etapa 1:** Recopilación de los datos, **Etapa 2:** Creación de base de datos, **Etapa 3:** Análisis Económico, KPIs y **Etapa 4:** Modelo ML. <br>
 
 La gestión del proyecto se desarrolla en:<br>
 *Actividades [Task:](https://trello.com/b/BBq6OTiJ/proyecto-final) Cronograma [Gant:](https://docs.google.com/spreadsheets/d/10gupD91IRV9KfblHfoy6fAw1rV6vu_gw6LNHp0itnfo/edit#gid=1709744959)*
@@ -40,13 +34,11 @@ La gestión del proyecto se desarrolla en:<br>
 
 
 ## 3.1 KPIs 
-
 -  Distancia por vehículo (ganancia por kilometro).<br>
 -  % disminución de contaminantes en el aire por vehículos eléctricos (% Variación promedio de PM 2,5).
 -  % disminución de contaminación por ruido por vehículos eléctricos (% Variación promedio de sonidos registrados).
 -  Ingresos brutos/netos cliente/empresa por dia/mes.<br>
 -  % de la Cuota del mercado proyectado.
-<br>
 
 ## 3.2 Recursos implementados
 
@@ -60,7 +52,6 @@ La gestión del proyecto se desarrolla en:<br>
 Los datos se extraen de fuentes oficiales que proporciona  New York.  [**Taxi & Limousine Commission**](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page) y de los datos abiertos de la ciudad [**Open_Data_NYC**](https://data.cityofnewyork.us/).<br> 
 
 *El **Diccionario de los datos** puede consultarse en [data_dict](https://github.com/francomyburg/Proyecto_grupal_DS).*
-
 
 <hr>
 
