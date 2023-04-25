@@ -7,6 +7,9 @@ from reports.air_pollution_report import kpi_brooklyn, kpi_manhattan, kpi_queen,
 # from connection.get_data import get_data_azure_db
 # df = get_data_azure_db("SELECT * FROM [air_pollution]")
 
+st.set_page_config(page_title="Dashboard", page_icon=":car:", layout="wide")
+
+
 def calcular_kpis(carros):
     kpi_b = kpi_brooklyn(carros)
     kpi_m = kpi_manhattan(carros)
