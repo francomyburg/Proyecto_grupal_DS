@@ -7,6 +7,9 @@ from reports.air_pollution_report import kpi_brooklyn, kpi_manhattan, kpi_queen,
 # from connection.get_data import get_data_azure_db
 # df = get_data_azure_db("SELECT * FROM [air_pollution]")
 
+st.set_page_config(page_title="Dashboard", page_icon=":car:", layout="wide")
+
+
 def calcular_kpis(carros):
     kpi_b = kpi_brooklyn(carros)
     kpi_m = kpi_manhattan(carros)
@@ -24,7 +27,6 @@ def calcular_kpis(carros):
       "kpi_taxis": kpi_taxis
     }
 
-# URL de la imagen en GitHub
 img_div_style = """
 <style>
 .air-poll-container {
@@ -38,7 +40,7 @@ img_div_style = """
 }
 
 .left-container {
-  flex: 1;
+  margin:0;
 }
 
 .right-container {
@@ -50,10 +52,11 @@ img_div_style = """
 .right-container p {
   color: #f0f0f0;
   font-weight: bold;
+  padding-right: 10px;
 }
 
 img {
-  width: 300px;
+  width: 330px;
   height: 300px;
   
 }
@@ -74,7 +77,7 @@ th, td {
 }
 
 .table-container .table-title {
-  color: #fff;
+  color: #FFFF;
   background-color: #085f63;
   font-weight: bold;
 }
@@ -97,47 +100,49 @@ table_html = f"""
 <h3 align="center"><b>KPI: Valor Porcentual de disminución de la contaminación al aire de PM 2,5 por número de Vehículos Eléctricos </b></h3>
 <div class ="air-poll-container">
   <div class="left-container">
+  <h6 align="center"><b>La contaminación al aire por PM 2.5 Promedio al año en los distintos distritos de New York es: </b></h6>
     <table align="center" class="table-container">
         <tr align="center">
           <th class="table-title">borough</th>
           <th class="table-title">Pm 2,5</th>
       </tr>
         <tr align="center">
-          <td>bronx</td>
+          <td>Bronx</td>
         <td>9.7</td>
       </tr>
         <tr align="center">
-          <td>brooklyn</td>
+          <td>Brooklyn</td>
         <td>9.3</td>
       </tr>
         <tr align="center">
-          <td>manhattan</td>
+          <td>Manhattan</td>
         <td>10.9</td>
       </tr>
         <tr align="center">
-          <td>queens</td>
+          <td>Queens</td>
         <td>8.9</td>
       </tr>
         <tr align="center">
-          <td>staten island</td>
+          <td>Staten Island</td>
         <td>8.5</td>
       </tr>
     </table>
   </div>
   <div align="center" class="right-container">
     <img src="{url}" width="300px" height="300px" />
-    <p>El sector de transporte genera el 17% de la contaminacón.</p>
+    <p style="color:#085f63; ">El sector de transporte genera el 17% de la contaminacón.</p>
   </div>
 </div>
 """
 
 st.markdown(table_html, unsafe_allow_html=True)
 
-# Genera la cadena de texto con la etiqueta de imagen HTML
+
 
 st.markdown("""
-       Se genera un indicador clave de rendimiento que estipula el Porcentaje de disminución de la contaminacón al aire por el uso 
-       de carros electricos.<br>
+       <p align="center" style="font-size: 18px;">
+        Se genera un indicador clave de rendimiento que estipula el Porcentaje de disminución de la contaminacón al aire por el uso de carros electricos.
+       </p>
             """
   , unsafe_allow_html=True)
 
@@ -148,31 +153,87 @@ st.markdown(
         """
         <style>
         .air-poll-kpi-container {
-        # background-color: #FEFFA2;
+        display: flex;          
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
         border: 2.5px solid #fafafa;
         border-radius: 8px;
         padding: 10px;
         margin: 10px;
         font-size: 16px;
-        # color: #ff552e;
         }
+
+      .kpi-left-container {
+        width: 50%;
+        paddin-left: 20px;
+      }
+
+      .kpi-right-container {
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        padding-right: 30px;
+        color: #FAFAFA;
+      }
+      .kpi-right-container p {
+        font-weight: bold;
+        text-align: justify;
+      }
+
+      .kpi-table-container .kpi-table-title {
+        color: #FAFAFA;
+        background-color: #085f63;
+        font-weight: bold;
+      }
+
+      .kpi-table-container td, .kpi-table-container th {
+        border: 2px solid #FAFAFA;
+        color: #FAFAFA;
+        font-weight: normal;
+      }
         </style>
         """,
         unsafe_allow_html=True
     )
 
-st.markdown(f"""
-            <div class='air-poll-kpi-container'>
-            <p>{kpi_vals['electric_carrs']} carros eléctricos generan un % de avance hacia la meta establecida por la OMS de:</p>
-            <ol>
-            <li>Brooklyn: {kpi_vals['kpi_b']}%</li>
-            <li>Manhattan: {kpi_vals["kpi_m"]}%  </li>
-            <li>Quenns: {kpi_vals['kpi_q']}% </li>
-            <li>Staten: Islands {kpi_vals['kpi_s']}% </li>
-            <li>Bronx: {kpi_vals['kpi_bx']}%" </li>
-            </ol>
-            <p>
-              <b>{int(kpi_vals['electric_carrs'])} taxis eléctricos</b> disminuyen un <b>{kpi_vals["kpi_taxis"]}%</b> de la contaminacón al aire por PM 2.5 generada por el sector de taxis en NYC
-            </p>
-            <div>
-            """, unsafe_allow_html=True)
+kpi_table_html = f"""
+<div class ="air-poll-kpi-container">
+  <div class="kpi-left-container">
+  <h5 align="center">{kpi_vals['electric_carrs']} carros eléctricos disminuyen la contaminación al aire por PM 2,5 generada por el sector de los automoviles en: </h5>
+    <table align="center" class="kpi-table-container">
+        <tr align="center">
+          <th class="kpi-table-title">Borough</th>
+          <th class="kpi-table-title">Reduction (%)</th>
+      </tr>
+        <tr align="center">
+          <td>Bronx</td>
+        <td>{kpi_vals['kpi_bx']}% </td>
+      </tr>
+        <tr align="center">
+          <td>Brooklyn</td>
+        <td>{kpi_vals['kpi_b']}%</td>
+      </tr>
+        <tr align="center">
+          <td>Manhattan</td>
+        <td>{kpi_vals["kpi_m"]}%</td>
+      </tr>
+        <tr align="center">
+          <td>Queens</td>
+        <td>8.9</td>
+      </tr>
+        <tr align="center">
+          <td>Staten Island</td>
+        <td>{kpi_vals['kpi_q']}%</td>
+      </tr>
+    </table>
+  </div>
+  <div align="center" class="kpi-right-container">
+    <p><b>{int(kpi_vals['electric_carrs'])} taxis eléctricos</b> disminuyen un <b>{kpi_vals["kpi_taxis"]}%</b> de la contaminacón al aire por PM 2.5 generada por el sector de taxis en NYC
+  </div>
+</div>
+"""
+st.markdown(kpi_table_html, unsafe_allow_html=True)
+# st.markdown(kpi_table_html, unsafe_allow_html=True)

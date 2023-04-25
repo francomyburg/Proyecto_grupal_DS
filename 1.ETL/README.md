@@ -1,24 +1,22 @@
 # <h1> ETL </h1> 
 
-Se realizan procesos de extracción y transformación a datos que tienen información de la ciudad de New York y de los viajes realizados por taxis en sus diferentes distritos para cargarlos en una base de datos en la nube de Microsoft Azure. 
+Se realizan procesos de extracción y transformación a datos que tienen información de la ciudad de New York:
 
-*Los scripts necesarios para el desarrollo de las actividades puede ser consultado en: [ETL.ipynb](https://github.com/francomyburg/Proyecto_grupal_DS/blob/main/1.ETL/ETL-Databricks.ipynb).*
+Niveles de ruido presentes en la ciudad del año 2016-2020.<br>
+Contaminación al aire desde el año 2008 al 2020.<br>
+Viajes realizados por taxis amarillos desde el año 2010 hasta el 2023.<br>
+
+ 
+
+*Los scripts necesarios para el desarrollo de las actividades puede ser consultado en: [ETL.ipynb](https://github.com/francomyburg/Proyecto_grupal_DS/blob/main/1.ETL/ETL-Databricks.ipynb).* *las tablas generadas por transformaciones de manera local pueden ser consultados en:* [data_finale](https://github.com/francomyburg/Proyecto_grupal_DS/tree/main/data/finale_dataset).
 
 ## 1. Extract
 
-### Data Sources
+### 1.1 Extracción Estática
 
-**Datos de viajes de los taxis en NYC:**<br>
+Se realiza una extracción estática a los datos que contienen los componentes ambientales. Se almacenan, se transforman localmente y se cargan a una base de datos en Azure SQL.
 
-Se realiza la extracción con python y se almacenan los datos en Azure Blob Storage.<br>
-
-TLC Trip Record Data .<br>
-https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page <br>
-
-
-**Datos del medio ambiente NYC:**<br>
-
-Se realiza la extracción de los datos y se almacena de manera local: [data_finale](https://github.com/francomyburg/Proyecto_grupal_DS/tree/main/data/finale_dataset).
+**Data Sources**
 
 Air pollution NYC.<br>
 https://data.cityofnewyork.us/Environment/Air-Quality/c3uy-2p5r<br>
@@ -30,6 +28,15 @@ API "https://data.cityofnewyork.us/resource/7ym2-wayt.json"
 
 Noise pollution NYC.<br>
 Registro de tipos de sonidos en NYC https://zenodo.org/record/3966543/files/annotations.csv?download=1<br>
+
+### 1.1 Extracción Automática
+
+Se realiza una extracción automática para los datos alojados en TLC Trip Record Data, el script detecta los nuevos datos que se carguen a partir de 2023 en la fuente de origen y los almacena en Azure Blob Storage.
+
+**Data Sources** <br>
+
+TLC Trip Record Data .<br>
+https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page <br>
 
 <hr>
 
@@ -83,28 +90,21 @@ Se crea una base de datos SQl en Azure SQL.<br>
 
 La tabla Ml Projected Demand corresponde al resultado del modelo de ML. Mientras que la tabla Borough y taxi_zone son tablas auxiliares destinadas a generar una mejor integración en el modelo de relación para facilitar búsquedas y consultas.
 
+### 3.1 Carga de tablas de aspectos ambientales
 
-### Carga de tablas de aspectos ambientales
+Se carga estos datos de manera manual, desde la ubicación local de los datos transformados [data_finale](https://github.com/francomyburg/Proyecto_grupal_DS/tree/main/data/finale_dataset).
 
-Se carga estos datos de manera manual, desde la ubicación local de los datos tranformados [data_finale](https://github.com/francomyburg/Proyecto_grupal_DS/tree/main/data/finale_dataset).
+### 3.2 Carga de tabla de viajes de taxis
 
-### Carga de tabla de viajes de taxis
+Se integra un Pipeline Auto Loader para procesar incrementalmente los nuevos archivos provenientes de la extracción automática y que están alojados en Azure Blob Storage. Se emplea Azure Databricks para realizar la carga, de forma que sólo acepte valores nulos en las columnas especificadas y que la estructura del archivo se apegue al esquema indicado.<br>
 
-Se emplea Azure Databricks para realizar la carga:<br>
+Los archivos se procesan automáticamente una vez el trabajo se calendariza en la sección Compute de Databricks. Se utiliza PySpark para realizar modificaciones antes de la carga final de las tablas ("Streaming Tables") y se transforman a un formato adecuado para Azure SQL Database.<br>
 
-[Video de Automatización](https://www.youtube.com/watch?v=4nu3QpO49Kw)
+*En el siguiente enlace se puede visualizar de forma audiovisual el proceso de carga a la base de datos:* [Video de Automatización](https://www.youtube.com/watch?v=4nu3QpO49Kw)
 
-1. Auto Loader se integró para procesar incrementalmente los nuevos archivos que se descargan a Azure Blob Storage. 
-
-2. Esta función se encarga de validar los datos, de forma que sólo acepte valores nulos en las columnas especificadas y que la estructura del archivo se apegue al esquema indicado.
-
-3. Los archivos se procesan automáticamente una vez el trabajo se calendariza en la sección Compute de Databricks.
-
-4. Se utilizó PySpark para algunas modificaciones antes de la carga final de las tablas, que son "Streaming Tables" y se transforman a un formato adecuado para Azure SQL Database.
-
- <br>
 
 <hr>
+
 *Developed by*
 
 <a href="https://www.linkedin.com/in/franco-jonas-myburg-6095b8255/"><img alt="Franco" title="Connect with Franco" src="https://img.shields.io/badge/Franco Myburg-0077B5?style=flat&logo=Linkedin&logoColor=white"></a> **DATA ENGINEER**
