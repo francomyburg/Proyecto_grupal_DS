@@ -24,30 +24,20 @@ La gestión del proyecto se desarrolla en:<br>
 
 - Desarrollar un Modelo de ML para estimar comportamientos futuros del sector de transporte de taxi en NYC.<br>
 
-- Identificar oportunidades para la implementación de vehículos eléctricos en el sector de transporte de pasajeros.
-
 <hr>
 
 # 3. Desarrollo
 
 <img src="src/esquema.png" width="800" height="300"/>
 
-
-## 3.1 KPIs 
--  Distancia por vehículo (ganancia por kilometro).<br>
--  % disminución de contaminantes en el aire por vehículos eléctricos (% Variación promedio de PM 2,5).
--  % disminución de contaminación por ruido por vehículos eléctricos (% Variación promedio de sonidos registrados).
--  Ingresos brutos/netos cliente/empresa por dia/mes.<br>
--  % de la Cuota del mercado proyectado.
-
-## 3.2 Recursos implementados
+## 3.1 Recursos implementados
 
 - Gestión del proyecto: Google meet, Trello.<br>
 - EDA, ETL, SQL BD: Python, Beautiful Soup, Pandas, Matplotlib,  Seaborn, PySpark, SQLAlchemy , Azure SQL.<br> 
 - Business Intelligence & Machine Learning: Python, Pandas, SQLAlchemy , Plotly, PowerBI, Scikit-learn, Streamlit.<br> 
 - Cloud: Azure (Azure Data Factory, Azure Blob Storage, Azure Synapse Analytics) <br>
 
-## 3.3 Obtencción de los Datos
+## 3.2 Obtencción de los Datos
 
 Los datos se extraen de fuentes oficiales que proporciona  New York.  [**Taxi & Limousine Commission**](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page) y de los datos abiertos de la ciudad [**Open_Data_NYC**](https://data.cityofnewyork.us/).<br> 
 
@@ -63,9 +53,21 @@ Se desarrolla un sistema que extrae datos de manera automática de [**Taxi & Lim
 
 <hr>
 
-
-
 # 5. Resultados
+
+Se desarolla un modelo ML 
+Se genera una app en Streamlit con un dashboard de PowerBi embebido. 
+
+## 5.1 KPIs 
+
+-  Porcentaje de la cantidad de viajes proyectada.<br>
+-  Porcentaje de la cuota del mercado proyectado.<br>
+-  Ingresos brutos por día/mes.<br>
+-  Porcentaje de disminución de contaminante (PM 2,5) en el aire por implementar vehículos eléctricos.<br>
+- Reducción porcentual de contaminación acústica por implementar vehículos eléctricos. <br>
+
+
+
 <hr>
 
 # 6. Conclusiones
