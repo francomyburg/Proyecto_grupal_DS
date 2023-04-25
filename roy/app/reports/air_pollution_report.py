@@ -6,8 +6,6 @@ import utils.paths as path
 # from connection.get_data import get_data_azure_db
 # df = get_data_azure_db("SELECT * FROM [air_pollution]")
 
-
-
 def kpi_brooklyn(carros):
     
     volume_brooklyn = 58420 * 4 * 24
