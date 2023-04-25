@@ -57,19 +57,9 @@ Los datos se extraen de fuentes oficiales que proporciona  New York.  [**Taxi & 
 
 # 4. ETL/EDA
 
- Se generan 5 tablas y se cargan a una base de datos SQL en Azure [taxifinal](https://github.com/francomyburg/Proyecto_grupal_DS/tree/main/1.ETL/DATABASE).  <br>
+Se desarrolla un sistema que extrae datos de manera automática de [**Taxi & Limousine Commission**](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page) los transforma y los carga por medio de un pipeline a una base de datos SQL en la nube de Azure..
 
-| **table** | **name** | **descripción** |
-|:---:|:---:|---|
-| _table_0_ | _TLC_Monthy_Report_NYC.csv_ | _relaciona datos de los viajes mensuales de taxi en NYC_ |
-| _table_1_ | _yellow_2022_12.parquet_ | _relaciona datos de los viajes diarios de taxi en NYC_ |
-| _table_2_ | _air_pollution.csv_ | _relaciona datos de las cargas contaminantes en el aire en NYC_ |
-| _table_3_ | _vehicular_volume.csv_ | _relaciona datos de los flujos de vehículos en NYC_ |
-| _table_4_ | _noise_pollution.csv_ | _relaciona datos de registros de sonidos molestos por vehículos en NYC_ |
-
-*Los aspectos más importantes de este proceso se pueden consultar en: [ETL](https://github.com/francomyburg/Proyecto_grupal_DS/tree/main/1.ETL) y el [EDA](https://github.com/francomyburg/Proyecto_grupal_DS/tree/main/2.EDA).*<br>
-
-
+ *Los aspectos más importantes de este proceso se pueden consultar en: [ETL](https://github.com/francomyburg/Proyecto_grupal_DS/tree/main/1.ETL) y el [EDA](https://github.com/francomyburg/Proyecto_grupal_DS/tree/main/2.EDA).*<br>
 
 <hr>
 
