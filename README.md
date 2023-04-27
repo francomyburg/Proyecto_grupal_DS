@@ -67,7 +67,7 @@ Se desarrolla un sistema que extrae datos de manera automática de [**Taxi & Lim
 
 Se generan  metricas e indicadores clave de rendimiento a traves de una app desarrollada en Streamlit con un dashboard de PowerBi embebido y un modelo ML de forecasting.
 
-<img src="src/DataGenius Research.gif" />
+<img src="src/DataGenius Research.gif" width="300" height="400"/>
 
 <hr>
 
