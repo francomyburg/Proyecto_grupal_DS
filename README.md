@@ -47,7 +47,18 @@ Los datos se extraen de fuentes oficiales que proporciona  New York.  [**Taxi & 
 
 # 4. ETL/EDA
 
-Se desarrolla un sistema que extrae datos de manera automática de [**Taxi & Limousine Commission**](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page) los transforma y los carga por medio de un pipeline a una base de datos SQL en la nube de Azure..
+Se desarrolla un sistema que extrae datos de manera automática de [**Taxi & Limousine Commission**](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page) los transforma y los carga por medio de un pipeline a una base de datos SQL en la nube de Azure.<br>
+
+Al realizar el análisis exploratorio de los datos, se determina que:
+
+
+- El número de viajes en taxis amarillos en NYC ha disminuido en un 80% desde el 2013 al presente año (2023).
+- Las zonas donde se produce el mayor número de viajes en taxis son Manhattan y los aeropuertos JFK y LaGuardia.
+- En diciembre de 2022 el sector de taxis amarillos realizó 3,3 millones de viajes, transportó a 4,5 millones de personas y facturó 54,5 millones USD. El borough de Manhattan contribuye con el 76% de dicha facturación.
+- La facturación promedio por día disminuyó un 65% desde 2013 hasta 2023.
+- La facturación promedio por Vehículo disminuyó 50% desde 2013 a 2023.
+
+
 
  *Los aspectos más importantes de este proceso se pueden consultar en: [ETL](https://github.com/francomyburg/Proyecto_grupal_DS/tree/main/1.ETL) y el [EDA](https://github.com/francomyburg/Proyecto_grupal_DS/tree/main/2.EDA).*<br>
 
@@ -61,11 +72,11 @@ Se desarrolla un sistema que extrae datos de manera automática de [**Taxi & Lim
 -  Porcentaje de la cuota del mercado proyectado.<br>
 -  Ingresos brutos por día/mes.<br>
 -  Porcentaje de disminución de contaminante (PM 2,5) en el aire por implementar vehículos eléctricos.<br>
-- Reducción porcentual de contaminación acústica por implementar vehículos eléctricos. <br>
+-  Reducción porcentual de contaminación acústica por implementar vehículos eléctricos. <br>
 
-## App
+## 5.2 App
 
-Se generan  metricas e indicadores clave de rendimiento a traves de una app desarrollada en Streamlit con un dashboard de PowerBi embebido y un modelo ML de forecasting.
+Se generan  métricas e indicadores clave de rendimiento a través de una app desarrollada en Streamlit con un dashboard de PowerBi embebido y un modelo ML de forecasting.
 
 <img src="src/DataGenius Research.gif" />
 
@@ -73,8 +84,7 @@ Se generan  metricas e indicadores clave de rendimiento a traves de una app desa
 
 # 6. Conclusiones
 
-- El numero de viajes en taxis en NYC ha disminuido en un 80% desde el 2013 al presente año (2023).
-- Las zonas donde se produce el mayor numero de viajes en taxis son  Manhattan y en los aeropuertos JFK y LaGuardia.
+
 
 <hr>
 
