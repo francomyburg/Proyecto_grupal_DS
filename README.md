@@ -4,7 +4,7 @@
 
 # 1. Introducción
 
-Se lleva a cabo un análisis del sector de transporte público en los taxis amarillos de la ciudad de Nueva York con el fin de evaluar la viabilidad de invertir en tecnologías sostenibles como la implementación de flotas de vehículos eléctricos. Se analizan datos en NYC de los sonidos registrados por el tráfico, la contaminación en el aire, el movimiento de vehículos por zona y los viajes que realizan los taxis en la ciudad para  los 5 Boroughs (distritos) de New York: **Manhattan (New York County), Brooklyn (Kings County), Queens (Queens County), The Bronx (Bronx County) & Staten Island (Richmond County)**.Se implementa un modelo de Machine Learning  para estimar tendencias a futuro de los principales indicadores. Se realiza un Dashboard para la visualización de los datos y resultados obtenidos. <br>
+Se lleva a cabo un análisis del sector de transporte público en los taxis amarillos de la ciudad de Nueva York con el fin de evaluar la viabilidad de invertir en tecnologías sostenibles como la implementación de flotas de vehículos eléctricos. Se analizan datos en NYC de los sonidos registrados por el tráfico, la contaminación en el aire, el movimiento de vehículos por zona y los viajes que realizan los taxis en la ciudad para  los 5 Boroughs (distritos) de New York: **Manhattan, Brooklyn, Queens, The Bronx & Staten Island**.Se implementa un modelo de Machine Learning  para estimar tendencias a futuro de los principales indicadores. Se realiza un Dashboard para la visualización de los datos y resultados obtenidos. <br>
 
 El proyecto se ejecuta bajo metodología ágil Scrum y se desarrolla en cuatro etapas.<br>
 **Etapa 1:** Recopilación de los datos, **Etapa 2:** Creación de base de datos, **Etapa 3:** Análisis Económico, KPIs y **Etapa 4:** Modelo ML. <br>
@@ -17,11 +17,8 @@ La gestión del proyecto se desarrolla en:<br>
 # 2. Objetivos
 
 - Identificar patrones y tendencias en los movimientos de taxis en NYC (2010-2022).<br>
- 
 - Investigar la relación entre el movimiento de los taxis y la calidad del aire y la contaminación sonora en NYC, para determinar alguna  correlación existente. <br>
-
 - Realizar un análisis de las ganancias económicas del sector. <br>
-
 - Desarrollar un Modelo de ML para estimar comportamientos futuros del sector de transporte de taxi en NYC.<br>
 
 <hr>
@@ -32,10 +29,10 @@ La gestión del proyecto se desarrolla en:<br>
 
 ## 3.1 Recursos implementados
 
-- Gestión del proyecto: Google meet, Trello.<br>
-- EDA, ETL, SQL BD: Python, Beautiful Soup, Pandas, Matplotlib,  Seaborn, PySpark, SQLAlchemy , Azure SQL.<br> 
-- Business Intelligence & Machine Learning: Python, Pandas, SQLAlchemy , Plotly, PowerBI, Scikit-learn, Streamlit.<br> 
-- Cloud: Azure (Azure Data Factory, Azure Blob Storage, Azure Synapse Analytics) <br>
+- **Gestión del proyecto:** Google meet, Trello.<br>
+- **EDA, ETL, SQL BD:** Python, Beautiful Soup, Pandas, Matplotlib,  Seaborn, PySpark, SQLAlchemy , Azure SQL.<br> 
+- **Business Intelligence & Machine Learning:** SQLAlchemy, Plotly, PowerBI, Scikit-learn, Streamlit.<br> 
+- **Cloud:** Azure (Azure Data Factory, Azure Blob Storage, Azure Synapse Analytics) <br>
 
 ## 3.2 Obtencción de los Datos
 
@@ -51,14 +48,11 @@ Se desarrolla un sistema que extrae datos de manera automática de [**Taxi & Lim
 
 Al realizar el análisis exploratorio de los datos, se determina que:
 
-
-- El número de viajes en taxis amarillos en NYC ha disminuido en un 80% desde el 2013 al presente año (2023).
-- Las zonas donde se produce el mayor número de viajes en taxis son Manhattan y los aeropuertos JFK y LaGuardia.
-- En diciembre de 2022 el sector de taxis amarillos realizó 3,3 millones de viajes, transportó a 4,5 millones de personas y facturó 54,5 millones USD. El borough de Manhattan contribuye con el 76% de dicha facturación.
-- La facturación promedio por día disminuyó un 65% desde 2013 hasta 2023.
-- La facturación promedio por Vehículo disminuyó 50% desde 2013 a 2023.
-
-
+- La crisis covid-19 afectó las actividades del sector en 2020.
+- El número de viajes en taxis amarillos ha disminuido en un 80% desde el 2013 al presente año (2023).
+- Las zonas donde se produce el mayor número de viajes en taxis son Manhattan y los aeropuertos JFK y LaGuardia. En diciembre de 2022 el sector de taxis amarillos realizó 3,3 millones de viajes, transportó a 4,5 millones de personas y facturó 54,5 millones USD. El borough de Manhattan contribuye con el 76% de dicha facturación.
+- La facturación promedio por día y por vehiculo disminuyó más de 45% desde el 2013 hasta 2023.
+- El borough con la peor calidad de aire, mayor contaminación por ruido y mayor volumen de tráfico vehicular es Manhattan. 
 
  *Los aspectos más importantes de este proceso se pueden consultar en: [ETL](https://github.com/francomyburg/Proyecto_grupal_DS/tree/main/1.ETL) y el [EDA](https://github.com/francomyburg/Proyecto_grupal_DS/tree/main/2.EDA).*<br>
 
@@ -78,11 +72,14 @@ Al realizar el análisis exploratorio de los datos, se determina que:
 
 Se generan  métricas e indicadores clave de rendimiento a través de una app desarrollada en Streamlit con un dashboard de PowerBi embebido y un modelo ML de forecasting.
 
-<img src="src/DataGenius Research.gif" width="300" height="400"/>
+<img src="src/DataGenius Research.gif" />
+
+La proyección generada por el modelo ML indica que el maximo numero de taxis rondará los 9500 para abril del 2024 para decrecer progresivamente.
 
 <hr>
 
 # 6. Conclusiones
+
 
 
 
