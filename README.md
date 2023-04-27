@@ -28,7 +28,7 @@ La gestión del proyecto se desarrolla en:<br>
 
 # 3. Desarrollo
 
-<img src="src/esquema.png" width="800" height="300"/>
+<img src="src/esquema.png" />
 
 ## 3.1 Recursos implementados
 
@@ -78,7 +78,7 @@ Al realizar el análisis exploratorio de los datos, se determina que:
 
 Se generan  métricas e indicadores clave de rendimiento a través de una app desarrollada en Streamlit con un dashboard de PowerBi embebido y un modelo ML de forecasting.
 
-<img src="src/DataGenius Research.gif" />
+<img src="src/DataGenius Research.gif" width="300" height="400"/>
 
 <hr>
 
