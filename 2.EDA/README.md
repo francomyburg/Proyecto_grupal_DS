@@ -2,18 +2,20 @@
 
 ## 1. Movimientos de taxis en New York
 
-Se realiza un web scrapring para disponibilizar la data histórica de los servicios de transporte de pasajeros en automóviles en NYC [1.disponibilizar.ipynb](1.disponibilizar.ipynb).<br> 
+Se realiza un web scrapring para disponibilizar la data histórica de los viajes realizados por taxis en NYC [1.disponibilizar.ipynb](1.disponibilizar_taxis.ipynb).<br> 
 
-
-<img src="source/cantidad_taxis.png" width="600" height="400"/>
 
 Se analizan dos datasets.<br> 
 
 - **Viajes mensuales de Taxis New York en 2010-2022** <br>
-[EDA_yellow_cabs_DIC22.ipynb](EDA_Yellow_Cabs_DIC22.ipynb)<br>
+[EDA_taxis_viajes_mes](3.EDA_taxis_viajes_mes.ipynb)<br>
 
-- **Viajes de Taxis diarios 2018** <br>
-[EDA_yellow_cabs.ipynb](EDA_yellow_cabs.ipynb)<br>
+- **Viajes de Taxis diarios Dic 2022** <br>
+[EDA_taxis_viajes_diarios_Dic_22](2.EDA_taxis_viajes_diarios2.ipynbb)<br>
+
+
+<img src="source/cantidad_taxis.png" width="600" height="400"/>
+
 
 
 <img src="source/facturacion.png" width="400" height="300"/>

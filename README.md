@@ -55,9 +55,6 @@ Se desarrolla un sistema que extrae datos de manera automática de [**Taxi & Lim
 
 # 5. Resultados
 
-Se desarolla un modelo ML 
-Se genera una app en Streamlit con un dashboard de PowerBi embebido. 
-
 ## 5.1 KPIs 
 
 -  Porcentaje de la cantidad de viajes proyectada.<br>
@@ -66,11 +63,18 @@ Se genera una app en Streamlit con un dashboard de PowerBi embebido.
 -  Porcentaje de disminución de contaminante (PM 2,5) en el aire por implementar vehículos eléctricos.<br>
 - Reducción porcentual de contaminación acústica por implementar vehículos eléctricos. <br>
 
+## App
 
+Se generan  metricas e indicadores clave de rendimiento a traves de una app desarrollada en Streamlit con un dashboard de PowerBi embebido y un modelo ML de forecasting.
+
+<img src="src/DataGenius Research.gif" />
 
 <hr>
 
 # 6. Conclusiones
+
+- El numero de viajes en taxis en NYC ha disminuido en un 80% desde el 2013 al presente año (2023).
+- Las zonas donde se produce el mayor numero de viajes en taxis son  Manhattan y en los aeropuertos JFK y LaGuardia.
 
 <hr>
 
