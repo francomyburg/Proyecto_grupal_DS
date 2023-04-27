@@ -28,7 +28,7 @@ La gestión del proyecto se desarrolla en:<br>
 
 # 3. Desarrollo
 
-<img src="src/esquema.png" width="800" height="300"/>
+<img src="src/esquema.png" />
 
 ## 3.1 Recursos implementados
 
