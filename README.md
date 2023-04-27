@@ -78,7 +78,7 @@ Al realizar el análisis exploratorio de los datos, se determina que:
 
 Se generan  métricas e indicadores clave de rendimiento a través de una app desarrollada en Streamlit con un dashboard de PowerBi embebido y un modelo ML de forecasting.
 
-<img src="src/DataGenius Research.gif" width="300" height="400"/>
+<img src="src/DataGenius Research.gif" />
 
 <hr>
 
