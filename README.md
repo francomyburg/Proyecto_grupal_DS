@@ -72,7 +72,7 @@ Al realizar el análisis exploratorio de los datos, se determina que:
 
 Se generan  métricas e indicadores clave de rendimiento a través de una app desarrollada en Streamlit con un dashboard de PowerBi embebido y un modelo ML de forecasting.
 
-<img src="src/DataGenius Research.gif" />
+<img src="src/portada_1.gif" />
 
 La proyección generada por el modelo ML indica que el maximo numero de taxis rondará los 9500 para abril del 2024 para decrecer progresivamente.
 
