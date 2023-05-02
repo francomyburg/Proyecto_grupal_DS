@@ -60,6 +60,8 @@ Al realizar el análisis exploratorio de los datos, se determina que:
 
 # 5. Resultados
 
+En el presente video muestra el resultado final del proyecto [Resultado Final](https://youtu.be/ewDlLPiMFlo).
+
 ## 5.1 KPIs 
 
 -  Porcentaje de la cantidad de viajes proyectada.<br>
@@ -68,20 +70,24 @@ Al realizar el análisis exploratorio de los datos, se determina que:
 -  Porcentaje de disminución de contaminante (PM 2,5) en el aire por implementar vehículos eléctricos.<br>
 -  Reducción porcentual de contaminación acústica por implementar vehículos eléctricos. <br>
 
-## 5.2 App
+## 5.2 Modelo Machine Learning 
 
-Se generan  métricas e indicadores clave de rendimiento a través de una app desarrollada en Streamlit con un dashboard de PowerBi embebido y un modelo ML de forecasting.<br>
+Se desarrolla un modelo de forecasting para 
+
+## 5.3 App
+
+Se desarrolla una app que contiene tanto el modelo Ml como un dashboard de visualización de datos en Power Bi embebidos para generar métricas y los KPIs establecidos en función al número de vehículos eléctricos que el usuario seleccione. El nombre de la app es **Dataxi** y puede ser consultada en: [Dataxi](https://lucianolarrea-pf-ds-home-f5yrsh.streamlit.app/)<br>
 
 <img src="src/portada_1.gif" />
 
-la app puede ser consultada en: https://lucianolarrea-pf-ds-home-f5yrsh.streamlit.app/
-
-La proyección generada por el modelo ML indica que el maximo numero de taxis rondará los 9500 para abril del 2024 para decrecer progresivamente.
 
 <hr>
 
 # 6. Conclusiones
 
+La proyección generada por el modelo ML indica que el maximo numero de taxis rondará los 9500 para abril del 2024 para decrecer progresivamente.
+
+indicadores clave de rendimiento a través de una app desarrollada en Streamlit con un dashboard de PowerBi embebido y un modelo ML de forecasting.
 
 
 
