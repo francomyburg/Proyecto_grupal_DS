@@ -72,7 +72,13 @@ En el presente video muestra el resultado final del proyecto [Resultado Final](h
 
 ## 5.2 Modelo Machine Learning 
 
-Se desarrolla un modelo de forecasting para 
+Se desarrolla un modelo de forecasting para establecer proyecciones de las tendencias y patrones que presenta el sector de taxis con la data histórica extraída. <br> 
+
+Se genera un análisis económico al sector y puede consultarse en: <br>
+
+El modelo Ml puede ser consultado en 
+
+
 
 ## 5.3 App
 

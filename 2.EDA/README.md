@@ -7,19 +7,35 @@ Se realiza un web scrapring para disponibilizar la data histórica de los viajes
 
 Se analizan dos datasets.<br> 
 
-- **Viajes mensuales de Taxis New York en 2010-2022** <br>
-[EDA_taxis_viajes_mes](3.EDA_taxis_viajes_mes.ipynb)<br>
-
 - **Viajes de Taxis diarios Dic 2022** <br>
 [EDA_taxis_viajes_diarios_Dic_22](2.EDA_taxis_viajes_diarios2.ipynbb)<br>
 
+- **Viajes mensuales de Taxis New York en 2010-2022** <br>
+[EDA_taxis_viajes_mes](3.EDA_taxis_viajes_mes.ipynb)<br>
 
-<img src="source/cantidad_taxis.png" width="600" height="400"/>
+
+Se analiza el mes de diciembre 2022.
+
+Se calcula el valor promedio (USD) que tiene cada viaje realizado en taxis amarillos para cada borough.
+
+<img src="source/costo_borough.png" width="800" height="300"/>
+
+Se analiza la demanda de viajes y la facturación para cada dia de la semana.
+
+<img src="source/viajes_semana.png" width="800" height="200"/>
+
+<img src="source/factura_semna.png" width="800" height="200"/>
+
+Se valida la correlación entre las variables.
+
+<img src="source/m_corr_taxi1.png" width="400" height="400"/>
 
 
-
-<img src="source/facturacion.png" width="400" height="300"/>
-
+Las correlaciones más altas  corresponden a:<br>
+   - Costo total del viaje (total_amount) vs. peajes (tolls_amount).
+   - Recargo de congestion (congestion_surcharge) vs. Impuesto MTA.
+   - Tasa por aeropuerto (airport_fee) vs. peajes (tolls_amount).
+   - Costo total del viaje (total_amount) vs. Tasa por aeropuerto (airport_fee).
 
 ## 2. Componentes Medioambientales
 
