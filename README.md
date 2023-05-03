@@ -100,7 +100,7 @@ Se puede visualizar un ejemplo de este reporte con la implementación de una flo
 
 # 6. Conclusiones
 
-El sector de taxis amarillos viene en decrecimiento pre-covid. La recuperación post-COVID mostró indicadores al alza, pero algunos volvieron a caer debido a la expansión de servcios como Uber. Sin cambios fundamentales, se pronostica una posible crisis  del mercado de taxis para mediados de 2024. Invertir en el mercado a la baja puede ser riesgoso pero ofrece oportunidades para destacarse en servicio, sustentabilidad e innovación teniendo cuenta el impacto ambiental positivo que generan los vehículos eléctricos.
+El sector de taxis amarillos viene en decrecimiento pre-COVID. La recuperación post-COVID mostró indicadores al alza, pero algunos volvieron a caer debido a la expansión de servcios como Uber. Sin cambios fundamentales, se pronostica una posible crisis  del mercado de taxis para mediados de 2024. Invertir en el mercado a la baja puede ser riesgoso pero ofrece oportunidades para destacarse en servicio, sustentabilidad e innovación teniendo cuenta el impacto ambiental positivo que generan los vehículos eléctricos.
 
 
 
