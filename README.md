@@ -75,9 +75,7 @@ En el presente video muestra el resultado final del proyecto [Resultado Final](h
 
 ## 5.2 Modelo Machine Learning 
 
-Se desarrolla un modelo de forecasting para establecer proyecciones de las tendencias y patrones que presenta el sector de taxis con la data histórica extraída. <br> 
-
-El modelo Ml puede ser consultado en [3.ML](https://github.com/francomyburg/Proyecto_grupal_DS/tree/main/3.ML). 
+Se desarrolla un modelo de forecasting para establecer proyecciones de las tendencias y patrones que presenta el sector de taxis con la data histórica extraída. El modelo ML puede ser consultado en [3.ML](https://github.com/francomyburg/Proyecto_grupal_DS/tree/main/3.ML). 
 
 Se genera un análisis económico con las proyecciones realizadas al sector y puede consultarse en: [4.REPORTS](https://github.com/francomyburg/Proyecto_grupal_DS/blob/main/4.REPORTS). <br>
 
