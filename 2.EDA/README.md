@@ -39,38 +39,41 @@ Las correlaciones más altas  corresponden a:<br>
 
 ## 2. Componentes Medioambientales
 
-- **Contaminacón al aire**   [EDA_Air_Quality.ipynb](EDA_Air_Quality.ipynb)
+### 2.1 **Contaminacón al aire**   [EDA_Air_Quality.ipynb](EDA_Air_Quality.ipynb)
 
-Se filtra el dataset por 'CD' community districts. Se analizan los datos por las diferentes cargas contaminantes presentes en los Boroughs. Se establece la metrica **Indice de calidad del aire**  
+Se analizan las mediciones de los distintos contaminantes presentes en los Boroughs de la ciudad de New York desde el año 2008 hasta el 2020.<br>
 
-- **Densidad Vehicular**      [EDA_Air_Quality.ipynb](EDA_Air_Quality.ipynb)
+Se establece el promedio anual de las cargas contaminantes **Material Particulado de 2.5 micras, Dióxido de Nitrógeno, Ozono** & **Dióxido de Azufre.** <br>
 
-Se filtra el dataset desde el año 2008 al 2020. Se calcula la **Densidad Vehicular** en los Boroughs. Se genera el KPI .
+<img src= "source/air_quality1.png" width="800" height="370"/>
 
-- **Contaminación Acustica**  [EDA]()
+Se utilizan los datos de PM 2.5 para establecer el **índice de calidad de aire**. Clasificación generada por IQAIR basado en los NAAQS (National Ambient Air Quality Standards) de la EPA (Environmental Protection Agency) de EE. UU. <br>
 
-| Diccionario                                                     | Table | EDA_file                        | Activities                                                                                                                                                                                                                                         |
-|-----------------------------------------------------------------|-------|---------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| tlc_amarillos                                                   | NA    | EDA_yellow_cabs                 | Se elimina **'VendorID', 'RatecodeID', 'store_and_fwd_flag'**                                                                                                                                                                                      |
-| tlc_verdes                                                      | NA    | EDA_green_cabs                  | Se eliminan columnas **'VendorID' 'store_and_fwd_flag', 'RatecodeID', 'ehail_fee'**                                                                                                                                                                |
-| tlc_verdes, tlc_amarillos                                       | NA    | EDA_green_cabs, EDA_yellow_cabs | Se Separa 'lpep_pickup_datetime' y 'lpep_dropoff_datetime'  en d�a (YYYY-MM-DD) **Hora de pickup**, **Hora de dropoff**.                                                                                                                           |
-| tlc_verdes, tlc_amarillos                                       | NA    | EDA_green_cabs, EDA_yellow_cabs | "Se insertan las variables **'dropoff_time' 'pickup_day' 'pickup_time' 'dropoff_day'**	"                                                                                                                                                           |
-| tlc_verdes, tlc_amarillos                                       | NA    | EDA_green_cabs, EDA_yellow_cabs | "                                                                                                                                                                                                                                                  |
-| Se elimina **'lpep_pickup_datetime'  'lpep_dropoff_datetime'**" |       |                                 |                                                                                                                                                                                                                                                    |
-| tlc_verdes                                                      | NA    | EDA_green_cabs                  | Se identifican valores faltantes nan en **'passenger_count':** 34623 & **'payment_type ':** 34623  **'trip_type':** 35019  **'congestion_surcharge':** 719654.                                                                                     |
-| tlc_amarillos                                                   | NA    | EDA_yellow_cabs                 | Se identifican valores faltantes nan en **�passenger_count�**: 22188 **�congestion_surcharge�**:8195675 **�airport_fee�**: 8195675.                                                                                                                |
-| tlc_amarillos                                                   | NA    | EDA_yellow_cabs                 | Se imputa == 0 a las variables **'congestion_surcharge' 'airport_fee'** con valores faltantes nan.                                                                                                                                                 |
-| tlc_verdes                                                      | NA    | EDA_green_cabs                  | Se imputa == 0 a las variables **'congestion_surcharge'** con valores faltantes nan.                                                                                                                                                               |
-| tlc_verdes, tlc_amarillos                                       | NA    | EDA_green_cabs, EDA_yellow_cabs | Se imputa valores de la media a las variables **'trip_distance' 'fare_amount' 'tip_amount' 'passenger_count' 'tolls_amount' 'improvement_surcharge'** con valores faltantes nan.                                                                   |
-| tlc_verdes, tlc_amarillos                                       | NA    | EDA_green_cabs                  | Se modifica variables a *float type.*  a **'congestion_surcharge'**.                                                                                                                                                                               |
-| tlc_verdes, tlc_amarillos                                       | NA    | EDA_green_cabs, EDA_yellow_cabs | Se imputa valores de la moda las variables **'payment_type'** , **'trip_type'** , **'extra'**, **'mta_tax'** con valores faltantes nan.                                                                                                            |
-| tlc_fhv                                                         | NA    | EDA_fhv_cabs                    | Se eliminan las variables **'hvfhs_license_num', 'dispatching_base_num', 'originating_base_num', 'request_datetime', 'on_scene_datetime', 'shared_request_flag', 'shared_match_flag', 'access_a_ride_flag', 'wav_request_flag', 'wav_match_flag'** |
-| tlc_fhv                                                         | NA    | EDA_fhv_cabs                    | Se identifican valores faltantes nan en **'airport_fee'**: 22243779                                                                                                                                                                                |
-| tlc_fhv                                                         | NA    | EDA_fhv_cabs                    | Se imputa == 0 a las variables **'airport_fee'** con valores faltantes nan.                                                                                                                                                                        |
-| tlc_fhv                                                         | NA    | EDA_fhv_cabs                    | Se imputa valores de la media a las variables  **'trip_miles' 'driver_pay' 'sales_tax' 'tolls' 'base_passenger_fare' 'trip_time'**                                                                                                                 |
-| ;                                                               | ;     | ;                               |                                                                                                                                                                                                                                                    |
+La EPA establece un índice de aire bueno cuando el PM 2.5 es inferior a 12 µg/cm3. <br>
 
-*Se puede consultar el reporte de los componente medioambientales en:*  [3.ENVIROMENTAL_REPORT](../3.ENVIROMENTAL_REPORT) 
+<img src= "source/air_quality2.png" width="800" height="370"/>
+
+### 2.2  **Densidad Vehicular**  [EDA_Air_Quality.ipynb](EDA_Air_Quality.ipynb)
+
+Se calcula el **volumen vehicular** presente en cada Borough. Esta variable representa la cantidad de vehículos que pasan por determinado punto en un lapso de 15 minutos .<br>
+
+<img src= "source/vehicular_density.png" width="650" height="250"/>
+
+Se obtiene una correlación del 35% entre el **volumen vehicular** con la generación de material particulado **PM2.5.**
+
+<img src= "source/correlation_air_density.png" width="200" height="200"/>
+
+### 2.3  **Contaminación Acustica**  [EDA]()
+
+Se analiza los datos de [data]. Este dataset registra las mediciones de presencia de sonidos que generan contaminación por ruido en los tres Boroughs más ruidosos de NYC en el año 2016 hasta el 2019. Los ruidos generados por los vehículos corresponden a los sonidos generados por el motor y los sonidos provenientes del sistema de alarma de los carros (sonidos de parqueo, claxon, alarma anti-robo etc). <br>
+
+<img src= "source/generacion_ruido_nyc.png" width="650" height="200"/>
+
+Se identifica el borough más ruidoso. (mayor cantidad de sonidos registrados)<br>
+
+<img src= "source/generacion_ruido_total.png" width="650" height="200"/>
+
+
 
 <hr>
 
