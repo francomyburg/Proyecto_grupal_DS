@@ -49,9 +49,9 @@ Se desarrolla un sistema que extrae datos de manera automática de [**Taxi & Lim
 Al realizar el análisis exploratorio de los datos, se determina que:
 
 - La crisis covid-19 afectó las actividades del sector en 2020.
-- El número de viajes en taxis amarillos ha disminuido en un 80% desde el 2013 al presente año (2023).
-- Las zonas donde se produce el mayor número de viajes en taxis son Manhattan y los aeropuertos JFK y LaGuardia. En diciembre de 2022 el sector de taxis amarillos realizó 3,3 millones de viajes, transportó a 4,5 millones de personas y facturó 54,5 millones USD. El borough de Manhattan contribuye con el 76% de dicha facturación.
-- La facturación promedio por día y por vehiculo disminuyó más de 45% desde el 2013 hasta 2023.
+- La facturación promedio por día y por vehiculo ha disminuido.
+- Las zonas donde el precio (USD) de los viajes es más costoso son el aeropuerto EWR y Staten island. 
+- Los sectores que más viajes registran son el aeropuerto EWR y Manhattan.
 - El borough con la peor calidad de aire, mayor contaminación por ruido y mayor volumen de tráfico vehicular es Manhattan. 
 
  *Los aspectos más importantes de este proceso se pueden consultar en: [ETL](https://github.com/francomyburg/Proyecto_grupal_DS/tree/main/1.ETL) y el [EDA](https://github.com/francomyburg/Proyecto_grupal_DS/tree/main/2.EDA).*<br>
@@ -79,13 +79,16 @@ Se genera un análisis económico al sector y puede consultarse en: <br>
 El modelo Ml puede ser consultado en 
 
 
-
 ## 5.3 App
 
 Se desarrolla una app que contiene tanto el modelo Ml como un dashboard de visualización de datos en Power Bi embebidos para generar métricas y los KPIs establecidos en función al número de vehículos eléctricos que el usuario seleccione. El nombre de la app es **Dataxi** y puede ser consultada en: [Dataxi](https://lucianolarrea-pf-ds-home-f5yrsh.streamlit.app/)<br>
 
 <img src="src/portada_1.gif" />
 
+
+## 5.4 Análisis Económico  
+
+Las zonas donde se produce el mayor número de viajes en taxis son Manhattan y los aeropuertos JFK y LaGuardia. En diciembre de 2022 el sector de taxis amarillos realizó 3,3 millones de viajes, transportó a 4,5 millones de personas y facturó 54,5 millones USD. El borough de Manhattan contribuye con el 76% de dicha facturación.
 
 <hr>
 
