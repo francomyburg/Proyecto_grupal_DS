@@ -76,7 +76,7 @@ Se desarrolla un modelo de forecasting para establecer proyecciones de las tende
 
 El modelo Ml puede ser consultado en [3.ML](https://github.com/francomyburg/Proyecto_grupal_DS/tree/main/3.ML). 
 
-Se genera un análisis económico con las proyecciones realizadas al sector y puede consultarse en: [**Análisis Económico**](https://github.com/francomyburg/Proyecto_grupal_DS/blob/main/4.REPORTS/README.md). <br>
+Se genera un análisis económico con las proyecciones realizadas al sector y puede consultarse en: [4.REPORTS](https://github.com/francomyburg/Proyecto_grupal_DS/blob/main/4.REPORTS). <br>
 
 ## 5.3 App
 
@@ -86,19 +86,17 @@ El nombre de la app es **Dataxi** y puede ser consultada en: [Dataxi](https://lu
 
 <img src="src/portada_1.gif" />
 
-**Dataxi** le genera al usuario un .pdf descargable con las metricas
+**Dataxi** le genera al usuario un .pdf descargable con el resumen de las metricas generadas y algunas recomendaciones de inversión que pueden incrementar el rendimiento del capital invertido en un 32%. 
+
+<img src="src/pdf.png" width="350" height="160"/>
 
 
+Se puede visualizar un ejemplo de este reporte con la implementación de una flota de 1000 taxis eléctricos en:[1000_taxis.pdf]() 
 <hr>
 
 # 6. Conclusiones
 
 
-Las zonas donde se produce el mayor número de viajes en taxis son Manhattan y los aeropuertos JFK y LaGuardia. En diciembre de 2022 el sector de taxis amarillos realizó 3,3 millones de viajes, transportó a 4,5 millones de personas y facturó 54,5 millones USD. El borough de Manhattan contribuye con el 76% de dicha facturación.
-
-La proyección generada por el modelo ML indica que el maximo numero de taxis rondará los 9500 para abril del 2024 para decrecer progresivamente.
-
-indicadores clave de rendimiento a través de una app desarrollada en Streamlit con un dashboard de PowerBi embebido y un modelo ML de forecasting.
 
 
 
