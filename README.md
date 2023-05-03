@@ -60,6 +60,9 @@ Al realizar el análisis exploratorio de los datos, se determina que:
 
 # 5. Resultados
 
+Se genera un informe de los impactos ambientales positivos que lleva la implementación de determinada cantidad de vehículos eléctricos para la ciudad.
+[4.REPORTS](https://github.com/francomyburg/Proyecto_grupal_DS/blob/main/4.REPORTS). <br>
+
 En el presente video muestra el resultado final del proyecto [Resultado Final](https://youtu.be/ewDlLPiMFlo).
 
 ## 5.1 KPIs 
@@ -91,7 +94,8 @@ El nombre de la app es **Dataxi** y puede ser consultada en: [Dataxi](https://lu
 <img src="src/pdf.png" width="350" height="160"/>
 
 
-Se puede visualizar un ejemplo de este reporte con la implementación de una flota de 1000 taxis eléctricos en:[1000_taxis.pdf]() 
+Se puede visualizar un ejemplo de este reporte con la implementación de una flota de 1000 taxis eléctricos en:[1000_taxis.pdf](https://github.com/francomyburg/Proyecto_grupal_DS/blob/main/4.REPORTS/Informe_Final.pdf) 
+
 <hr>
 
 # 6. Conclusiones
