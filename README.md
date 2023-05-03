@@ -83,7 +83,7 @@ Se genera un análisis económico con las proyecciones realizadas al sector y pu
 
 ## 5.3 App
 
-Se desarrolla una app que contiene tanto el modelo Ml como un dashboard de visualización de datos en Power Bi embebidos para generar métricas y los KPIs establecidos en función al número de vehículos eléctricos que el usuario seleccione.<br>
+Se desarrolla una app que contiene tanto el modelo ML como un dashboard de visualización de datos en Power Bi embebidos para generar métricas y los KPIs establecidos en función al número de vehículos eléctricos que el usuario seleccione.<br>
 
 El nombre de la app es **Dataxi** y puede ser consultada en: [Dataxi](https://lucianolarrea-pf-ds-home-f5yrsh.streamlit.app/)<br>
 
