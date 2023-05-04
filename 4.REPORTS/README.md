@@ -2,25 +2,29 @@
 
 ## Calculadora Impacto Ambiental
 
-La OMS ha establecido una meta desde el 2021 para la calidad del aire a nivel mundial. Se basa en la reducción del promedio anual de PM 2.5 a un límite superior de 5 µg/cm3. Por tanto, las ciudades deben adoptar políticas y mecanismos que permitan el acercamiento a este objetivo.<br>
+### Contaminación al aire
 
-El porcentaje de disminución que requiere New York en cada uno de sus Boroughs para alcanzar los 5 µg/cm3 es:
+Acorde al departamento de salud de NYC. Se estima que de la contaminación al aire por PM 2,5  el 17% es generado por el sector de transporte y el 5% proviene de los taxis. [source](https://a816-dohbesp.nyc.gov/IndicatorPublic/Traffic/index.html) 
 
-| **borough** | **PM    2.5 µg/cm3 actual** | **Meta PM 2.5 µg/cm3** | **% Disminución para el objetivo** |
-|---|---|---|---|
-| _brooklyn_ | _9,3_ | _5_ | _-85_ |
-| _manhattan_ | _10,9_ | _5_ | _-117_ |
-| _queens_ | _8,9_ | _5_ | _-79_ |
-| _staten_island_ | _8,5_ | _5_ | _-70_ |
-| _the_bronx_ | _9,7_ | _5_ | _-94_ |
+<img src="source/Pm2.png" width="300" height="260"/>
 
-Se calcula el impacto ambiental positivo generado por la implementación de vehículos eléctricos en una flota de transporte, a través del desarrollo de los siguientes indicadores:
+Se calcula el promedio total de la contaminacón por PM 2,5 y el volumen vehicular en los boroughs de NYC.<br>
 
-**% avance a Meta OMS**: Indica el porcentaje de avance a la meta establecida por la OMS por número de vehículos eléctricos implementados en una flota de transporte en un año. 
+| **borough** | **volume   #autos per 15min** | ** Pm 2,5 µg/cm3** |
+|:---:|:---:|:---:|
+| Manhattan | 58420 |     10,9    |
+| Queens | 54046 |     8,9    |
+| Brooklyn | 49684 |     9,3    |
+| Bronx | 31839 |     9,7    |
+| Staten Island | 8962 |     8,5    |
 
-**% reducción ruidos registrados**: Indica el porcentaje de reducción de ruidos registrados por número de vehículos eléctricos implementados en una flota de transporte en un año.
+La correlación entre el trafico y la contamnación por PM es del 35%. Se genera el KPI en %  de la disminución de contaminación si se imlementan taxis electricos. 
 
-La visualización de estos indicadores puede ser consultada en: *[calculadora ambiental]* 
+<img src="source/gradio.png" width="300" height="260"/>
+
+Los calculos a detalle pueden ser consultados en [calculator_pm.ipynb](https://github.com/francomyburg/Proyecto_grupal_DS/blob/main/4.REPORTS/calculator_pm.ipynb)
+
+ 
 
 # <h1> ANALISIS FINANCIERO </h1> 
 
