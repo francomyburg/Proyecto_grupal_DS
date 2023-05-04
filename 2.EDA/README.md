@@ -72,7 +72,6 @@ Se obtiene una correlación del 35% entre el **volumen vehicular** con la genera
 <img src= "source/correlation_air_density.png" width="200" height="200"/>
 
 ### 2.3  **Contaminación Acustica** <br> 
-[5.EDA_noise_Pollution.ipynb](https://github.com/francomyburg/Proyecto_grupal_DS/blob/main/2.EDA/5.EDA_noise_Pollution.ipynb)<br>
 
 Se analiza los datos de [data]. Este dataset registra las mediciones de presencia de sonidos que generan contaminación por ruido en los tres Boroughs más ruidosos de NYC en el año 2016 hasta el 2019. Los ruidos generados por los vehículos corresponden a los sonidos generados por el motor y los sonidos provenientes del sistema de alarma de los carros (sonidos de parqueo, claxon, alarma anti-robo etc). <br>
 

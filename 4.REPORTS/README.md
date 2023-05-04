@@ -1,16 +1,14 @@
 # <h1> COMPONENTES AMBIENTALES </h1> 
 
-## Calculadora Impacto Ambiental
+## Contaminación al aire
 
-### Contaminación al aire
-
-Acorde al departamento de salud de NYC. Se estima que de la contaminación al aire por PM 2,5  el 17% es generado por el sector de transporte y el 5% proviene de los taxis. [source](https://a816-dohbesp.nyc.gov/IndicatorPublic/Traffic/index.html) 
+Acorde al departamento de salud de NYC. Se estima que de la contaminación al aire por PM 2,5 el 17% es generado por el sector de tráfico y el 5% proviene de los autos. [source](https://a816-dohbesp.nyc.gov/IndicatorPublic/Traffic/index.html) 
 
 <img src="source/Pm2.png" width="300" height="260"/>
 
-Se calcula el promedio total de la contaminacón por PM 2,5 y el volumen vehicular en los boroughs de NYC.<br>
+Se calcula el promedio total de la contaminación por PM 2,5 y el volumen vehicular en los boroughs de NYC.<br>
 
-| **borough** | **volume   #autos per 15min** | ** Pm 2,5 µg/cm3** |
+| **borough** | **volume #autos per 15min** | ** Pm 2,5 µg/cm3** |
 |:---:|:---:|:---:|
 | Manhattan | 58420 |     10,9    |
 | Queens | 54046 |     8,9    |
@@ -18,13 +16,12 @@ Se calcula el promedio total de la contaminacón por PM 2,5 y el volumen vehicul
 | Bronx | 31839 |     9,7    |
 | Staten Island | 8962 |     8,5    |
 
-La correlación entre el trafico y la contamnación por PM es del 35%. Se genera el KPI en %  de la disminución de contaminación si se imlementan taxis electricos. 
+La correlación entre el trafico y la contaminación por PM es del 35%. Se genera el KPI en %  de la disminución de contaminación si se implementan taxis eléctricos. 
 
 <img src="source/gradio.png" width="300" height="260"/>
 
-Los calculos a detalle pueden ser consultados en [calculator_pm.ipynb](https://github.com/francomyburg/Proyecto_grupal_DS/blob/main/4.REPORTS/calculator_pm.ipynb)
+Los cálculos a detalle pueden ser consultados en [calculator_pm.ipynb](https://github.com/francomyburg/Proyecto_grupal_DS/blob/main/4.REPORTS/calculator_pm.ipynb)
 
- 
 
 # <h1> ANALISIS FINANCIERO </h1> 
 
