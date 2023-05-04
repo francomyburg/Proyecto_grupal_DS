@@ -4,7 +4,9 @@
 
 # 1. Introducción
 
-Se lleva a cabo un análisis del sector de transporte público en los taxis amarillos de la ciudad de Nueva York con el fin de evaluar la viabilidad de invertir en tecnologías sostenibles como la implementación de flotas de vehículos eléctricos. Se analizan datos en NYC de los sonidos registrados por el tráfico, la contaminación en el aire, el movimiento de vehículos por zona y los viajes que realizan los taxis en la ciudad para  los 5 Boroughs (distritos) de New York: **Manhattan, Brooklyn, Queens, The Bronx & Staten Island**.Se implementa un modelo de Machine Learning  para estimar tendencias a futuro de los principales indicadores. Se realiza un Dashboard para la visualización de los datos y resultados obtenidos. <br>
+Se lleva a cabo un análisis del sector de transporte público en los taxis amarillos de la ciudad de Nueva York con el fin de evaluar la viabilidad de invertir en tecnologías sostenibles como la implementación de flotas de vehículos eléctricos. Se analizan datos en NYC de los sonidos registrados por el tráfico, la contaminación en el aire, el movimiento de vehículos por zona y los viajes que realizan los taxis en la ciudad para  los 5 Boroughs (distritos) de New York: **Manhattan, Brooklyn, Queens, The Bronx & Staten Island**.<br>
+
+Se implementa un modelo de Machine Learning  para estimar tendencias a futuro de los principales indicadores. Se realiza un Dashboard para la visualización de los datos y resultados obtenidos. <br>
 
 El proyecto se ejecuta bajo metodología ágil Scrum y se desarrolla en cuatro etapas.<br>
 **Etapa 1:** Recopilación de los datos, **Etapa 2:** Creación de base de datos, **Etapa 3:** Análisis Económico, KPIs y **Etapa 4:** Modelo ML. <br>
@@ -75,15 +77,13 @@ En el presente video muestra el resultado final del proyecto [Resultado Final](h
 
 ## 5.2 Modelo Machine Learning 
 
-Se desarrolla un modelo de forecasting para establecer proyecciones de las tendencias y patrones que presenta el sector de taxis con la data histórica extraída. <br> 
-
-El modelo Ml puede ser consultado en [3.ML](https://github.com/francomyburg/Proyecto_grupal_DS/tree/main/3.ML). 
+Se desarrolla un modelo de forecasting para establecer proyecciones de las tendencias y patrones que presenta el sector de taxis con la data histórica extraída. El modelo ML puede ser consultado en [3.ML](https://github.com/francomyburg/Proyecto_grupal_DS/tree/main/3.ML). 
 
 Se genera un análisis económico con las proyecciones realizadas al sector y puede consultarse en: [4.REPORTS](https://github.com/francomyburg/Proyecto_grupal_DS/blob/main/4.REPORTS). <br>
 
 ## 5.3 App
 
-Se desarrolla una app que contiene tanto el modelo Ml como un dashboard de visualización de datos en Power Bi embebidos para generar métricas y los KPIs establecidos en función al número de vehículos eléctricos que el usuario seleccione.<br>
+Se desarrolla una app que contiene tanto el modelo ML como un dashboard de visualización de datos en Power Bi embebidos para generar métricas y los KPIs establecidos en función al número de vehículos eléctricos que el usuario seleccione.<br>
 
 El nombre de la app es **Dataxi** y puede ser consultada en: [Dataxi](https://lucianolarrea-pf-ds-home-f5yrsh.streamlit.app/)<br>
 
@@ -93,14 +93,13 @@ El nombre de la app es **Dataxi** y puede ser consultada en: [Dataxi](https://lu
 
 <img src="src/pdf.png" width="350" height="160"/>
 
-
 Se puede visualizar un ejemplo de este reporte con la implementación de una flota de 1000 taxis eléctricos en:[1000_taxis.pdf](https://github.com/francomyburg/Proyecto_grupal_DS/blob/main/4.REPORTS/Informe_Final.pdf) 
 
 <hr>
 
 # 6. Conclusiones
 
-El sector de taxis amarillos viene en decrecimiento pre-covid. La recuperación post-COVID mostró indicadores al alza, pero algunos volvieron a caer debido a la expansión de servcios como Uber. Sin cambios fundamentales, se pronostica una posible crisis  del mercado de taxis para mediados de 2024. Invertir en el mercado a la baja puede ser riesgoso pero ofrece oportunidades para destacarse en servicio, sustentabilidad e innovación teniendo cuenta el impacto ambiental positivo que generan los vehículos eléctricos.
+El sector de taxis amarillos viene en decrecimiento pre-COVID. La recuperación post-COVID mostró indicadores al alza, pero algunos volvieron a caer debido a la expansión de servcios como Uber. Sin cambios fundamentales, se pronostica una posible crisis  del mercado de taxis para mediados de 2024. Invertir en el mercado a la baja puede ser riesgoso pero ofrece oportunidades para destacarse en servicio, sustentabilidad e innovación teniendo cuenta el impacto ambiental positivo que generan los vehículos eléctricos.
 
 
 
