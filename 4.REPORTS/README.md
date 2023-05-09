@@ -8,7 +8,7 @@ Acorde al departamento de salud de NYC. Se estima que de la contaminación al ai
 
 Se calcula el promedio total de la contaminación por PM 2,5 y el volumen vehicular en los boroughs de NYC.<br>
 
-| **borough** | **volume #autos per 15min** | ** Pm 2,5 µg/cm3** |
+| **borough** | **volume #autos per 15min** | **Pm 2,5 µg/cm3** |
 |:---:|:---:|:---:|
 | Manhattan | 58420 |     10,9    |
 | Queens | 54046 |     8,9    |
@@ -25,9 +25,14 @@ Los cálculos a detalle pueden ser consultados en [calculator_pm.ipynb](https://
 
 # <h1> ANALISIS FINANCIERO </h1> 
 
+Se desarrolla un dashboard en Power Bi.
+[dashboard](https://app.powerbi.com/view?r=eyJrIjoiNTI3MDA2YWMtZGU1Mi00N2Q5LWI2ZmEtNDA0Y2M4YWIyZGE5IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9)
+
+<img src="source/portada.jpg" width="500" height="300"/>
+
 Las zonas donde se produce el mayor número de viajes en taxis son Manhattan y los aeropuertos JFK y LaGuardia. En diciembre de 2022 el sector de taxis amarillos realizó 3,3 millones de viajes, transportó a 4,5 millones de personas y facturó 54,5 millones USD. El borough de Manhattan contribuye con el 76% de dicha facturación.
 
-La proyección generada por el modelo ML indica que el maximo numero de taxis rondará los 9500 para abril del 2024 para decrecer progresivamente.
+La proyección generada por el modelo ML indica que el maximo numero de taxis rondará los 9500 para abril del 2024 para decrecer progresivamente. El mercado seguira generando un tendencia bajista.
 
 
 
